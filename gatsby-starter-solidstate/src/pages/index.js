@@ -26,7 +26,7 @@ const IndexPage = () => (
     </section>
 
     <section id="wrapper">
-      <section id="one" className="wrapper spotlight style1">
+      {/* <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/#" className="image">
             <img src={pic1} alt="" />
@@ -45,7 +45,7 @@ const IndexPage = () => (
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="two" className="Antrag_148_Formular">
         <Antrag148AO>Standardantrag 148 AO</Antrag148AO>
