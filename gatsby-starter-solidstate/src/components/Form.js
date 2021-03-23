@@ -1,6 +1,5 @@
 import React from 'react';
 import config from '../../config';
-// import { Linking } from 'react-native';
 import { getCurrentDate } from './Utils.js';
 
 class Antrag148AO extends React.Component {

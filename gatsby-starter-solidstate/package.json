@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-solidstate",
+  "name": "standardantrag-148-ao",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Solid State by HTML5 UP",
+  "description": "Basic webpage to provide information and send a default request according to $148 AO",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-solidstate.git"
+    "url": "git+https://github.com/friends-of-fiskaly/antrag-148AO-wizard-tool"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Stefan Kohlbacher",
+    "email": "stefan.kohlbacher@fiskaly.com"
   },
   "dependencies": {
     "gatsby": "^2.20.2",
@@ -35,18 +35,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.17.0",
     "rimraf": "^3.0.2"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-solidstate"
+    "148ao",
+    "standardantrag-148", 
+    "standardantrag-148ao"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-solidstate/issues"
+    "url": "https://github.com/friends-of-fiskaly/antrag-148AO-wizard-tool/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-solidstate#readme"
+  "homepage": "https://github.com/friends-of-fiskaly/antrag-148AO-wizard-tool#readme"
 }
