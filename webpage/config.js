@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/standardantrag-fuer-148AO/webpage/public/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/antrag-148AO-wizard-tool/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Standardantrag für Formular nach $148 AO',
   subHeading: '',
   // social

@@ -11,18 +11,17 @@ class Antrag148AO extends React.Component {
             steuerNummer: '',  
             fristAblauf: '31.12.2021',  // date until v1 of fiskaly cloud TSE should still be usable
             kassenDienstleister: '',  // provider of clients, potentially the customer itself
-            // kassenHersteller: '',  // same as kassenDienstleister -> use only 1 field 
             verfügbarkeitsDatumKasse: '01.01.2020',  // date of availability of fiskaly cloud tse v1
             integrationsDatum: '',  // date of usage of fiskaly cloud tse v1
         };
         this.formLabels = {
             zuständigesFinanzamt: "Zuständiges Finanzamt:", 
-            steuerpflichtiger: "Steuerpflichtiger:", 
+            steuerpflichtiger: "Firmenname:", 
             steuerNummer: "Steuernummer:", 
             fristAblauf: "Verlängerung bis:",
             kassenDienstleister: "Kassenanbieter:", 
-            verfügbarkeitsDatumKasse: "Verfügbar beim Anbieter seit:", 
-            integrationsDatum: "Integriert seit:"
+            verfügbarkeitsDatumKasse: "fiskaly Cloud TSE verfügbar beim Anbieter seit:", 
+            integrationsDatum: "Kassenanbieter integriert seit:"
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
