@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-cece977a6d8422e5cc2b.js"
+    "url": "webpack-runtime-7330964f63976477450c.js"
   },
   {
     "url": "framework-741ade27086b2708e961.js"
   },
   {
-    "url": "app-06be3356d5aafbc80cc6.js"
+    "url": "app-f5b056340a51ec10e27a.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "3eb116da198096eb3f0fa8b4a0e79f81"
+    "revision": "eaade6ca74dfaf8b5dab7f8f2c1bc9a6"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"
@@ -48,14 +48,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "86df8734c49012135959c1aaba88d92b"
+    "revision": "5175e651d1ad3accf8f165400bc4ff14"
   },
   {
     "url": "polyfill-2966d4d8fea208fd6f8f.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "2a27c5e65c0f57754c6bf52e2a002c55"
+    "revision": "40271bf352f82f61255271c043168e54"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/standardantrag-fuer-148AO/webpage/public`), ``)
+  pathname = pathname.replace(new RegExp(`^/antrag-148AO-wizard-tool/webpage/public`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/standardantrag-fuer-148AO/webpage/public/app-06be3356d5aafbc80cc6.js`))) {
+  if (!resources || !(await caches.match(`/antrag-148AO-wizard-tool/webpage/public/app-f5b056340a51ec10e27a.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/standardantrag-fuer-148AO/webpage/public/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/antrag-148AO-wizard-tool/webpage/public/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
