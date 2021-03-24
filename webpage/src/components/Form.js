@@ -1,6 +1,7 @@
 import React from 'react';
 import config from '../../config';
-import { getCurrentDate } from './Utils.js';
+import { getCurrentDate } from '../utils/Utils.js';
+import Finanzamt from '../utils/Finanzamt.js';
 
 class Antrag148AO extends React.Component {
     constructor() {
@@ -8,87 +9,112 @@ class Antrag148AO extends React.Component {
         this.state = {
             0: {
                 labelValue: "Firmenname: ", // name of the company
-                defaultValue: null, 
+                value: null, 
                 inputType: "text"
             },
             1: {
                 labelValue: "Vor und Zuname: ", // first and last name of customer
-                defaultValue: null, 
+                value: null, 
                 inputType: "text"
             },
             2: {
                 labelValue: "Postleitzahl: ",  // postal code -> 5 digits in germany
-                defaultValue: "11190", 
-                inputType: "text"
+                value: null, 
+                inputType: "number"
             },
             3: {
                 labelValue: "Zuständiges Finanzamt: ", // finanzamt responsible for customer 
-                defaultValue: null, 
+                value: null, 
                 inputType: "text"
             },
             4: {
                 labelValue: "Steuernummer: ", 
-                defaultValue: null, 
+                value: null, 
                 inputType: "text"
             },
             5: {
                 labelValue: "Kassenanbieter: ", // provider of clients, potentially the customer itself
-                defaultValue: null, 
+                value: null, 
                 inputType: "text"
             },
             6: {
                 labelValue: "Verlängerung der Frist bis: ",  // date until v1 of fiskaly cloud TSE should still be usable
-                defaultValue: "31.12.2021", 
+                value: "31.12.2021", 
                 inputType: "date"
             },
             7: {
                 labelValue: "fiskaly Cloud TSE verfügbar beim Anbieter seit: ",  // date of availability of fiskaly cloud tse v1
-                defaultValue: "01.01.2020", 
+                value: "01.01.2020", 
                 inputType: "date"
             },
             8: {
                 labelValue: "Kassenanbieter integriert seit:", // date since integration and usage of fiskaly cloud tse v1
-                defaultValue: "", 
+                value: "", 
                 inputType: "date"
             }
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.getDefaultMailBody = this.getDefaultMailBody.bind(this);
-        this.getPossibleFinanzamtValues = this.getPossibleFinanzamtValues.bind(this);
+        this.handlePlzChange = this.handlePlzChange.bind(this);
+        this.generateForm = this.generateForm.bind(this);
     }
 
     handleChange(event) {
-        this.setState({[event.target.name]: event.target.value});
+        // this.setState({[event.target.name]: event.target.value});
+        const target = event.currentTarget;
+        this.setState(prevState => {
+            let currentState = Object.assign({}, prevState);
+            currentState[target.name].value = target.value;
+            return { currentState };
+        });
     }
 
-    getPossibleFinanzamtValues() {
-        return ["Berlin", "München", "Hamburg"];  // maybe store in object with postal code, so we can set default values
+    handlePlzChange(event) {
+        this.handleChange(event);
+        // select finanzamt
+        const selectedFinanzamt = Finanzamt.getFinanzamtFromPostalCode(event.currentTarget.value);
+        if (selectedFinanzamt != null) {
+            this.setState({3: selectedFinanzamt});
+        }
     }
     
     generateForm() {
-        const fields = Object.keys(this.state).map(key => {
-            if (key === 3) { // finanzamt
-                return <fieldset>
-                    <label>{this.state[key].labelValue}</label>
-                    <select>
-                        {this.getPossibleFinanzamtValues()}
-                    </select>
-                    <p></p>
-                </fieldset>;
-            }
-
-            return <fieldset key={key}>
+        const fields = Object.keys(this.state).map(key => {  // sort in ascending order
+            return <fieldset>
                 <label>{this.state[key].labelValue}</label>
-                <input
-                id="inputField"
-                type={this.state[key].inputType}
-                name={key}
-                onChange={this.handleChange}
-                value={this.state[key].defaultValue}
-                required
-                />
-                <p></p>
+                {key => {
+                    if (key === 2) {
+                        return <input 
+                            key={key}
+                            id="inputField"
+                            type={this.state[key].inputType}
+                            name={key}
+                            onChange={this.handlePlzChange}
+                            value={this.state[key].value}
+                            required
+                        />;
+                            
+                    } else if (key === 3) { // finanzamt
+                        return <select value="Berlin" onChange={this.handleChange} key={key}>
+                                {/* {this.getPossibleFinanzamtValues()} */}
+                                <option value="Berlin">Berlin</option>
+                                <option value="Hamburg">Hamburg</option>
+                                <option value="München">München</option>
+                            </select>;
+
+                    } else {
+                        return <input
+                            key={key}
+                            id="inputField"
+                            type={this.state[key].inputType}
+                            name={key}
+                            onChange={this.handleChange}
+                            value={this.state[key].value}
+                            required
+                        />;
+            }}}
+            <p></p>
             </fieldset>;
         });
         fields.push(
@@ -97,6 +123,20 @@ class Antrag148AO extends React.Component {
             </fieldset>
         )
         return <form onSubmit={this.handleSubmit} id="form148">{fields}</form>;
+        // return <form onSubmit={this.handleSubmit} id="form148">
+        //     <fieldset>
+        //         <label>Finanzamt</label>
+        //         <select >
+        //             <option value="Berlin">Berlin</option>
+        //             <option value="Hamburg">Hamburg</option>
+        //             <option value="München">München</option>
+        //         </select>
+        //     </fieldset>
+        //     <fieldset>
+        //         <label>Steuernummer</label>
+        //         <input type="text"/>
+        //     </fieldset>
+        // </form>;
     }
 
     handleSubmit(event) {
