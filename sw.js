@@ -27,17 +27,23 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-485c7f92a01ba46a5173.js"
+    "url": "webpack-runtime-39e4061b6e175e33a77b.js"
+  },
+  {
+    "url": "styles.c3cf5814001e1fb09582.css"
+  },
+  {
+    "url": "styles-407fe62976dc5310c43e.js"
   },
   {
     "url": "framework-741ade27086b2708e961.js"
   },
   {
-    "url": "app-04f8fb246513c5a72ebc.js"
+    "url": "app-78f47290881f9ceaed57.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "24b7e2d2c3a81071b50e88a00d2d621f"
+    "revision": "be92aafcd4a9ff40f35bd795fdeafc83"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"
@@ -48,14 +54,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "dfd695de061c5855e422a9790f79fde4"
+    "revision": "9ca3d7856435582ddd8b09f973e965e8"
   },
   {
     "url": "polyfill-2966d4d8fea208fd6f8f.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "977852d599502f14801cf55e37806b0d"
+    "revision": "4666df7536f28f681afcdf3aa7535230"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -147,7 +153,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/antrag-148AO-wizard-tool/app-04f8fb246513c5a72ebc.js`))) {
+  if (!resources || !(await caches.match(`/antrag-148AO-wizard-tool/app-78f47290881f9ceaed57.js`))) {
     return await fetch(event.request)
   }
 
