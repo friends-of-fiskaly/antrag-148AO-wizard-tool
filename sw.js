@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-7330964f63976477450c.js"
+    "url": "webpack-runtime-24355b3102dd527b9490.js"
   },
   {
     "url": "framework-741ade27086b2708e961.js"
   },
   {
-    "url": "app-f5b056340a51ec10e27a.js"
+    "url": "app-487499978264fbe55b9d.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "eaade6ca74dfaf8b5dab7f8f2c1bc9a6"
+    "revision": "c517776b3d3264b752d1dfca598a6fc3"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"
@@ -48,14 +48,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "5175e651d1ad3accf8f165400bc4ff14"
+    "revision": "f63c035a7ed55d1fe6c242837b2765e0"
   },
   {
     "url": "polyfill-2966d4d8fea208fd6f8f.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "40271bf352f82f61255271c043168e54"
+    "revision": "ce636bb12e6920abfdf476390377a2b9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/antrag-148AO-wizard-tool/webpage/public`), ``)
+  pathname = pathname.replace(new RegExp(`^/antrag-148AO-wizard-tool`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/antrag-148AO-wizard-tool/webpage/public/app-f5b056340a51ec10e27a.js`))) {
+  if (!resources || !(await caches.match(`/antrag-148AO-wizard-tool/app-487499978264fbe55b9d.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/antrag-148AO-wizard-tool/webpage/public/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/antrag-148AO-wizard-tool/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
