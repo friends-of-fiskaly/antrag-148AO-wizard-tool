@@ -1,0 +1,26 @@
+#form148 {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#formHeader {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#submitButton {
+    width: 10%; 
+    margin-left: 45%;
+}
+
+#inputField {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: white;
+    font-size: 35px;
+}

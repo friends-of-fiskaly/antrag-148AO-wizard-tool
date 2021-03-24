@@ -1,12 +1,12 @@
 module.exports = {
-  siteTitle: '$148 Antrag', // <title>
+  siteTitle: 'Standardantrag nach §148 AO', // <title>
   manifestName: 'Fiskaly',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#2ea8d3',
+  manifestThemeColor: '#2ea8d3',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/images/fiskaly-logo.png',
   pathPrefix: `/antrag-148AO-wizard-tool/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Standardantrag für Formular nach $148 AO',
   subHeading: '',
@@ -18,10 +18,8 @@ module.exports = {
       url: 'mailto:support@fiskaly.com',
     },
   ],
-  phone: '000-00000',
-  address: 'Fiskaly Adresse HQ, 1150 Wien',
+  address: 'Stutterheimstraße 16–18/2/20e\nA‑1150 Wien',
   mailReceiverOfForm148: 'finanzamt@zuständigesFinanzamt.de', 
-  mailSubject: 'Antrag auf Fristverlängerung laut $148 AO', 
+  mailSubject: 'Antrag auf Fristverlängerung laut §148 AO', 
   mailAnrede: 'Sehr geehrte Damen und Herren', 
-  mailAnlage: 'Allgemeine Stellungnahme Verzögerung Zertifizierung\nStatement Kassenhersteller und Integrator\n6er Schreiben'
 };

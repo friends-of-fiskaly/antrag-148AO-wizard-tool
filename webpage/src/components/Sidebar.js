@@ -10,7 +10,7 @@ export default function SideBar({ fullMenu }) {
           <Link to="/">Fiskaly</Link>
         </h1>
 
-        <nav>
+        {/* <nav>
           <a
             href="#menu"
             onClick={e => {
@@ -21,7 +21,7 @@ export default function SideBar({ fullMenu }) {
           >
             <span>Menu</span>
           </a>
-        </nav>
+        </nav> */}
       </header>
       <div className={`${headerOpen ? 'is-menu-visible' : ' '}`}>
         <Nav onMenuToggle={() => toggleHeader(!headerOpen)} />

@@ -6,47 +6,97 @@ class Antrag148AO extends React.Component {
     constructor() {
         super();
         this.state = {
-            zuständigesFinanzamt: '', // finanzamt responsible for customer
-            steuerpflichtiger: '',  // name of the customer
-            steuerNummer: '',  
-            fristAblauf: '31.12.2021',  // date until v1 of fiskaly cloud TSE should still be usable
-            kassenDienstleister: '',  // provider of clients, potentially the customer itself
-            verfügbarkeitsDatumKasse: '01.01.2020',  // date of availability of fiskaly cloud tse v1
-            integrationsDatum: '',  // date of usage of fiskaly cloud tse v1
-        };
-        this.formLabels = {
-            zuständigesFinanzamt: "Zuständiges Finanzamt:", 
-            steuerpflichtiger: "Firmenname:", 
-            steuerNummer: "Steuernummer:", 
-            fristAblauf: "Verlängerung bis:",
-            kassenDienstleister: "Kassenanbieter:", 
-            verfügbarkeitsDatumKasse: "fiskaly Cloud TSE verfügbar beim Anbieter seit:", 
-            integrationsDatum: "Kassenanbieter integriert seit:"
+            0: {
+                labelValue: "Firmenname: ", // name of the company
+                defaultValue: null, 
+                inputType: "text"
+            },
+            1: {
+                labelValue: "Vor und Zuname: ", // first and last name of customer
+                defaultValue: null, 
+                inputType: "text"
+            },
+            2: {
+                labelValue: "Postleitzahl: ",  // postal code -> 5 digits in germany
+                defaultValue: "11190", 
+                inputType: "text"
+            },
+            3: {
+                labelValue: "Zuständiges Finanzamt: ", // finanzamt responsible for customer 
+                defaultValue: null, 
+                inputType: "text"
+            },
+            4: {
+                labelValue: "Steuernummer: ", 
+                defaultValue: null, 
+                inputType: "text"
+            },
+            5: {
+                labelValue: "Kassenanbieter: ", // provider of clients, potentially the customer itself
+                defaultValue: null, 
+                inputType: "text"
+            },
+            6: {
+                labelValue: "Verlängerung der Frist bis: ",  // date until v1 of fiskaly cloud TSE should still be usable
+                defaultValue: "31.12.2021", 
+                inputType: "date"
+            },
+            7: {
+                labelValue: "fiskaly Cloud TSE verfügbar beim Anbieter seit: ",  // date of availability of fiskaly cloud tse v1
+                defaultValue: "01.01.2020", 
+                inputType: "date"
+            },
+            8: {
+                labelValue: "Kassenanbieter integriert seit:", // date since integration and usage of fiskaly cloud tse v1
+                defaultValue: "", 
+                inputType: "date"
+            }
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.getDefaultMailBody = this.getDefaultMailBody.bind(this);
+        this.getPossibleFinanzamtValues = this.getPossibleFinanzamtValues.bind(this);
     }
 
     handleChange(event) {
         this.setState({[event.target.name]: event.target.value});
     }
+
+    getPossibleFinanzamtValues() {
+        return ["Berlin", "München", "Hamburg"];  // maybe store in object with postal code, so we can set default values
+    }
     
     generateForm() {
-        const fields = Object.keys(this.state).map(name => {
-            return <fieldset key={name}>
-                <label>{this.formLabels[name]}</label>
+        const fields = Object.keys(this.state).map(key => {
+            if (key === 3) { // finanzamt
+                return <fieldset>
+                    <label>{this.state[key].labelValue}</label>
+                    <select>
+                        {this.getPossibleFinanzamtValues()}
+                    </select>
+                    <p></p>
+                </fieldset>;
+            }
+
+            return <fieldset key={key}>
+                <label>{this.state[key].labelValue}</label>
                 <input
-                type="text"
-                name={name}
+                id="inputField"
+                type={this.state[key].inputType}
+                name={key}
                 onChange={this.handleChange}
-                placeholder={this.state[name]}
+                value={this.state[key].defaultValue}
                 required
                 />
                 <p></p>
             </fieldset>;
         });
-        return <form onSubmit={this.handleSubmit}>{fields}</form>;
+        fields.push(
+            <fieldset key="submitButton" id="submitButton">
+                <input type="submit" value="Absenden"/>
+            </fieldset>
+        )
+        return <form onSubmit={this.handleSubmit} id="form148">{fields}</form>;
     }
 
     handleSubmit(event) {
@@ -57,7 +107,7 @@ class Antrag148AO extends React.Component {
         const errMessage = 'Could not open mail program';
 
         try {
-            window.open(link);
+            window.open(link);  // TODO: Mail program not opening on windows --> provide documents as download
         } catch {
             alert(errMessage);
         }
@@ -66,24 +116,26 @@ class Antrag148AO extends React.Component {
 
     getDefaultMailBody() {
         const body = `
-        An: ${this.state.zuständigesFinanzamt}\n
-        \n
-        Datum: ${getCurrentDate()} \n
-        Abs.: ${this.state.steuerpflichtiger}  \n
-        Steuernummer: ${this.state.steuerNummer} \n
-        \n
-        \n
-        Betreff: Antrag nach § 148 AO – Verlängerung der Frist zur vollständigen Implementierung einer Cloud-TSE \n
-        \n
-        ${config.mailAnrede}, \n
-        hiermit beantragen wir die Verlängerung der durch die Nichtbeanstandungsregelung eingeräumten Frist über den 31. März 2021 hinaus gemäß § 148 AO wegen Vorliegens unbilliger sachlichen Härte bis zum ${this.state.fristAblauf} . Jedoch wollen wir klarstellen, dass es sich im folgenden Antrag um keine allgemeine Fristverlängerung handelt, sondern um einen Übergangszeitraum in welchem eine TSE in Evaluierung beim Bundesamt für Sicherheit in der Informationstechnik (BSI), zum Einsatz kommt.  \n
-        Wir beabsichtigen zur Einhaltung der Anforderungen des § 146a AO die Nutzung der cloudbasierten TSE der fiskaly Germany GmbH welche durch unseren Kassen-Dienstleister ${this.state.kassenDienstleister} integriert wurde. ${this.state.kassenDienstleister} bietet seit dem ${this.state.verfügbarkeitsDatumKasse} die fiskaly Cloud-TSE an und wir haben diese Vorabversion einer voll zertifizierten TSE bereits seit ${this.state.integrationsDatum ? this.state.integrationsDatum: this.state.verfügbarkeitsDatumKasse} im Einsatz.  Aufgrund verschiedener von uns nicht zu verantwortender Umstände hat sich die finale Zertifizierung der fiskaly Cloud-TSE verzögert. Eine detaillierte Stellungnahme dazu finden Sie im Anhang. Dementsprechend ist bereits jetzt erkennbar, dass die Inbetriebnahme der final zertifizierten Cloud-TSE nicht innerhalb der Frist bis zum 31. März 2021 abgeschlossen werden kann. Wir planen mit der aktuellen zur Zertifizierung beim BSI eingereichten Version der fiskaly Cloud-TSE zu starten. Dieses Vorgehen ist auch mit der Fachabteilung des Bundesministerium für Finanzen, Referat IVA 4 Steuern, abgestimmt. Konkret heißt das, dass wir bereits die TSE im Einsatz haben und damit Geschäftsfälle manipulationssicher dokumentieren und Signaturen auf Belege drucken.  \n
-        Für das oben beschriebene Vorgehen ersuchen wir um eine Erleichterung nach § 148 AO um auf den voll zertifizierten Betrieb bis zum oben genannten Datum aufzurüsten. In diesem Übergangszeitraum wird die aktuelle Version 1 der TSE von fiskaly zum Einsatz kommen. Dementsprechend wollen wir nochmal betonen, dass wir um keine allgemeine Fristverlängerung ansuchen. Für das Upgrade auf den voll zertifizierten Betrieb (fiskaly Cloud TSE Version 2) sehen wir den Zeithorizont bis zum ${this.state.fristAblauf} als machbar.  \n
-        Maßgebliche Ursache für den Übergangszeitraum sind - neben der noch ausstehenden Zertifizierungen - insbesondere die erhöhten Anforderungen an die Umsetzung im Bereich der zertifizierten Anwenderumgebung beim Steuerpflichtigen. Darüber hinaus sind die späten Änderungen der technischen Spezifikationen welche durch das BSI verfasst und danach erst mit Ende November letzten Jahres an die Cloud-TSE Hersteller kommuniziert wurden. Diese späten Änderungen hatten gravierenden Einfluss auf die Zertifizierungsverfahren aller Cloud-TSE Anbieter. Dementsprechend ist es in unserer Situation auch nicht mehr möglich die vollständig zertifizierte fiskaly Cloud-TSE bis 31.3.2021 in Betrieb zu nehmen.  \n
-        Zum aktuellen Zeitpunkt erlaubt uns die Nutzung von “fiskaly SIGN v1” die Signatur von Kassenbelegen und dadurch bereits eine erste Umsetzung von § 146a AO. Dadurch weisen wir auch gerne die Priorität der KassenSichV in unserem Unternehmen nach, wir haben uns bereits sehr früh und ausführlich mit dem Thema KassenSichV beschäftigt und notwendige Anpassungen und Investitionen getätigt. Wir, als auch unser Hersteller, verweisen auf die unüblich spät eingebrachten Anforderungen im laufenden Zertifizierungsverfahren, welche uns zu diesem Antrag zwingen. \n
-        \n
-        Anlagen:  \n
-        ${config.mailAnlage}
+        An: ${this.state.zuständigesFinanzamt}%0D%0A
+        %0D%0A
+        Datum: ${getCurrentDate()} %0D%0A
+        Abs.: ${this.state.steuerpflichtiger}  %0D%0A
+        Steuernummer: ${this.state.steuerNummer} %0D%0A
+        %0D%0A
+        %0D%0A
+        Betreff: Antrag nach § 148 AO – Verlängerung der Frist zur vollständigen Implementierung einer Cloud-TSE %0D%0A
+        %0D%0A
+        ${config.mailAnrede}, %0D%0A
+        hiermit beantragen wir die Verlängerung der durch die Nichtbeanstandungsregelung eingeräumten Frist über den 31. März 2021 hinaus gemäß § 148 AO wegen Vorliegens unbilliger sachlichen Härte bis zum ${this.state.fristAblauf} . Jedoch wollen wir klarstellen, dass es sich im folgenden Antrag um keine allgemeine Fristverlängerung handelt, sondern um einen Übergangszeitraum in welchem eine TSE in Evaluierung beim Bundesamt für Sicherheit in der Informationstechnik (BSI), zum Einsatz kommt.  %0D%0A
+        Wir beabsichtigen zur Einhaltung der Anforderungen des § 146a AO die Nutzung der cloudbasierten TSE der fiskaly Germany GmbH welche durch unseren Kassen-Dienstleister ${this.state.kassenDienstleister} integriert wurde. ${this.state.kassenDienstleister} bietet seit dem ${this.state.verfügbarkeitsDatumKasse} die fiskaly Cloud-TSE an und wir haben diese Vorabversion einer voll zertifizierten TSE bereits seit ${this.state.integrationsDatum ? this.state.integrationsDatum: this.state.verfügbarkeitsDatumKasse} im Einsatz.  Aufgrund verschiedener von uns nicht zu verantwortender Umstände hat sich die finale Zertifizierung der fiskaly Cloud-TSE verzögert. Eine detaillierte Stellungnahme dazu finden Sie im Anhang. Dementsprechend ist bereits jetzt erkennbar, dass die Inbetriebnahme der final zertifizierten Cloud-TSE nicht innerhalb der Frist bis zum 31. März 2021 abgeschlossen werden kann. Wir planen mit der aktuellen zur Zertifizierung beim BSI eingereichten Version der fiskaly Cloud-TSE zu starten. Dieses Vorgehen ist auch mit der Fachabteilung des Bundesministerium für Finanzen, Referat IVA 4 Steuern, abgestimmt. Konkret heißt das, dass wir bereits die TSE im Einsatz haben und damit Geschäftsfälle manipulationssicher dokumentieren und Signaturen auf Belege drucken.  %0D%0A
+        Für das oben beschriebene Vorgehen ersuchen wir um eine Erleichterung nach § 148 AO um auf den voll zertifizierten Betrieb bis zum oben genannten Datum aufzurüsten. In diesem Übergangszeitraum wird die aktuelle Version 1 der TSE von fiskaly zum Einsatz kommen. Dementsprechend wollen wir nochmal betonen, dass wir um keine allgemeine Fristverlängerung ansuchen. Für das Upgrade auf den voll zertifizierten Betrieb (fiskaly Cloud TSE Version 2) sehen wir den Zeithorizont bis zum ${this.state.fristAblauf} als machbar.  %0D%0A
+        Maßgebliche Ursache für den Übergangszeitraum sind - neben der noch ausstehenden Zertifizierungen - insbesondere die erhöhten Anforderungen an die Umsetzung im Bereich der zertifizierten Anwenderumgebung beim Steuerpflichtigen. Darüber hinaus sind die späten Änderungen der technischen Spezifikationen welche durch das BSI verfasst und danach erst mit Ende November letzten Jahres an die Cloud-TSE Hersteller kommuniziert wurden. Diese späten Änderungen hatten gravierenden Einfluss auf die Zertifizierungsverfahren aller Cloud-TSE Anbieter. Dementsprechend ist es in unserer Situation auch nicht mehr möglich die vollständig zertifizierte fiskaly Cloud-TSE bis 31.3.2021 in Betrieb zu nehmen.  %0D%0A
+        Zum aktuellen Zeitpunkt erlaubt uns die Nutzung von “fiskaly SIGN v1” die Signatur von Kassenbelegen und dadurch bereits eine erste Umsetzung von § 146a AO. Dadurch weisen wir auch gerne die Priorität der KassenSichV in unserem Unternehmen nach, wir haben uns bereits sehr früh und ausführlich mit dem Thema KassenSichV beschäftigt und notwendige Anpassungen und Investitionen getätigt. Wir, als auch unser Hersteller, verweisen auf die unüblich spät eingebrachten Anforderungen im laufenden Zertifizierungsverfahren, welche uns zu diesem Antrag zwingen. %0D%0A
+        %0D%0A
+        Anlagen:  %0D%0A
+        Allgemeine Stellungnahme Verzögerung Zertifizierung %0D%0A
+        Statement Kassenhersteller und Integrator %0D%0A
+        6er Schreiben'
         `;
         return body; 
     }
@@ -91,9 +143,9 @@ class Antrag148AO extends React.Component {
     render() {
         return(
             <div>
-                <h1 align="center">Standardformular für Antrag nach $148 AO</h1>
+                <h1 id="formHeader">Standardformular für Antrag nach $148 AO</h1>
                 {this.generateForm()}
-                <button type="submit" onClick={this.handleSubmit}>Absenden</button>
+                {/* <button type="submit" onClick={this.handleSubmit} id="submitButton">Absenden</button> */}
             </div>
         );
     }
