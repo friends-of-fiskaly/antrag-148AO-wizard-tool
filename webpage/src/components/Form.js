@@ -171,27 +171,31 @@ class Antrag148AO extends React.Component {
         const receiver = this.finanzamt.getMailFromPostalCode(this.state.postalCode);  // might return null
         
         // get operating system and either send mail (linux) or offer to send mail to user which can be forwarded (windows)
-        const os = window.navigator;
-        if (os.platform.includes('win') || os.platform.includes('Win')) {
-        // if (true) {
-            // provide two buttons. one for sending the mail, one for download. both can be clicked
-            this.setState({renderDownloadButtons: !this.state.renderDownloadButtons});
-            // scroll to the top to display buttons
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 
-        } else {
-            const link = `mailto:${receiver ? receiver: ""}?subject=${mailSubject}&body=${body}`;
-            try {
-                window.open(link);  
-            } catch {
-                const errMessage = 'Could not open mail program';
-                alert(errMessage);
+        if (typeof window !== `undefined`) {  // hide window from gatsby so we can compile
+            const os = window.navigator;
+        
+            if (os.platform.includes('win') || os.platform.includes('Win')) {
+            // if (true) {
+                // provide two buttons. one for sending the mail, one for download. both can be clicked
+                this.setState({renderDownloadButtons: !this.state.renderDownloadButtons});
+                // scroll to the top to display buttons
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+            } else {
+                const link = `mailto:${receiver ? receiver: ""}?subject=${mailSubject}&body=${body}`;
+                try {
+                    window.open(link);  
+                } catch {
+                    const errMessage = 'Could not open mail program';
+                    alert(errMessage);
+                }
             }
-        }
 
-        // provide documents for download
-        mail.downloadAsPDF();
+            // provide documents for download
+            mail.downloadAsPDF();
+        }
     }
 
     getMail() {

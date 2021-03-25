@@ -1,7 +1,6 @@
-import React from 'react';
-import csv from 'csv-parser';
-import { readFile} from 'fs-web'; 
-import { readdir } from 'fs-web/dist/cjs/core';
+// import csv from 'csv-parser';
+// import { readFile} from 'fs-web'; 
+// import { readdir } from 'fs-web/dist/cjs/core';
 
 
 export default class Finanzamt {
