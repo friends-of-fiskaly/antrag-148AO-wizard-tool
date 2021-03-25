@@ -11,7 +11,8 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <img url="../assets/images/fiskaly-logo.png" alt="fiskaly-logo "/>
+          <img url="../assets/images/fiskaly-logo.png" alt="fiskaly-logo "/> 
+          { /* TODO: path of file*/}
         </div>
         {/* <h2>{config.heading}</h2>
         <p>{config.subHeading}</p> */}

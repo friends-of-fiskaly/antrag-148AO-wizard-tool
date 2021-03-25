@@ -19,7 +19,4 @@ module.exports = {
     },
   ],
   address: 'Stutterheimstraße 16–18/2/20e\nA‑1150 Wien',
-  mailReceiverOfForm148: 'finanzamt@zuständigesFinanzamt.de', 
-  mailSubject: 'Antrag auf Fristverlängerung laut §148 AO', 
-  mailAnrede: 'Sehr geehrte Damen und Herren', 
 };
