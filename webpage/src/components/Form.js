@@ -156,7 +156,7 @@ class Antrag148AO extends React.Component {
 
         fields.push(
             <fieldset key="submitButton" id="submitButton">
-                <input type="submit" value="Absenden"/>
+                <input type="submit" value="Send via local Mail Program"/>
             </fieldset>
         )
 
@@ -220,13 +220,13 @@ class Antrag148AO extends React.Component {
     }
 
     getPDFDownloadButton() {
-        return <div className="downloadLinkDiv">
+        return <div className="pdfDownloadButton">
                     <PDFDownloadLink
-                        className="pdfLink"
+                        className="link"
                         document={this.getMail().downloadAsPDF()}
                         fileName='Antrag-148AO.pdf'>
-                            <button className="pdfDownloadButton">
-                                Download PDF
+                            <button>
+                                Download Antrag-148AO
                             </button>
                     </PDFDownloadLink>
                 </div>
@@ -238,6 +238,21 @@ class Antrag148AO extends React.Component {
                 {/* {!this.state.renderDownloadButtons ? this.dataInputForm(): this.sendMailToCustomerInterface()} */}
                 {this.dataInputForm()}
                 {this.state.renderPDFDownload && this.getPDFDownloadButton()}
+                <p></p>
+                <div className="downloadLinkDiv">
+                    <a href="https://drive.google.com/drive/folders/1wVbua9t7MQ0qkwr5Ialq1cC6N4X6DIm9?usp=sharing"><button className="anlageDownloadButton">Download Anlagedokumente</button></a>
+                </div>
+                <p></p>
+                <div>
+                    <p id="attachmentLink"><a href="https://drive.google.com/file/d/1hd_W0Co_uYtnPLv5MIWrvbiMP4ta0fNN/view?usp=sharing" download target="_blank">2021-005 6er Schreiben an die Bundesländer zu Problemen bei der cloudbasierten TSE Anlage 2 BT</a></p>
+                    <p id="attachmentLink"><a href="https://drive.google.com/file/d/1xxDZhXhS2ndu10xoSZtNb4GTvturBjJ0/view?usp=sharing">2021-98379 (Pragmatische und bundeseinheitliche Lösung zum Thema Cloud TSE) - Hessisches Ministerium der Finanzen</a></p>
+                    <p id="attachmentLink"><a href="https://drive.google.com/file/d/1wCQu8gClkn2mkYa2wLI4l_I15aVDo6Ca/view?usp=sharing">Allgemeine Stellungnahme Verzögerung Zertifizierung fiskaly</a></p>
+                    <p id="attachmentLink"><a href="https://docs.google.com/document/d/1nxQKxTKePtu51G8Co_Vbgy6gBKlm6-DKEJUWCw39SUk/edit?usp=sharing">Allgemeiner Antrag nach § 148 AO – Verlängerung der Frist zur vollständigen Implementierung einer Cloud-TSE</a></p>
+                    <p id="attachmentLink"><a href="https://drive.google.com/file/d/15D-4g3x2YpZrXLU7mWFa6IPIacIM3C0L/view?usp=sharing">CSPL Zertifizierungs ID BSI-DSZ-CC-1153</a></p>
+                    <p id="attachmentLink"><a href="https://docs.google.com/document/d/1NJVkYYLRIGnWf0aYjPxn3uaDRxRArHdCfEgmDdBPopw/edit?usp=sharing">Entwurf Statement Kassenhersteller</a></p>
+                </div>
+
+                {/* add link / button to download attachments. also provide table with link to attachments */}
             </div>
         );
     }

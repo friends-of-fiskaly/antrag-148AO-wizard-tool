@@ -18,7 +18,8 @@ const IndexPage = () => (
     <section id="wrapper">
 
       <section id="two">
-        <p align="center">Some explanation about the page and the form</p>
+        <p align="center" fontSize='large'>This page guides you trough the process of submitting the application according to $148 AO.</p>
+        <h1 style={{color: "red", textAlign: 'center', fontSize: 24}}>!!!WORK IN PROGRESS!!!</h1>
         <h1 id="formHeader">Standardformular für Antrag nach $148 AO</h1>
         <Antrag148AO />
       </section>

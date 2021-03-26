@@ -11,8 +11,8 @@
 }
 
 #submitButton {
-    width: 20%; 
-    margin-left: 40%;
+    width: 40%; 
+    margin-left: 30%;
 }
 
 #inputField {
@@ -41,9 +41,15 @@
 
 .pdfDownloadButton {
     width: 40%;
+    margin-left: 41.25%;
 }
 
-.pdfLink {
+.anlageDownloadButton {
+    width: 40%;
+    text-decoration: none;
+}
+
+.link {
     text-decoration: none;
 }
 
@@ -53,4 +59,9 @@
 
 #footerFiskalyStatement {
     text-align: center;
+}
+
+#attachmentLink {
+    text-align: center;
+    width: 100%;
 }
