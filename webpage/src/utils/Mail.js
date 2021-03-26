@@ -1,5 +1,7 @@
-// import { jsPDF } from "jspdf";
 import utils from '../utils/Utils.js';
+import { Page, Text, View, Document, StyleSheet, PDFDownloadLink } from '@react-pdf/renderer';
+import React from 'react';
+
 
 export default class Mail {
     constructor(props) {
@@ -15,22 +17,30 @@ export default class Mail {
     }
 
     downloadAsPDF() {
-        // let doc = new jsPDF();  // use other library
-        // doc.setFontSize(12);
+        const styles = StyleSheet.create({
+            page: {
+              flexDirection: 'row',
+              backgroundColor: '#E4E4E4'
+            },
+            section: {
+              margin: 10,
+              padding: 10,
+              flexGrow: 1
+            }
+          });
 
-        // this.getFilledText((paragraphArray) => {
-        //     for (let i = 0; i < paragraphArray.length; i++) {
-        //         const p = paragraphArray[i];
-        //         if (i !== 0) {
-        //             doc.addPage();
-        //         }
-        //         doc.text(p, 15, 15);
-        //     }
-        // });
-
-        // doc.save("Antrag-148AO.pdf");
-        return;
+        return <Document>
+                <Page size="A4" style={styles.page}>
+                <View style={styles.section}>
+                    <Text>Section #1</Text>
+                </View>
+                <View style={styles.section}>
+                    <Text>Section #2</Text>
+                </View>
+                </Page>
+            </Document>;
     }
+
 
     getMailBody() {
         const mailText = this.getFilledText((paragraphArray) => {
@@ -60,7 +70,7 @@ export default class Mail {
     }
 
     getBetreffBlock() {
-        return `Betreff: Antrag nach § 148 AO – Verlängerung der Frist zur vollständigen Implementierung \r\teiner Cloud-TSE\n`;
+        return `Betreff: Antrag nach § 148 AO – Verlängerung der Frist zur vollständigen Implementierung \teiner Cloud-TSE\n`;
     }
 
     getAnredeBlock() {
@@ -68,11 +78,11 @@ export default class Mail {
     }
 
     getFirstParagraph() {  // add line breaks
-        return `hiermit beantragen wir die Verlängerung der durch die Nichtbeanstandungsregelung \reingeräumten Frist über den 31. März 2021 hinaus gemäß § 148 AO wegen Vorliegens \runbilliger sachlichen Härte bis zum ${this.fristAblauf} . Jedoch wollen wir klarstellen, dass \res sich im folgenden Antrag um keine allgemeine Fristverlängerung handelt, sondern \rum einen Übergangszeitraum in welchem eine TSE in Evaluierung beim Bundesamt für \rSicherheit in der Informationstechnik (BSI), zum Einsatz kommt. \n`;
+        return `hiermit beantragen wir die Verlängerung der durch die Nichtbeanstandungsregelung eingeräumten Frist über den 31. März 2021 hinaus gemäß § 148 AO wegen Vorliegens unbilliger sachlichen Härte bis zum ${this.fristAblauf} . Jedoch wollen wir klarstellen, dass es sich im folgenden Antrag um keine allgemeine Fristverlängerung handelt, sondern um einen Übergangszeitraum in welchem eine TSE in Evaluierung beim Bundesamt für Sicherheit in der Informationstechnik (BSI), zum Einsatz kommt. \n`;
     }
 
     getSecondParagraph() { // add line breaks
-        return `Wir beabsichtigen zur Einhaltung der Anforderungen des § 146a AO die Nutzung der \rcloudbasierten TSE der fiskaly Germany GmbH welche durch unseren Kassen-Dienstleister \r${this.kassenDienstleister} integriert wurde. ${this.kassenDienstleister} bietet seit dem \r${this.availabilityDate} die fiskaly Cloud-TSE an und wir haben diese Vorabversion \reiner voll zertifizierten TSE bereits seit ${this.integrationsDatum ? this.integrationsDatum: this.availabilityDate} im Einsatz.  \rAufgrund verschiedener von uns nicht zu verantwortender Umstände hat sich die finale Zertifizierung der fiskaly \rCloud-TSE verzögert. Eine detaillierte Stellungnahme dazu finden Sie im Anhang. Dementsprechend ist bereits \rjetzt erkennbar, dass die Inbetriebnahme der final zertifizierten Cloud-TSE nicht innerhalb der Frist \rbis zum 31. März 2021 abgeschlossen werden kann. Wir planen mit der aktuellen zur Zertifizierung \rbeim BSI eingereichten Version der fiskaly Cloud-TSE zu starten. Dieses Vorgehen ist auch mit der Fachabteilung \rdes Bundesministerium für Finanzen, Referat IVA 4 Steuern, abgestimmt. Konkret heißt das, dass wir bereits \rdie TSE im Einsatz haben und damit Geschäftsfälle manipulationssicher dokumentieren und Signaturen auf Belege drucken. \n`;
+        return `Wir beabsichtigen zur Einhaltung der Anforderungen des § 146a AO die Nutzung der cloudbasierten TSE der fiskaly Germany GmbH welche durch unseren Kassen-Dienstleister ${this.kassenDienstleister} integriert wurde. ${this.kassenDienstleister} bietet seit dem ${this.availabilityDate} die fiskaly Cloud-TSE an und wir haben diese Vorabversion einer voll zertifizierten TSE bereits seit ${this.integrationsDatum ? this.integrationsDatum: this.availabilityDate} im Einsatz.  Aufgrund verschiedener von uns nicht zu verantwortender Umstände hat sich die finale Zertifizierung der fiskaly Cloud-TSE verzögert. Eine detaillierte Stellungnahme dazu finden Sie im Anhang. Dementsprechend ist bereits jetzt erkennbar, dass die Inbetriebnahme der final zertifizierten Cloud-TSE nicht innerhalb der Frist bis zum 31. März 2021 abgeschlossen werden kann. Wir planen mit der aktuellen zur Zertifizierung beim BSI eingereichten Version der fiskaly Cloud-TSE zu starten. Dieses Vorgehen ist auch mit der Fachabteilung des Bundesministerium für Finanzen, Referat IVA 4 Steuern, abgestimmt. Konkret heißt das, dass wir bereits die TSE im Einsatz haben und damit Geschäftsfälle manipulationssicher dokumentieren und Signaturen auf Belege drucken. \n`;
     }
 
     getThirdParagraph() { // add line breaks
@@ -88,12 +98,12 @@ export default class Mail {
     }
 
     getAnlageBlock() {
-        return `Anlagen:  \rAllgemeine Stellungnahme Verzögerung Zertifizierung \rStatement Kassenhersteller und Integrator \r6er Schreiben`;
+        return `Anlagen:  Allgemeine Stellungnahme Verzögerung Zertifizierung Statement Kassenhersteller und Integrator 6er Schreiben`;
     }
 
     getFilledText(aggregateFn) { 
         // each p should be approx 1 page
-        const p0 = `${this.getReceiverBlock()} \n${this.getDateBlock()}\r${this.getSenderBlock()} \n${this.getBetreffBlock()} \n${this.getAnredeBlock()} \n`; 
+        const p0 = `${this.getReceiverBlock()} \n${this.getDateBlock()}${this.getSenderBlock()} \n${this.getBetreffBlock()} \n${this.getAnredeBlock()} \n`; 
         const p1 = `${p0}${this.getFirstParagraph()} \n${this.getSecondParagraph()} \n`;
         const p2 = `${this.getThirdParagraph()} \n${this.getFourthParagraph()} \n`; 
         const p3 = `${this.getFifthParagraph()} \n${this.getAnlageBlock()}`;   

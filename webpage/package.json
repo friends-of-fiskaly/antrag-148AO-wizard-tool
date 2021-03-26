@@ -11,20 +11,22 @@
     "email": "stefan.kohlbacher@fiskaly.com"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^1.6.14",
     "csv-parser": "^3.0.0",
+    "file-saver": "^2.0.5",
     "fs-web": "^1.0.1",
     "gatsby": "^2.20.2",
     "gatsby-plugin-manifest": "^2.3.1",
     "gatsby-plugin-offline": "^3.1.0",
     "gatsby-plugin-react-helmet": "^3.2.0",
     "gatsby-plugin-sass": "^2.2.0",
-    "jspdf": "^2.3.1",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
     "react-images": "^1.1.0",
     "react-native": "^0.64.0",
+    "react-pdf": "^5.2.0",
     "react-scrollspy": "^3.4.2",
     "smoothscroll-polyfill": "^0.4.4"
   },

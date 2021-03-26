@@ -1,3 +1,4 @@
+import { PDFDownloadLink } from '@react-pdf/renderer';
 import React from 'react';
 import Finanzamt from '../utils/Finanzamt.js';
 import Mail from '../utils/Mail.js';
@@ -17,6 +18,7 @@ class Antrag148AO extends React.Component {
             integrationsDatum: (props.integrationsDatum) ? props.integrationsDatum: "",  // must be >= availabilityDate
             userMail: (props.userMail) ? props.userMail: "",
             renderDownloadButtons: false,
+            renderPDFDownload: false,
         };
         this.stateToValuesMap = {
             companyName: {
@@ -73,6 +75,7 @@ class Antrag148AO extends React.Component {
         this.getMail = this.getMail.bind(this);
         this.sendMailToCustomer = this.sendMailToCustomer.bind(this);
         this.getFinanzamtDropdown = this.getFinanzamtDropdown.bind(this);
+        this.getPDFDownloadButton = this.getPDFDownloadButton.bind(this);
     }
 
     handleChange(event) {
@@ -156,6 +159,7 @@ class Antrag148AO extends React.Component {
                 <input type="submit" value="Absenden"/>
             </fieldset>
         )
+
         return <form onSubmit={this.handleSubmit} id="form148">{fields}</form>;
     }
 
@@ -195,6 +199,7 @@ class Antrag148AO extends React.Component {
                 const link = `mailto:${receiver ? receiver: ""}?subject=${mailSubject}&body=${body}`;
                 try {
                     window.open(link);  
+                    
                 } catch {
                     const errMessage = 'Could not open mail program';
                     alert(errMessage);
@@ -202,7 +207,8 @@ class Antrag148AO extends React.Component {
             }
 
             // provide documents for download
-            mail.downloadAsPDF();
+            // mail.downloadAsPDF();
+            this.setState({renderPDFDownload: !this.state.renderPDFDownload});
         }
     }
 
@@ -227,12 +233,23 @@ class Antrag148AO extends React.Component {
             </div>
     }
 
+    getPDFDownloadButton() {
+        return <PDFDownloadLink
+                    document={this.getMail().downloadAsPDF()}
+                    fileName='test.pdf'>
+                        <button id="alternativeDownloadButtons">
+                            Export to PDF
+                        </button>;
+                </PDFDownloadLink>
+                
+    }
+
     render() {
         return(
             <div>
                 <h1 id="formHeader">Standardformular für Antrag nach $148 AO</h1>
                 {!this.state.renderDownloadButtons ? this.generateForm(): this.getDownloadButtons()}
-                
+                {this.state.renderPDFDownload && this.getPDFDownloadButton()}
             </div>
         );
     }
