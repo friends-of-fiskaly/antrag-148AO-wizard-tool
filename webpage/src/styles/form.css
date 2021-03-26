@@ -1,6 +1,5 @@
 #form148 {
-    width: 50%;
-    margin-left: 25%;
+    width: 100%;
 }
 
 #formHeader {
@@ -64,4 +63,12 @@
 #attachmentLink {
     text-align: center;
     width: 100%;
+}
+
+#reusableFormComponent {
+    border-style: solid;
+    border-width: 2mm;
+    border-color: red;
+    width: 50%;
+    margin-left: 25%;
 }

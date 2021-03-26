@@ -236,8 +236,10 @@ class Antrag148AO extends React.Component {
         return(
             <div>
                 {/* {!this.state.renderDownloadButtons ? this.dataInputForm(): this.sendMailToCustomerInterface()} */}
-                {this.dataInputForm()}
-                {this.state.renderPDFDownload && this.getPDFDownloadButton()}
+                <div id="reusableFormComponent">
+                    {this.dataInputForm()}
+                    {this.state.renderPDFDownload && this.getPDFDownloadButton()}
+                </div>
                 <p></p>
                 <div className="downloadLinkDiv">
                     <a href="https://drive.google.com/drive/folders/1wVbua9t7MQ0qkwr5Ialq1cC6N4X6DIm9?usp=sharing"><button className="anlageDownloadButton">Download Anlagedokumente</button></a>
