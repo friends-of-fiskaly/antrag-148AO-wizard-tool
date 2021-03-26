@@ -1,598 +1,598 @@
-id,bufa_nr,name,street,house_number,postcode,city,email,contact_url
-FA100,2317,Celle,Im Werder,15,29221,Celle,Poststelle@fa-ce.niedersachsen.de,NULL
-FA101,2318,Cuxhaven,Poststr.,81,27474,Cuxhaven,Poststelle@fa-cux.niedersachsen.de,NULL
-FA102,2319,Gifhorn,Braunschw. Str.,6,38518,Gifhorn,Poststelle@fa-gf.niedersachsen.de,NULL
-FA103,2320,Göttingen,Godehardstr.,6,37073,Göttingen,Poststelle@fa-goe.niedersachsen.de,NULL
-FA104,2321,Goslar-Bad Gandersheim,Wachtelpforte,40,38644,Goslar,Poststelle@fa-gs-gan.niedersachsen.de,NULL
-FA105,2322,Hameln,Süntelstraße,2,31785,Hameln,Poststelle@fa-hm.niedersachsen.de,NULL
-FA106,2323,Hannover-Land I,Göttinger Chaus.,83,30459,Hannover,Poststelle@fa-h-l1.niedersachsen.de,NULL
-FA107,2324,Hannover-Mitte,Lavesallee,10,30169,Hannover,Poststelle@fa-h-mi.niedersachsen.de,NULL
-FA108,2325,Hannover-Nord,Vahrenwalder Str.,206,30165,Hannover,Poststelle@fa-h-no.niedersachsen.de,NULL
-FA109,2326,Hannover-Süd,Göttinger Chaus.,83,30459,Hannover,Poststelle@fa-h-su.niedersachsen.de,NULL
-FA110,2327,Hannover-Land II,Vahrenwalder Str.,208,30165,Hannover,Poststelle@fa-h-l2.niedersachsen.de,NULL
-FA111,2328,Helmstedt,Ernst-Koch-Str.,3,38350,Helmstedt,Poststelle@fa-he.niedersachsen.de,NULL
-FA112,2329,Herzberg am Harz,Sieberstr.,1,37412,Herzberg,Poststelle@fa-hz.niedersachsen.de,NULL
-FA113,2330,Hildesheim-Alfeld,Kaiserstraße,47,31104,Hildesheim,Poststelle@fa-hi-alf.niedersachsen.de,NULL
-FA114,2331,Holzminden,Ernst-August-Str.,30,37603,Holzminden,Poststelle@fa-hol.niedersachsen.de,NULL
-FA116,2333,Lüneburg,Am Alt. Eisenwerk,4,21339,Lüneburg,Poststelle@fa-lg.niedersachsen.de,NULL
-FA117,2334,Nienburg/Weser,Schloßplatz,10,31582,Nienburg,Poststelle@fa-ni.niedersachsen.de,NULL
-FA118,2335,Northeim,Graf-Otto-Str.,31,37154,Northeim,Poststelle@fa-nom.niedersachsen.de,NULL
-FA119,2336,Osterholz-Scharmbeck,Pappstraße,2,27711,Osterholz-Scharmbeck,Poststelle@fa-ohz.niedersachsen.de,NULL
-FA120,2338,Peine,Duttenstedt.Str.,106,31224,Peine,Poststelle@fa-pe.niedersachsen.de,NULL
-FA121,2340,Rotenburg (Wümme),Hoffeldstr.,5,27356,Rotenburg,Poststelle@fa-row.niedersachsen.de,NULL
-FA122,2341,Soltau,Rühberg,16,29614,Soltau,Poststelle@fa-sol.niedersachsen.de,NULL
-FA123,2342,Hannover-Land I Außenstelle Springe,Bahnhofstr.,28,31832,Springe,Poststelle@fa-ast-spr.niedersachsen.de,NULL
-FA124,2343,Stade,Harburger Str.,113,21680,Stade,Poststelle@fa-std.niedersachsen.de,NULL
-FA125,2344,Stadthagen,Schloß,,31655,Stadthagen,Poststelle@fa-shg.niedersachsen.de,NULL
-FA126,2345,Sulingen,Hindenburgstr.,16,27232,Sulingen,Poststelle@fa-su.niedersachsen.de,NULL
-FA127,2346,Syke,Bürgerm.-Mävers-Str.,15,28857,Syke,Poststelle@fa-sy.niedersachsen.de,NULL
-FA128,2347,Uelzen-Lüchow,Am Königsberg,3,29525,Uelzen,Poststelle@fa-ue-luw.niedersachsen.de,NULL
-FA129,2348,Verden (Aller),Bremer Straße,4,27283,Verden,Poststelle@fa-ver.niedersachsen.de,NULL
-FA130,2349,Wesermünde,Borriesstr.,50,27570,Bremerhaven,Poststelle@fa-wem.niedersachsen.de,NULL
-FA131,2350,Winsen (Luhe),Von-Somnitz-Ring,6,21423,Winsen,Poststelle@fa-wl.niedersachsen.de,NULL
-FA132,2351,Wolfenbüttel,Jägerstr.,19,38304,Wolfenbüttel,Poststelle@fa-wf.niedersachsen.de,NULL
-FA133,2352,Zeven,Kastanienweg,1,27404,Zeven,Poststelle@fa-zev.niedersachsen.de,NULL
-FA134,2353,Papenburg,Emdener Straße,15,26871,Aschendorf,Poststelle@fa-pap.niedersachsen.de,NULL
-FA135,2354,Aurich,Hasseburger Str.,3,26603,Aurich,Poststelle@fa-aur.niedersachsen.de,NULL
-FA136,2355,Bad Bentheim,Heinrich-Böll-Str.,2,48455,Bad Bentheim,Poststelle@fa-ben.niedersachsen.de,NULL
-FA137,2356,Cloppenburg,Zur Basilika,1,49661,Cloppenburg,Poststelle@fa-clp.niedersachsen.de,NULL
-FA138,2357,Delmenhorst,Fr.-Ebert-Allee,15,27749,Delmenhorst,Poststelle@fa-del.niedersachsen.de,NULL
-FA139,2358,Emden,Ringstr.,5,26721,Emden,Poststelle@fa-emd.niedersachsen.de,NULL
-FA140,2360,Leer (Ostfriesland),Edzardstr.,12,26789,Leer,Poststelle@fa-ler.niedersachsen.de,NULL
-FA141,2361,Lingen (Ems),Mühlentorstr. ,16,49784,Lingen,Poststelle@fa-lin.niedersachsen.de,NULL
-FA142,2362,Norden,Mühlenweg,20,26506,Norden,Poststelle@fa-nor.niedersachsen.de,NULL
-FA143,2363,Nordenham,Plaatweg,1,26954,Nordenham,Poststelle@fa-nhm.niedersachsen.de,NULL
-FA144,2364,Oldenburg (Oldenburg),Stubbenweg,42,26125,Oldenburg,Poststelle@fa-ol.niedersachsen.de,NULL
-FA145,2365,Osnabrück-Land,Winkelhausenstraße,24,49090,Osnabrück,Poststelle@fa-os-l.niedersachsen.de,NULL
-FA146,2366,Osnabrück-Stadt,Süsterstr.,46,49074,Osnabrück,Poststelle@fa-os-s.niedersachsen.de,NULL
-FA147,2367,Quakenbrück,Lange Straße,37,49610,Quakenbrück,Poststelle@fa-qua.niedersachsen.de,NULL
-FA148,2368,Vechta,Rombergstr.,49,49377,Vechta,Poststelle@fa-vec.niedersachsen.de,NULL
-FA149,2369,Westerstede,Ammerlandallee,14,26655,Westerstede,Poststelle@fa-wst.niedersachsen.de,NULL
-FA150,2370,Wilhelmshaven,Rathausplatz,3,26382,Wilhelmshaven,Poststelle@fa-whv.niedersachsen.de,NULL
-FA151,2371,Wittmund,Harpertshausen.Str.,2,26409,Wittmund,Poststelle@fa-wtm.niedersachsen.de,NULL
-FA152,2380,Braunschweig für Großbetriebsprüfung,Theodor-Heuss-Str.,4,38122,Braunschweig,Poststelle@fa-gbp-bs.niedersachsen.de,NULL
-FA153,2381,Göttingen für Großbetriebsprüfung,Godehardstr.,6,37073,Göttingen,Poststelle@fa-gbp-goe.niedersachsen.de,NULL
-FA154,2382,Hannover für Großbetriebsprüfung,Bischofsholer Damm,19,30173,Hannover,Poststelle@fa-gbp-h.niedersachsen.de,NULL
-FA155,2384,Stade für Großbetriebsprüfung,Albert-Schweitzer-Straße,19,21680,Stade,Poststelle@fa-gbp-std.niedersachsen.de,NULL
-FA156,2385,Oldenburg für Großbetriebsprüfung,Georgstr.,36,26121,Oldenburg,Poststelle@fa-gbp-ol.niedersachsen.de,NULL
-FA157,2386,Osnabrück für Großbetriebsprüfung,Johann-Domann-Str.,6,49080,Osnabrück,Poststelle@fa-gbp-os.niedersachsen.de,NULL
-FA158,2390,für Fahndung und Strafsachen Braunschweig,Rudolf-Steiner-Str.,1,38120,Braunschweig,Poststelle@fa-fust-bs.niedersachsen.de,NULL
-FA159,2391,Hannover für Fahndung und Strafsachen,Göttinger Chaus.,83,30459,Hannover,Poststelle@fa-fust-h.niedersachsen.de,NULL
-FA160,2392,Lüneburg für Fahndung und Strafsachen,Horst-Nickel-Str.,6,21337,Lüneburg,Poststelle@fa-fust-lg.niedersachsen.de,NULL
-FA161,2393,Oldenburg für Fahndung und Strafsachen,Alter Postweg,13,26133,Oldenburg,Poststelle@fa-fust-ol.niedersachsen.de,NULL
-FA162,2457,Bremerhaven Bewertung Bremen,Gerhard-Rohlfs-Str.,32,28757,Bremen,office@FinanzamtBremerhaven.bremen.de,NULL
-FA163,2460,Bremen,Rudolf-Hilferding-Platz,1,28195,Bremen,office@fa-hb.bremen.de,NULL
-FA164,2471,Landeshauptkasse Bremen,Schillerstr.,22,28195,Bremen,office@lhk.bremen.de,NULL
-FA166,2475,Bremerhaven,Rickmersstr.,90,27568,Bremerhaven,office@FinanzamtBremerhaven.bremen.de,NULL
-FA167,2477,Bremerhaven Bewertung,Rickmersstr.,90,27568,Bremerhaven,office@FinanzamtBremerhaven.bremen.de,NULL
-FA168,2478,Bremen für Außenprüfung,Rudolf-Hilferding-Platz,1,28195,Bremen,office@fa-ap.bremen.de,NULL
-FA169,2485,Bremerhaven Arbeitnehmerbereich,Rickmersstr.,90,27568,Bremerhaven,office@FinanzamtBremerhaven.bremen.de,NULL
-FA170,2601,Alsfeld-Lauterbach Verwaltungsstelle Alsfeld,In der Rambach,11,36304,Alsfeld,Poststelle@FA-AL.Hessen.de,NULL
-FA171,2602,Hersfeld-Rotenburg Verwaltungsstelle Bad Hersfeld,Im Stift,7,36251,Bad Hersfeld,Poststelle@FA-HR.Hessen.de,NULL
-FA172,2603,Bad Homburg vor der Höhe,Kaiser-Friedrich-Promenade ,8-Oct,61284,Bad Homburg,Poststelle@FA-BHG.Hessen.de,NULL
-FA173,2604,Rheingau-Taunus Verwaltungsstelle Bad Schwalbach,Emser Str.,27,65307,Bad Schwalbach,Poststelle@FA-RT.Hessen.de,NULL
-FA174,2605,Bensheim,Berliner Ring,35,64625,Bensheim,Poststelle@FA-BEN.Hessen.de,NULL
-FA175,2606,Marburg-Biedenkopf Verwaltungsstelle Biedenkopf,Im Feldchen,2,35216,Biedenkopf,Poststelle@FA-MB.Hessen.de,NULL
-FA176,2607,Darmstadt,Soderstraße,30,64283,Darmstadt,Poststelle@FA-DAM.Hessen.de,NULL
-FA177,2608,Dieburg,Marienstraße,19,64807,Dieburg,Poststelle@FA-DIB.Hessen.de,NULL
-FA178,2609,Dillenburg,Wilhelmstraße,9,35683,Dillenburg,Poststelle@FA-DIL.Hessen.de,NULL
-FA179,2610,Eschwege-Witzenhausen Verwaltungsstelle Eschwege,Schlesienstraße,2,37269,Eschwege,Poststelle@FA-EW.Hessen.de,NULL
-FA180,2611,Korbach-Frankenberg Verwaltungsstelle Frankenberg,Geismarer Straße,16,35066,Frankenberg,Poststelle@FA-KF.Hessen.de,NULL
-FA181,2612,Frankfurt am Main II,Gutleutstraße,122,60327,Frankfurt,Poststelle@FA-FF2.Hessen.de,NULL
-FA182,2613,Frankfurt am Main I,Gutleutstraße,124,60327,Frankfurt,Poststelle@FA-FF1.Hessen.de,NULL
-FA183,2614,Frankfurt am Main IV,Gutleutstraße,118,60327,Frankfurt,Poststelle@FA-FF4.Hessen.de,NULL
-FA184,2615,Frankfurt am Main V-Höchst Verwaltungsstelle Höchst,Hospitalstraße,16,65929,Frankfurt,Poststelle@FA-FH.Hessen.de,NULL
-FA185,2616,Friedberg (Hessen),Leonhardstraße,10,61169,Friedberg,Poststelle@FA-FBG.Hessen.de,NULL
-FA186,2617,Bensheim Außenstelle Fürth,Erbacher Straße,23,64658,Fürth,Poststelle@FA-BEN.Hessen.de,NULL
-FA187,2618,Fulda,Königstraße,2,36037,Fulda,Poststelle@FA-FDA.Hessen.de,NULL
-FA188,2619,Gelnhausen,Frankfurter Straße,14,63571,Gelnhausen,Poststelle@FA-GEL.Hessen.de,NULL
-FA189,2620,Gießen,Schubertstraße,60,35392,Gießen,Poststelle@FA-GIS.Hessen.de,NULL
-FA190,2621,Groß-Gerau,Europaring,11,64521,Groß-Gerau,Poststelle@FA-GGE.Hessen.de,NULL
-FA191,2622,Hanau,Am Freiheitsplatz,2,63450,Hanau,Poststelle@FA-HAN.Hessen.de,NULL
-FA192,2623,Kassel II-Hofgeismar Verwaltungsstelle Hofgeismar,Altstädter Kirchplatz,10,34369,Hofgeismar,Poststelle@FA-KH.Hessen.de,NULL
-FA193,2624,Schwalm-Eder Verwaltungsstelle Fritzlar,Georgengasse,5,34560,Fritzlar,Poststelle@FA-SE.Hessen.de,NULL
-FA194,2625,Kassel I,Altmarkt,1,34125,Kassel,Poststelle@FA-KS1.Hessen.de,NULL
-FA195,2626,Kassel II-Hofgeismar Verwaltungsstelle Kassel,Altmarkt,1,34125,Kassel,Poststelle@FA-KH.Hessen.de,NULL
-FA196,2627,Korbach-Frankenberg Verwaltungsstelle Korbach,Medebacher Landstraße,29,34497,Korbach,Poststelle@FA-KF.Hessen.de,NULL
-FA197,2628,Langen,Zimmerstraße,27,63225,Langen,Poststelle@FA-LAN.Hessen.de,NULL
-FA198,2629,Alsfeld-Lauterbach Verwaltungsstelle Lauterbach,Am Alten Südbahnhof ,1,36341,Lauterbach,Poststelle@FA-AL.Hessen.de,NULL
-FA199,2630,Limburg-Weilburg Verwaltungsstelle Limburg,Walderdorffstraße,11,65549,Limburg,Poststelle@FA-LW.Hessen.de,NULL
-FA200,2631,Marburg-Biedenkopf Verwaltungsstelle Marburg,Robert-Koch-Straße,7,35037,Marburg,Poststelle@FA-MB.Hessen.de,NULL
-FA201,2632,Schwalm-Eder Verwaltungsstelle Melsungen,Kasseler Straße,31,34212,Melsungen,Poststelle@FA-SE.Hessen.de,NULL
-FA202,2633,Michelstadt,Erbacher Straße,48,64720,Michelstadt,Poststelle@FA-MIC.Hessen.de,NULL
-FA203,2634,Nidda,Schillerstraße,38,63667,Nidda,Poststelle@FA-NID.Hessen.de,NULL
-FA204,2635,Offenbach am Main I,Bieberer Straße,59,63065,Offenbach,Poststelle@FA-OF1.Hessen.de,NULL
-FA205,2636,Hersfeld-Rotenburg Verwaltungsstelle Rotenburg,Dickenrücker Straße,12,36224,Bad Hersfeld,Poststelle@FA-HR.Hessen.de,NULL
-FA206,2637,Rheingau-Taunus Verwaltungsstelle Rüdesheim,Hugo-Asbach-Straße,3,65385,Rüdesheim,Poststelle@FA-RT.Hessen.de,NULL
-FA207,2638,Limburg-Weilburg Verwaltungsstelle Weilburg,Kruppstraße,1,35781,Weilburg,Poststelle@FA-LW.Hessen.de,NULL
-FA208,2639,Wetzlar,Frankfurter Straße,59,35578,Wetzlar,Poststelle@FA-WEZ.Hessen.de,NULL
-FA209,2640,Wiesbaden I,Dostojewskistraße,8,65187,Wiesbaden,Poststelle@FA-WI1.Hessen.de,NULL
-FA21,1010,Saarlouis,Gaswerkweg,25,66740,Saarlouis,poststelle@fasls.saarland.de,NULL
-FA210,2641,Eschwege-Witzenhausen Verwaltungsstelle Witzenhausen,Südbahnhofstraße,37,37213,Witzenhausen,Poststelle@FA-EW.Hessen.de,NULL
-FA211,2642,Schwalm-Eder Verwaltungsstelle Schwalmstadt,Landgraf-Philipp-Straße,15,34613,Schwalmstadt,Poststelle@FA-SE.Hessen.de,NULL
-FA212,2643,Wiesbaden II,Dostojewskistraße,8,65187,Wiesbaden,Poststelle@FA-WI2.Hessen.de,NULL
-FA213,2644,Offenbach am Main II,Bieberer Straße,59,63065,Offenbach,Poststelle@FA-OF2.Hessen.de,NULL
-FA214,2645,Frankfurt am Main III,Gutleutstraße,120,60327,Frankfurt,Poststelle@FA-FF3.Hessen.de,NULL
-FA215,2646,Hofheim am Taunus,Nordring,4,65719,Hofheim,Poststelle@FA-HOH.Hessen.de,NULL
-FA216,2647,Frankfurt am Main V-Höchst Verwaltungsstelle Frankfurt,Gutleutstraße,116,60327,Frankfurt,Poststelle@FA-FH.Hessen.de,NULL
-FA217,2701,Bad Neuenahr-Ahrweiler,Römerstr.,5,53474,Bad Neuenahr-Ahrweiler,Poststelle@fa-aw.fin-rlp.de,NULL
-FA218,2702,Altenkirchen-Hachenburg,Frankfurter Str.,21,57610,Altenkirchen,Poststelle@fa-ak.fin-rlp.de,NULL
-FA219,2706,Bad Kreuznach,Ringstr.,10,55543,Bad Kreuznach,Poststelle@fa-kh.fin-rlp.de,NULL
-FA22,1020,Merzig,Am Gaswerk,,66663,Merzig,poststelle@famzg.saarland.de,NULL
-FA220,2708,Bingen-Alzey,Rochusallee,10,55411,Bingen,Poststelle@fa-bi.fin-rlp.de,NULL
-FA221,2709,Idar-Oberstein,Hauptstraße,199,55743,Idar-Oberstein,Poststelle@fa-io.fin-rlp.de,NULL
-FA222,2710,Bitburg-Prüm,Kölner Straße,20,54634,Bitburg,Poststelle@fa-bt.fin-rlp.de,NULL
-FA223,2713,Landesfinanzkasse Daun,Berliner Straße,1,54550,Daun,poststelle@lfk.fin-rlp.de,NULL
-FA226,2719,Kaiserslautern,Eisenbahnstr.,56,67655,Kaiserslautern,Poststelle@fa-kl.fin-rlp.de,NULL
-FA228,2722,Koblenz,Ferdinand-Sauerbruch-Str.,19,56073,Koblenz,Poststelle@fa-ko.fin-rlp.de,NULL
-FA229,2723,Kusel-Landstuhl,Trierer Str.,46,66869,Kusel,Poststelle@fa-ku.fin-rlp.de,NULL
-FA23,1030,Neunkirchen,Uhlandstr.,1,66512,Neunkirchen,poststelle@fank.saarland.de,NULL
-FA230,2724,Landau,Weißquartierstr.,13,76829,Landau,Poststelle@fa-ld.fin-rlp.de,NULL
-FA232,2726,Mainz,Schillerstr.,13,55116,Mainz,poststelle@fa-mz.fin-rlp.de,NULL
-FA233,2727,Ludwigshafen,Bayernstr.,39,67061,Ludwigshafen,Poststelle@fa-lu.fin-rlp.de,NULL
-FA235,2729,Mayen,Westbahnhofstr.,11,56727,Mayen,Poststelle@fa-my.fin-rlp.de,NULL
-FA236,2730,Montabaur-Diez,Koblenzer Str.,15,56410,Montabaur,Poststelle@fa-mt.fin-rlp.de,NULL
-FA237,2731,Neustadt,Konrad-Adenauer-Str.,26,67433,Neustadt,Poststelle@fa-nw.fin-rlp.de,NULL
-FA238,2732,Neuwied,Augustastr.,70,56564,Neuwied,Poststelle@fa-nr.fin-rlp.de,NULL
-FA239,2734,Kusel-Landstuhl für Erb/Schenk.St. Saarland,Trierer Str.,46,66869,Kusel,Poststelle@fa-ku.fin-rlp.de,NULL
-FA24,1040,Saarbrücken Am Stadtgraben,Am Stadtgraben,2,66111,Saarbrücken,poststelle@fasb.saarland.de,NULL
-FA240,2735,Pirmasens,Kaiserstr.,2,66955,Pirmasens,Poststelle@fa-ps.fin-rlp.de,NULL
-FA242,2740,Simmern-Zell,Schlossstr.,42,56856,Zell,Poststelle@fa-si.fin-rlp.de,NULL
-FA243,2741,Speyer-Germersheim,Johannesstr.,9,67346,Speyer,Poststelle@fa-sp.fin-rlp.de,NULL
-FA244,2742,Trier,Hubert-Neuerburg-Str.,1,54290,Trier,Poststelle@fa-tr.fin-rlp.de,NULL
-FA245,2743,Wittlich,Unterer Sehlemet,15,54516,Wittlich,Poststelle@fa-wi.fin-rlp.de,NULL
-FA246,2744,Worms-Kirchheimbolanden,Karlsplatz,6,67549,Worms,Poststelle@fa-wo.fin-rlp.de,NULL
-FA248,2801,Offenburg Außenstelle Achern,Martinstr.,50,77604,Offenburg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA249,2804,Villingen-Schwenningen Außenstelle Donaueschingen,Käferstr.,25,78166,Donaueschingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA25,1055,Saarbrücken MainzerStr,Mainzer Str.,109,66121,Saarbrücken,poststelle@fasbm.saarland.de,NULL
-FA250,2805,Emmendingen,Bahnhofstr.,3,79312,Emmendingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA251,2806,Freiburg-Stadt,Sautierstr.,24,79104,Freiburg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA252,2807,Freiburg-Land,Stefan-Meier-Str.,133,79104,Freiburg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA253,2808,Offenburg Außenstelle Kehl,Ludwig-Trick-Str.,1,77604,Offenburg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA254,2809,Konstanz,Byk-Gulden-Str.,2,78467,Konstanz,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA255,2810,Lahr,Gerichtstr.,5,77933,Lahr,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA256,2811,Lörrach,Luisenstr.,10,79539,Lörrach,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA257,2812,Müllheim,Goethestr.,11,79379,Müllheim,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA258,2813,Freiburg-Land Außenstelle Titisee-Neustadt,Goethestr.,5,79822,Titisee-Neustadt,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA259,2814,Offenburg,Zeller Str.,1,77654,Offenburg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA26,1060,St. Wendel,Marienstr.,27,66606,St. Wendel,poststelle@fawnd.saarland.de,NULL
-FA260,2815,Rottweil Außenstelle Oberndorf,Körnerstr.,28,78628,Rottweil,poststelle-19@finanzamt.bwl.de,NULL
-FA261,2816,Waldshut-Tiengen Außenstelle Bad Säckingen,Werderstr.,5,79713,Bad Säckingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA262,2818,Singen,Alpenstr.,9,78224,Singen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA263,2819,Rottweil,Körnerstr.,28,78628,Rottweil,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA264,2820,Waldshut-Tiengen,Bahnhofstr.,11,79761,Waldshut-Tiengen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA265,2821,Tuttlingen,Zeughausstr.,91,78532,Tuttlingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA266,2822,Villingen-Schwenningen,Weiherstr.,7,78050,Villingen-Schwenningen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA267,2823,Offenburg Außenstelle Wolfach,Hauptstr.,55,77604,Offenburg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA268,2830,Bruchsal,Schönbornstr.,1,76646,Bruchsal,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA269,2831,Ettlingen,Pforzheimer Str.,16,76275,Ettlingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA27,1070,Saarbrücken Am Stadtgraben - Außenst. Sulzbach,Vopeliusstr.,8,66280,Sulzbach,poststelle@fasb.saarland.de,NULL
-FA270,2832,Heidelberg,Maaßstr.,32,69123,Heidelberg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA271,2833,Baden-Baden,Stephanienstr.,13,76530,Baden-Baden,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA272,2834,Karlsruhe-Durlach,Prinzessenstr.,2,76227,Karlsruhe,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA273,2835,Karlsruhe-Stadt,Durlacher Allee ,29,76131,Karlsruhe,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA274,2836,Baden-Baden Außenstelle Bühl,Alban-Stolz-Str.,8,77815,Bühl,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA275,2837,Mannheim-Neckarstadt,L3,10,68161,Mannheim,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA276,2838,Mannheim-Stadt,L3,10,68161,Mannheim,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA277,2839,Rastatt,An der Ludwigsfeste,3,76437,Rastatt,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA278,2840,Mosbach,Pfalzgraf-Otto-Str.,5,74821,Mosbach,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA279,2841,Pforzheim,Moltkestr.,8,75179,Pforzheim,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA28,1075,Homburg,Schillerstr.,15,66424,Homburg,poststelle@fahom.saarland.de,NULL
-FA280,2842,Freudenstadt,Musbacher Str.,33,72250,Freudenstadt,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA281,2843,Schwetzingen,Schloss,,68723,Schwetzingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA282,2844,Sinsheim,Bahnhofstr.,27,74889,Sinsheim,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA283,2845,Calw,Klosterhof,1,75365,Calw,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA284,2846,Mosbach Außenstelle Walldürn,Albert-Schneider-Str.,1,74731,Walldürn,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA285,2847,Weinheim,Weschnitzstr.,2,69469,Weinheim,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA286,2848,Mühlacker,Konrad-Adenauer-Platz,6,75417,Mühlacker,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA287,2849,Pforzheim Außenstelle Neuenbürg,Wildbader Str.,107,75305,Neuenbürg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA288,2850,Aalen,Bleichgartenstr.,17,73431,Aalen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA289,2851,Backnang,Spinnerei,48,71522,Backnang,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA29,1085,Homburg - Außenst. St. Ingbert,Rentamtstr.,39,66386,St. Ingbert,poststelle@fahom.saarland.de,NULL
-FA290,2852,Tauberbischofsheim Außenstelle Bad Mergentheim,Schloss,7,97980,Bad Mergentheim,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA291,2853,Balingen,Jakob-Beutter-Str.,4,72336,Balingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA292,2854,Biberach,Bahnhofstr.,11,88400,Biberach,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA293,2855,Bietigheim-Bissingen,Kronenbergstr.,13,74321,Bietigheim-Bissingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA294,2856,Böblingen,Talstr.,46,71034,Böblingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA295,2857,Schwäbisch Hall Außenstelle Crailsheim,Bahnhofstr.,25,74523,Schwäbisch Hall,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA296,2858,Ehingen,Hehlestr.,19,89584,Ehingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA297,2859,Esslingen,Entengrabenstr.,11,73728,Esslingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA298,2861,Friedrichshafen,Ehlersstr.,13,88046,Friedrichshafen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA299,2862,Göppingen Außenstelle Geislingen,Gartenstr.,42,73033,Göppingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA30,1090,Saarbrücken Am Stadtgraben - Außenst. Völklingen,Marktstr.,,66333,Völklingen,poststelle@fasb.saarland.de,NULL
-FA300,2863,Göppingen,Gartenstr.,42,73033,Göppingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA301,2864,Heidenheim,Marienstr.,15,89518,Heidenheim,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA302,2865,Heilbronn,Moltkestr.,91,74076,Heilbronn,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA303,2869,Nürtingen Außenstelle Kirchheim,Sigmaringer Str.,15,72622,Nürtingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA304,2870,Leonberg,Schlosshof,3,71229,Leonberg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA305,2871,Ludwigsburg,Alt-Württemberg-Allee,40,71631,Ludwigsburg,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA306,2874,Nürtingen,Sigmaringer Str.,15,72622,Nürtingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA307,2876,Öhringen,Haagweg,39,74613,Öhringen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA308,2877,Ravensburg,Broner Platz,12,88250,Weingarten,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA309,2878,Reutlingen,Leonhardsplatz,1,72764,Reutlingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA31,1113,Charlottenburg,Bismarckstraße,48,10627,Berlin,poststelle@fa-charlottenburg.verwalt-berlin.de,NULL
-FA310,2879,Biberach Außenstelle Riedlingen,Bahnhofstr. ,11,88400,Biberach,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA311,2880,Tauberbischofsheim,Dr.-Burger-Str.,1,97941,Tauberbischofsheim,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA312,2881,Sigmaringen Außenstelle Bad Saulgau,Karlstr.,31,72488,Sigmaringen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA313,2882,Schorndorf,Johann-Philipp-Palm-Str.,28,73614,Schorndorf,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA314,2883,Schwäbisch Gmünd,Augustinerstr.,6,73525,Schwäbisch Gmünd,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA315,2884,Schwäbisch Hall,Bahnhofstr.,25,74523,Schwäbisch Hall,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA316,2885,Sigmaringen,Karlstr.,31,72488,Sigmaringen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA317,2886,Tübingen,Steinlachallee,6,72072,Tübingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA318,2887,Überlingen (Bodensee),Mühlenstr.,28,88662,Überlingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA319,2888,Ulm,Wagnerstr.,2,89077,Ulm,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA32,1114,Friedrichshain-Kreuzberg,Mehringdamm,22,10961,Berlin,poststelle@fa-friedrichshain-kreuzberg.verwalt-berlin.de,NULL
-FA320,2889,Bad Urach,Graf-Eberhard-Platz,7,72574,Bad Urach,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA321,2890,Waiblingen,Fronackerstr.,77,71332,Waiblingen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA322,2891,Wangen,Lindauer Str.,37,88239,Wangen,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA323,2892,Stuttgart IV,Seidenstr.,23,70174,Stuttgart,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA324,2893,Stuttgart I,Rotebühlplatz,30,70173,Stuttgart,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA325,2895,Stuttgart II,Rotebühlstr.,40,70178,Stuttgart,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA326,2896,Stuttgart Zentrales Konzernprüfungsamt,Rotebühlplatz,30,70173,Stuttgart,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA327,2897,Stuttgart III,Rotebühlplatz,30,70173,Stuttgart,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA328,2899,Stuttgart-Körpersch.,Paulinenstr.,44,70178,Stuttgart,NULL,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
-FA329,3046,Potsdam,Steinstr.,104,14480,Potsdam,poststelle.fa-potsdam@fa.brandenburg.de,NULL
-FA33,1116,Neukölln,Thiemannstraße,1,12059,Berlin,poststelle@fa-neukoelln.verwalt-berlin.de,NULL
-FA330,3048,Brandenburg,Magdeburger Straße,46,14770,Brandenburg an der Havel,poststelle.fa-brandenburg@fa.brandenburg.de,NULL
-FA331,3049,Königs Wusterhausen,Max-Werner-Straße,9,15711,Königs Wusterhausen,poststelle.fa-koenigs-wusterhausen@fa.brandenburg.de,NULL
-FA332,3050,Luckenwalde,Dr.-Georg-Schaeffler-Straße,2,14943,Luckenwalde,poststelle.fa-luckenwalde@fa.brandenburg.de,NULL
-FA333,3051,Nauen,Ketziner Straße,3,14641,Nauen,poststelle.fa-nauen@fa.brandenburg.de,NULL
-FA334,3052,Kyritz,Perleberger Straße,1,16866,Kyritz,poststelle.fa-kyritz@fa.brandenburg.de,NULL
-FA335,3053,Oranienburg,Heinrich-Grüber-Platz,3,16515,Oranienburg,poststelle.fa-oranienburg@fa.brandenburg.de,NULL
-FA336,3056,Cottbus,Vom-Stein-Straße,29,03050,Cottbus,poststelle.fa-cottbus@fa.brandenburg.de,NULL
-FA337,3057,Calau,Springteichallee,25,03205,Calau,poststelle.fa-calau@fa.brandenburg.de,NULL
-FA338,3061,Frankfurt (Oder),Müllroser Chaussee,53,15236,Frankfurt (Oder),poststelle.fa-frankfurt-oder@fa.brandenburg.de,NULL
-FA339,3062,Angermünde,Jahnstraße,49,16278,Angermünde,poststelle.fa-angermuende@fa.brandenburg.de,NULL
-FA34,1117,Reinickendorf,Eichborndamm,208,13403,Berlin,poststelle@fa-reinickendorf.verwalt-berlin.de,NULL
-FA340,3064,Strausberg,Prötzeler Chaussee,12,15344,Strausberg,poststelle.fa-strausberg@fa.brandenburg.de,NULL
-FA341,3065,Eberswalde,Tramper Chaussee,5,16225,Eberswalde,poststelle.fa-eberswalde@fa.brandenburg.de,NULL
-FA342,3102,Magdeburg,Tessenowstraße,10,39114,Magdeburg,poststelle@fa-md.ofd.mf.sachsen-anhalt.de,NULL
-FA343,3103,Genthin,Berliner Chaussee,29,39307,Genthin,poststelle@fa-gtn.ofd.mf.sachsen-anhalt.de,NULL
-FA344,3105,Haldensleben,Jungfernstieg,37,39340,Haldensleben,poststelle@fa-hdl.ofd.mf.sachsen-anhalt.de,NULL
-FA345,3106,Salzwedel,Buchenallee,2,29410,Salzwedel,poststelle@fa-saw.ofd.mf.sachsen-anhalt.de,NULL
-FA346,3107,Staßfurt,Atzendorfer Straße,20,39418,Staßfurt,poststelle@fa-sft.ofd.mf.sachsen-anhalt.de,NULL
-FA347,3108,Stendal,Scharnhorststraße,87,39576,Stendal,poststelle@fa-sdl.ofd.mf.sachsen-anhalt.de,NULL
-FA348,3110,Halle (Saale),Hallorenring,10,06108,Halle (Saale),poststelle@fa-hal.ofd.mf.sachsen-anhalt.de,NULL
-FA349,3112,Merseburg,Bahnhofstraße,10,06217,Merseburg,poststelle@fa-msb.ofd.mf.sachsen-anhalt.de,NULL
-FA35,1118,Schöneberg,Potsdamer Straße,140,10783,Berlin,poststelle@fa-schoeneberg.verwalt-berlin.de,NULL
-FA350,3114,Dessau-Roßlau,Kühnauer Straße,166,06846,Dessau-Roßlau,poststelle@fa-des.ofd.mf.sachsen-anhalt.de,NULL
-FA351,3115,Wittenberg,Dresdener Straße,40,06886,Wittenberg,poststelle@fa-wbg.ofd.mf.sachsen-anhalt.de,NULL
-FA352,3116,Bitterfeld-Wolfen,OT Bitterfeld Mittelstraße,20,06749,Bitterfeld-Wolfen,poststelle@fa-btf.ofd.mf.sachsen-anhalt.de,NULL
-FA353,3117,Quedlinburg,Klopstockweg,21,06484,Quedlinburg,poststelle@fa-qlb.ofd.mf.sachsen-anhalt.de,NULL
-FA354,3118,Eisleben,Bahnhofsring,10,06295,Eisleben,poststelle@fa-eil.ofd.mf.sachsen-anhalt.de,NULL
-FA355,3119,Naumburg,Oststraße,26,06618,Naumburg,poststelle@fa-nbg.ofd.mf.sachsen-anhalt.de,NULL
-FA356,3202,Dresden-Nord,Rabenerstraße,1,01069,Dresden,poststelle@fa-dresden-nord.smf.sachsen.de,NULL
-FA357,3203,Dresden-Süd,Rabenerstraße,1,01069,Dresden,poststelle@fa-dresden-sued.smf.sachsen.de,NULL
-FA358,3204,Bautzen,Wendischer Graben,3,02625,Bautzen,poststelle@fa-bautzen.smf.sachsen.de,NULL
-FA359,3207,Görlitz,Sonnenstraße,7,02826,Görlitz,poststelle@fa-goerlitz.smf.sachsen.de,NULL
-FA36,1119,Spandau,Nonnendammallee,21,13599,Berlin,poststelle@fa-spandau.verwalt-berlin.de,NULL
-FA360,3208,Löbau,Georgewitzer Str.,40,02708,Löbau,poststelle@fa-loebau.smf.sachsen.de,NULL
-FA361,3209,Meißen,Heinrich-Heine-Straße,23,01662,Meißen,poststelle@fa-meissen.smf.sachsen.de,NULL
-FA362,3210,Pirna,Clara-Zetkin-Straße,1,01796,Pirna,poststelle@fa-pirna.smf.sachsen.de,NULL
-FA363,3213,Hoyerswerda,Pforzheimer Platz,1,02977,Hoyerswerda,poststelle@fa-hoyerswerda.smf.sachsen.de,NULL
-FA364,3214,Chemnitz-Süd,Paul-Bertz-Str.,1,09120,Chemnitz,poststelle@fa-chemnitz-sued.smf.sachsen.de,NULL
-FA365,3215,Chemnitz-Mitte,Straße der Nationen,2,09111,Chemnitz,poststelle@fa-chemnitz-mitte.smf.sachsen.de,NULL
-FA366,3217,Annaberg,Magazingasse,16,09456,Annaberg-B.,poststelle@fa-annaberg.smf.sachsen.de,NULL
-FA367,3218,Schwarzenberg,Karlsbader Str.,23,08340,Schwarzenberg,poststelle@fa-schwarzenberg.smf.sachsen.de,NULL
-FA368,3220,Freiberg,Brückenstr.,1,09599,Freiberg,poststelle@fa-freiberg.smf.sachsen.de,NULL
-FA37,1120,Steglitz,Schloßstraße,58,12165,Berlin,poststelle@fa-steglitz.verwalt-berlin.de,NULL
-FA370,3222,Mittweida,Robert-Koch-Str.,17,09648,Mittweida,poststelle@fa-mittweida.smf.sachsen.de,NULL
-FA371,3223,Plauen,Europaratstraße,17,08523,Plauen,poststelle@fa-plauen.smf.sachsen.de,NULL
-FA372,3224,Stollberg,Hohensteiner Straße,54,09366,Stollberg,poststelle@fa-stollberg.smf.sachsen.de,NULL
-FA373,3227,Zwickau,Lessingstraße,15,08058,Zwickau,poststelle@fa-zwickau.smf.sachsen.de,NULL
-FA374,3228,Zschopau,August-Bebel-Str.,17,09405,Zschopau,poststelle@fa-zschopau.smf.sachsen.de,NULL
-FA375,3231,Leipzig II,Nordplatz,11,04105,Leipzig,poststelle@fa-leipzig2.smf.sachsen.de,NULL
-FA376,3232,Leipzig I,Wilhelm-Liebknecht-Platz,3,04105,Leipzig,poststelle@fa-leipzig1.smf.sachsen.de,NULL
-FA377,3236,Döbeln,Burgstr.,31,04720,Döbeln,poststelle@fa-doebeln.smf.sachsen.de,NULL
-FA378,3237,Eilenburg,Walther-Rathenau-Straße,8,04838,Eilenburg,poststelle@fa-eilenburg.smf.sachsen.de,NULL
-FA379,3238,Grimma,Lausicker Straße,2,04668,Grimma,poststelle@fa-grimma.smf.sachsen.de,NULL
-FA38,1121,Tempelhof,Tempelhofer Damm,234,12099,Berlin,poststelle@fa-tempelhof.verwalt-berlin.de,NULL
-FA380,3239,Oschatz,Dresdener Str.,77,04758,Oschatz,poststelle@fa-oschatz.smf.sachsen.de,NULL
-FA381,4069,Neubrandenburg - RAB,Neustrelitzer Str.,120,17033,Neubrandenburg,poststelle@finanzamt-neubrandenburg.de,NULL
-FA382,4070,Neubrandenburg - RIA (Rentenempfänger im Ausland),Neustrelitzer Str.,120,17033,Neubrandenburg,ria@finanzamt-neubrandenburg.de,NULL
-FA383,4072,Neubrandenburg,Neustrelitzer Str.,120,17033,Neubrandenburg,poststelle@finanzamt-neubrandenburg.de,NULL
-FA384,4075,Waren,Einsteinstr.,15,17192,Waren (Müritz),poststelle@finanzamt-waren.de,NULL
-FA385,4079,Rostock,Möllner Str.,13,18109,Rostock,poststelle@finanzamt-rostock.de,NULL
-FA386,4080,Wismar,Philosophenweg,1,23970,Wismar,poststelle@finanzamt-wismar.de,NULL
-FA387,4081,Ribnitz-Damgarten,Sandhufe,3,18311,Ribnitz-Damgarten,poststelle@finanzamt-ribnitz-damgarten.de,NULL
-FA388,4082,Stralsund,Zur Schwedenschanze,1,18435,Stralsund,poststelle@finanzamt-stralsund.de,NULL
-FA389,4084,Greifswald,Am Gorzberg Haus,11,17489,Greifswald,poststelle@finanzamt-greifswald.de,NULL
-FA39,1123,Wedding,Osloer Straße,37,13359,Berlin,poststelle@fa-wedding.verwalt-berlin.de,NULL
-FA390,4086,Güstrow,Klosterhof,1,18273,Güstrow,poststelle@finanzamt-guestrow.de,NULL
-FA391,4087,Hagenow,Steegener Chaussee,8,19230,Hagenow,poststelle@finanzamt-hagenow.de,NULL
-FA392,4090,Schwerin,Johannes-Stelling-Str.,9,19053,Schwerin,poststelle@finanzamt-schwerin.de,NULL
-FA393,4151,Erfurt,August-Röbling-Straße,10,99091,Erfurt,poststelle@finanzamt-erfurt.thueringen.de,NULL
-FA394,4154,Ilmenau,Wallgraben,1,98686,Ilmenau,poststelle@finanzamt-ilmenau.thueringen.de,NULL
-FA395,4155,Eisenach,Ernst-Thälmann-Straße,70,99817,Eisenach,poststelle@finanzamt-eisenach.thueringen.de,NULL
-FA396,4156,Gotha,Reuterstr.,2,99853,Gotha,poststelle@finanzamt-gotha.thueringen.de,NULL
-FA397,4157,Mühlhausen,Martinistr.,22,99974,Mühlhausen,poststelle@finanzamt-muehlhausen.thueringen.de,NULL
-FA398,4159,Sondershausen,Schillerstraße,6,99706,Sondershausen,poststelle@finanzamt-sondershausen.thueringen.de,NULL
-FA399,4161,Gera,Hermann-Drechsler-Str.,1,07548,Gera,poststelle@finanzamt-gera.thueringen.de,NULL
-FA40,1124,Wilmersdorf,Albrecht-Achilles-Straße,61,10709,Berlin,poststelle@fa-wilmersdorf.verwalt-berlin.de,NULL
-FA400,4162,Jena,Leutragraben,8,07740,Jena,poststelle@finanzamt-jena.thueringen.de,NULL
-FA401,4165,Pößneck,Gerberstr.,65,07381,Pößneck,poststelle@finanzamt-poessneck.thueringen.de,NULL
-FA402,4166,Altenburg,Wenzelstr.,45,04600,Altenburg,poststelle@finanzamt-altenburg.thueringen.de,NULL
-FA403,4170,Sonneberg,Köppelsdorfer Straße,86,96502,Sonneberg,poststelle@finanzamt-sonneberg.thueringen.de,NULL
-FA404,4171,Suhl,Karl-Liebknecht-Str.,4,98527,Suhl,poststelle@finanzamt-suhl.thueringen.de,NULL
-FA405,5101,Dinslaken,Schillerstr.,71,46535,Dinslaken,Service@FA-5101.fin-nrw.de,NULL
-FA406,5102,Viersen,Eindhovener Str.,71,41751,Viersen,Service@FA-5102.fin-nrw.de,NULL
-FA407,5103,Düsseldorf-Altstadt,Oberrather Str.,2,40472,Düsseldorf,Service@FA-5103.fin-nrw.de,NULL
-FA408,5105,Düsseldorf-Nord,Hans-Böckler-Str.,36,40476,Düsseldorf,Service@FA-5105.fin-nrw.de,NULL
-FA409,5106,Düsseldorf-Süd,Kruppstr.,110,40227,Düsseldorf,Service@FA-5106.fin-nrw.de,NULL
-FA41,1125,Zehlendorf,Martin-Buber-Straße,20,14163,Berlin,poststelle@fa-zehlendorf.verwalt-berlin.de,NULL
-FA410,5107,Duisburg-Hamborn,Hufstr.,25,47166,Duisburg,Service@FA-5107.fin-nrw.de,NULL
-FA411,5109,Duisburg-Süd,Landfermannstr.,25,47051,Duisburg,Service@FA-5109.fin-nrw.de,NULL
-FA412,5111,Essen-NordOst,Altendorfer Str.,129,45143,Essen,Service@FA-5111.fin-nrw.de,NULL
-FA413,5112,Essen-Süd,Altendorfer Str.,129,45143,Essen,Service@FA-5112.fin-nrw.de,NULL
-FA414,5113,Geldern,Am Nierspark,25,47608,Geldern,Service@FA-5113.fin-nrw.de,NULL
-FA415,5114,Grevenbroich,Merkatorstr.,12,41515,Grevenbroich,Service@FA-5114.fin-nrw.de,NULL
-FA416,5115,Kempen,Arnoldstr.,13,47906,Kempen,Service@FA-5115.fin-nrw.de,NULL
-FA417,5116,Kleve,Emmericher Str.,182,47533,Kleve,Service@FA-5116.fin-nrw.de,NULL
-FA418,5117,Krefeld,Grenzstr.,100,47799,Krefeld,Service@FA-5117.fin-nrw.de,NULL
-FA419,5119,Kamp-Lintfort,Südstr.,11,47475,Kamp-Lintfort,Service@FA-5119.fin-nrw.de,NULL
-FA42,1127,für Körperschaften I,Bredtschneiderstraße,5,14057,Berlin,poststelle@fa-koerperschaften-i.verwalt-berlin.de,NULL
-FA420,5120,Mülheim an der Ruhr,Wilhelmstr.,7,45468,Mülheim,Service@FA-5120.fin-nrw.de,NULL
-FA421,5121,Mönchengladbach,Am Hockeypark,2,41179,Mönchengladbach,Service@FA-5121.fin-nrw.de,NULL
-FA422,5122,Neuss,Hammfelddamm,9,41460,Neuss,Service@FA-5122.fin-nrw.de,NULL
-FA423,5123,Oberhausen-Nord,Gymnasialstr.,16,46145,Oberhausen,Service@FA-5123.fin-nrw.de,NULL
-FA424,5124,Oberhausen-Süd,Schwartzstr.,7,46045,Oberhausen,Service@FA-5124.fin-nrw.de,NULL
-FA425,5126,Remscheid,Wupperstr.,10,42897,Remscheid,Service@FA-5126.fin-nrw.de,NULL
-FA426,5128,Solingen,Goerdelerstr.,50,42651,Solingen,Service@FA-5128.fin-nrw.de,NULL
-FA427,5130,Wesel,Heuberg,8,46483,Wesel,Service@FA-5130.fin-nrw.de,NULL
-FA428,5131,Wuppertal-Barmen,Unterdörnen,96,42283,Wuppertal,Service@FA-5131.fin-nrw.de,NULL
-FA429,5132,Wuppertal-Elberfeld,Kasinostr.,12,42103,Wuppertal,Service@FA-5132.fin-nrw.de,NULL
-FA43,1129,für Körperschaften III,Volkmarstraße,13,12099,Berlin,poststelle@fa-koerperschaften-iii.verwalt-berlin.de,NULL
-FA430,5133,Düsseldorf-Mitte,Kruppstr.,110,40227,Düsseldorf,Service@FA-5133.fin-nrw.de,NULL
-FA431,5134,Duisburg-West,Friedrich-Ebert-Str.,133,47226,Duisburg,Service@FA-5134.fin-nrw.de,NULL
-FA432,5135,Hilden,Neustr.,60,40721,Hilden,Service@FA-5135.fin-nrw.de,NULL
-FA433,5139,Velbert,Nedderstr.,38,42549,Velbert,Service@FA-5139.fin-nrw.de,NULL
-FA434,5147,Düsseldorf-Mettmann,Harkortstr.,2,40210,Düsseldorf,Service@FA-5147.fin-nrw.de,NULL
-FA435,5149,Rechenzentrum d. FinVerw NRW,Roßstr.,131,40476,Düsseldorf,Service@FA-5149.fin-nrw.de,NULL
-FA436,5170,Düsseldorf I für Groß- und Konzernbetriebsprüfung,Kanzlerstr.,6,40472,Düsseldorf,Service@FA-5170.fin-nrw.de,NULL
-FA437,5171,Düsseldorf II für Groß- und Konzernbetriebsprüfung,Kanzlerstr.,6,40472,Düsseldorf,Service@FA-5171.fin-nrw.de,NULL
-FA438,5172,Essen für Groß- und Konzernbetriebsprüfung,In der Hagenbeck,64,45143,Essen,Service@FA-5172.fin-nrw.de,NULL
-FA439,5173,Krefeld für Groß- und Konzernbetriebsprüfung,De-Greiff-Straße,199,47803,Krefeld,Service@FA-5173.fin-nrw.de,NULL
-FA44,1130,für Körperschaften IV,Magdalenenstraße,25,10365,Berlin,poststelle@fa-koerperschaften-iv.verwalt-berlin.de,NULL
-FA440,5174,Bergisches Land für Groß- und Konzernbetriebsprüfung,Gleisdreieck,5,42651,Solingen,Service@FA-5174.fin-nrw.de,NULL
-FA441,5176,Mönchengladbach für Groß- und Konzernbetriebsprüfung,Am Hockeypark,2,41179,Mönchengladbach,Service@FA-5176.fin-nrw.de,NULL
-FA442,5181,Düsseldorf f. Steuerfahndung und Steuerstrafsachen,Kruppstr.,110,40227,Düsseldorf,Service@FA-5181.fin-nrw.de,NULL
-FA443,5182,Essen f. Steuerfahndung und Steuerstrafsachen,In der Hagenbeck,64,45143,Essen,Service@FA-5182.fin-nrw.de,NULL
-FA444,5183,Wuppertal f. Steuerfahndung und Steuerstrafsachen,Unterdörnen,96,42283,Wuppertal,Service@FA-5183.fin-nrw.de,NULL
-FA445,5201,Aachen-Stadt,Krefelder Str.,210,52070,Aachen,Service@FA-5201.fin-nrw.de,NULL
-FA446,5202,Aachen-Kreis,Krefelder Straße,210,52070,Aachen,Service@FA-5202.fin-nrw.de,NULL
-FA447,5203,Bergheim,Rathausstr.,3,50126,Bergheim,Service@FA-5203.fin-nrw.de,NULL
-FA448,5204,Bergisch Gladbach,Refrather Weg,35,51469,Bergisch Gladbach,Service@FA-5204.fin-nrw.de,NULL
-FA449,5205,Bonn-Innenstadt,Welschnonnenstr.,15,53111,Bonn,Service@FA-5205.fin-nrw.de,NULL
-FA45,1131,Prenzlauer Berg,Storkower Straße,134,10407,Berlin,poststelle@fa-prenzlauer-berg.verwalt-berlin.de,NULL
-FA450,5206,Bonn-Außenstadt,Bachstr.,36,53115,Bonn,Service@FA-5206.fin-nrw.de,NULL
-FA451,5207,Düren,Goethestr.,7,52349,Düren,Service@FA-5207.fin-nrw.de,NULL
-FA452,5208,Erkelenz,Südpromenade,37,41812,Erkelenz,Service@FA-5208.fin-nrw.de,NULL
-FA453,5209,Euskirchen,Thomas-Mann-Str.,2,53879,Euskirchen,Service@FA-5209.fin-nrw.de,NULL
-FA454,5210,Geilenkirchen,Herz.-Wilh.-Str.,41,52511,Geilenkirchen,Service@FA-5210.fin-nrw.de,NULL
-FA455,5211,Schleiden,Kurhausstr.,7,53937,Schleiden,Service@FA-5211.fin-nrw.de,NULL
-FA456,5212,Gummersbach,Mühlenbergweg,5,51645,Gummersbach,Service@FA-5212.fin-nrw.de,NULL
-FA457,5213,Jülich,Wilhelmstraße,5,52428,Jülich,Service@FA-5213.fin-nrw.de,NULL
-FA458,5214,Köln-Altstadt,Am Weidenbach,2,50676,Köln,Service@FA-5214.fin-nrw.de,NULL
-FA459,5215,Köln-Mitte,Blaubach,7,50676,Köln,Service@FA-5215.fin-nrw.de,NULL
-FA46,1132,Lichtenberg,Josef-Orlopp-Straße,62,10365,Berlin,poststelle@fa-lichtenberg.verwalt-berlin.de,NULL
-FA460,5216,Köln-Porz,Klingerstr.,2,51143,Köln,Service@FA-5216.fin-nrw.de,NULL
-FA461,5217,Köln-Nord,Innere Kanalstr.,214,50670,Köln,Service@FA-5217.fin-nrw.de,NULL
-FA462,5218,Köln-Ost,Siegesstr.,1,50679,Köln,Service@FA-5218.fin-nrw.de,NULL
-FA463,5219,Köln-Süd,Am Weidenbach,6,50676,Köln,Service@FA-5219.fin-nrw.de,NULL
-FA464,5220,Siegburg,Mühlenstr.,19,53721,Siegburg,Service@FA-5220.fin-nrw.de,NULL
-FA465,5221,Wipperfürth,Am Stauweiher,3,51688,Wipperfürth,Service@FA-5221.fin-nrw.de,NULL
-FA466,5222,Sankt Augustin,Hubert-Minz-Str,10,53757,Sankt Augustin,Service@FA-5222.fin-nrw.de,NULL
-FA467,5223,Köln-West,Haselbergstr.,20,50931,Köln,Service@FA-5223.fin-nrw.de,NULL
-FA468,5224,Brühl,Kölnstr.,104,50321,Brühl,Service@FA-5224.fin-nrw.de,NULL
-FA469,5230,Leverkusen,Marie-Curie-Str.,2,51377,Leverkusen,Service@FA-5230.fin-nrw.de,NULL
-FA47,1133,Marzahn-Hellersdorf,Allee der Kosmonauten,29,12681,Berlin,poststelle@fa-marzahn-hellersdorf.verwalt-berlin.de,NULL
-FA470,5270,Köln für Groß- und Konzernbetriebsprüfung,Am Gleisdreieck,7,50823,Köln,Service@FA-5270.fin-nrw.de,NULL
-FA471,5271,Aachen für Groß- und Konzernbetriebsprüfung,Krefelder Str.,210,52070,Aachen,Service@FA-5271.fin-nrw.de,NULL
-FA472,5272,Bonn für Groß- und Konzernbetriebsprüfung,Kölnstr.,32,53111,Bonn,Service@FA-5272.fin-nrw.de,NULL
-FA473,5281,Aachen f. Steuerfahndung und Steuerstrafsachen,Krefelder Str.,210,52070,Aachen,Service@FA-5281.fin-nrw.de,NULL
-FA474,5282,Bonn f. Steuerfahndung und Steuerstrafsachen,Am Propsthof,17,53121,Bonn,Service@FA-5282.fin-nrw.de,NULL
-FA475,5283,Köln f. Steuerfahndung und Steuerstrafsachen,Am Gleisdreieck,7,50823,Köln,Service@FA-5283.fin-nrw.de,NULL
-FA476,5301,Ahaus,Vredener Dyk,2,48683,Ahaus,Service@FA-5301.fin-nrw.de,NULL
-FA477,5302,Altena,Winkelsen,11,58762,Altena,Service@FA-5302.fin-nrw.de,NULL
-FA478,5303,Arnsberg,Rumbecker Str.,36,59821,Arnsberg,Service@FA-5303.fin-nrw.de,NULL
-FA479,5304,Beckum,Paterweg,25,59269,Beckum,Service@FA-5304.fin-nrw.de,NULL
-FA48,1134,Mitte/Tiergarten,Neue Jakobstraße,6,10179,Berlin,poststelle@fa-mitte-tiergarten.verwalt-berlin.de,NULL
-FA480,5305,Bielefeld-Innenstadt,Ravensberger Straße,90,33607,Bielefeld,Service@FA-5305.fin-nrw.de,NULL
-FA481,5306,Bochum-Mitte,Castroper Str.,40,44791,Bochum,Service@FA-5306.fin-nrw.de,NULL
-FA482,5307,Borken,Nordring,184,46325,Borken,Service@FA-5307.fin-nrw.de,NULL
-FA483,5308,Bottrop,Scharnhölzstr.,32,46236,Bottrop,Service@FA-5308.fin-nrw.de,NULL
-FA484,5309,Brilon,Almerfeldweg,30,59929,Brilon,Service@FA-5309.fin-nrw.de,NULL
-FA485,5310,Bünde,Lettow-Vorbeck-Str.,2,32257,Bünde,Service@FA-5310.fin-nrw.de,NULL
-FA486,5311,Steinfurt,Ochtruper Str.,2,48565,Steinfurt,Service@FA-5311.fin-nrw.de,NULL
-FA487,5312,Coesfeld,Friedrich-Ebert-Str.,8,48653,Coesfeld,Service@FA-5312.fin-nrw.de,NULL
-FA488,5313,Detmold,Wotanstr.,8,32756,Detmold,Service@FA-5313.fin-nrw.de,NULL
-FA489,5314,Dortmund-West,Märkische Straße,124,44141,Dortmund,Service@FA-5314.fin-nrw.de,NULL
-FA49,1135,Pankow/Weißensee,Storkower Straße,134,10407,Berlin,poststelle@fa-pankow-weissensee.verwalt-berlin.de,NULL
-FA490,5315,Dortmund-Hörde,Niederhofener Str.,3,44263,Dortmund,Service@FA-5315.fin-nrw.de,NULL
-FA491,5316,Dortmund-Unna,Trakehnerweg,4,44143,Dortmund,Service@FA-5316.fin-nrw.de,NULL
-FA492,5317,Dortmund-Ost,Auf dem Hohwart,2,44143,Dortmund,Service@FA-5317.fin-nrw.de,NULL
-FA493,5319,Gelsenkirchen,Ludwig-Erhard-Str.,7,45891,Gelsenkirchen,Service@FA-5319.fin-nrw.de,NULL
-FA494,5321,Hagen,Schürmannstr.,7,58097,Hagen,Service@FA-5321.fin-nrw.de,NULL
-FA495,5322,Hamm,Grünstr.,2,59065,Hamm,Service@FA-5322.fin-nrw.de,NULL
-FA496,5323,Hattingen,Rathausplatz,19,45525,Hattingen,Service@FA-5323.fin-nrw.de,NULL
-FA497,5324,Herford,Wittekindstr.,5,32051,Herford,Service@FA-5324.fin-nrw.de,NULL
-FA498,5325,Herne,Markgrafenstr.,12,44623,Herne,Service@FA-5325.fin-nrw.de,NULL
-FA499,5326,Höxter,Bismarckstr.,11,37671,Höxter,Service@FA-5326.fin-nrw.de,NULL
-FA50,1136,Treptow-Köpenick,Seelenbinderstraße,99,12555,Berlin,poststelle@fa-treptow-koepenick.verwalt-berlin.de,NULL
-FA500,5327,Ibbenbüren,Uphof,10,49477,Ibbenbüren,Service@FA-5327.fin-nrw.de,NULL
-FA501,5328,Iserlohn,Zollernstr.,16,58636,Iserlohn,Service@FA-5328.fin-nrw.de,NULL
-FA502,5329,Lemgo,Engelb.-Kämpfer-Str.,18,32657,Lemgo,Service@FA-5329.fin-nrw.de,NULL
-FA503,5330,Lippstadt,Im Grünen Winkel,5,59555,Lippstadt,Service@FA-5330.fin-nrw.de,NULL
-FA504,5331,Lübbecke,Bohlenstr.,102,32312,Lübbecke,Service@FA-5331.fin-nrw.de,NULL
-FA505,5332,Lüdenscheid,Bahnhofsallee,16,58507,Lüdenscheid,Service@FA-5332.fin-nrw.de,NULL
-FA506,5333,Lüdinghausen,Bahnhofstr.,32,59348,Lüdinghausen,Service@FA-5333.fin-nrw.de,NULL
-FA507,5334,Meschede,Fritz-Honsel-Str.,4,59872,Meschede,Service@FA-5334.fin-nrw.de,NULL
-FA508,5335,Minden,Heidestr.,10,32427,Minden,Service@FA-5335.fin-nrw.de,NULL
-FA509,5336,Münster-Außenstadt,Friedrich-Ebert-Str.,46,48153,Münster,Service@FA-5336.fin-nrw.de,NULL
-FA51,1137,für Körperschaften II,Magdalenenstraße,25,10365,Berlin,poststelle@fa-koerperschaften-ii.verwalt-berlin.de,NULL
-FA510,5337,Münster-Innenstadt,Anton-Bruchausen-Str,1,48147,Münster,Service@FA-5337.fin-nrw.de,NULL
-FA511,5338,Olpe,Am Gallenberg,20,57462,Olpe,Service@FA-5338.fin-nrw.de,NULL
-FA512,5339,Paderborn,Bahnhofstr.,28,33102,Paderborn,Service@FA-5339.fin-nrw.de,NULL
-FA513,5340,Recklinghausen,Westerholter Weg,2,45657,Recklinghausen,Service@FA-5340.fin-nrw.de,NULL
-FA514,5341,Schwelm,Bahnhofplatz,6,58332,Schwelm,Service@FA-5341.fin-nrw.de,NULL
-FA515,5342,Siegen,Weidenauer Str.,207,57076,Siegen,Service@FA-5342.fin-nrw.de,NULL
-FA516,5343,Soest,Heinsbergplatz,13,59494,Soest,Service@FA-5343.fin-nrw.de,NULL
-FA517,5345,Warburg,Sternstr.,33,34414,Warburg,Service@FA-5345.fin-nrw.de,NULL
-FA518,5346,Warendorf,Düsternstr.,43,48231,Warendorf,Service@FA-5346.fin-nrw.de,NULL
-FA519,5347,Wiedenbrück,Am Sandberg,56,33378,Rheda-Wiedenbrück,Service@FA-5347.fin-nrw.de,NULL
-FA52,1138,für Fahndung und Strafsachen Berlin,Ullsteinstraße,66,12109,Berlin,poststelle@fa-fahndung-und-strafsachen.verwalt-berlin.de,NULL
-FA520,5348,Witten,Ruhrstr.,43,58452,Witten,Service@FA-5348.fin-nrw.de,NULL
-FA521,5349,Bielefeld-Außenstadt,Ravensberger Str.,125,33607,Bielefeld,Service@FA-5349.fin-nrw.de,NULL
-FA522,5350,Bochum-Süd,Königsallee,21,44789,Bochum,Service@FA-5350.fin-nrw.de,NULL
-FA523,5351,Gütersloh,Neuenkirchener Str.,86,33332,Gütersloh,Service@FA-5351.fin-nrw.de,NULL
-FA524,5359,Marl,Brassertstr.,1,45768,Marl,Service@FA-5359.fin-nrw.de,NULL
-FA525,5371,Bielefeld für Groß- und Konzernbetriebsprüfung,Ravensberger Str.,90,33607,Bielefeld,Service@FA-5371.fin-nrw.de,NULL
-FA526,5372,Herne für Groß- und Konzernbetriebsprüfung,Hauptstr.,123,44651,Herne,Service@FA-5372.fin-nrw.de,NULL
-FA527,5373,Detmold für Groß- und Konzernbetriebsprüfung,Richthofenstr.,94,32756,Detmold,Service@FA-5373.fin-nrw.de,NULL
-FA528,5374,Dortmund für Groß- und Konzernbetriebsprüfung,Auf dem Hohwart,2,44143,Dortmund,Service@FA-5374.fin-nrw.de,NULL
-FA529,5375,Hagen für Groß- und Konzernbetriebsprüfung,Hochstr.,43,58095,Hagen,Service@FA-5375.fin-nrw.de,NULL
-FA53,1191,Technisches Finanzamt Berlin,Klosterstraße,59,10179,Berlin,poststelle@tfa.verwalt-berlin.de,NULL
-FA530,5376,Münster für Groß- und Konzernbetriebsprüfung,Albersloher Weg,250,48155,Münster,Service@FA-5376.fin-nrw.de,NULL
-FA531,5381,Bielefeld f. Steuerfahndung und Steuerstrafsachen,Ravensberger Str.,90,33607,Bielefeld,Service@FA-5381.fin-nrw.de,NULL
-FA532,5382,Bochum f. Steuerfahndung und Steuerstrafsachen,Uhlandstr.,37,44791,Bochum,Service@FA-5382.fin-nrw.de,NULL
-FA533,5383,Hagen f. Steuerfahndung und Steuerstrafsachen,Becheltestr.,32,58089,Hagen,Service@FA-5383.fin-nrw.de,NULL
-FA534,5384,Münster f. Steuerfahndung und Steuerstrafsachen,Albersloher Weg,250,48155,Münster,Service@FA-5384.fin-nrw.de,NULL
-FA535,9101,Augsburg-Stadt Arbeitnehmerbereich,Prinzregentenpl.,2,86150,Augsburg,poststelle@fa-a-s.bayern.de,NULL
-FA536,9102,Augsburg-Land,Sieglindenstr.,19,86152,Augsburg,poststelle.fa-a-l@finanzamt.bayern.de,NULL
-FA537,9103,Augsburg-Stadt,Prinzregentenpl.,2,86150,Augsburg,poststelle.fa-a-s@finanzamt.bayern.de,NULL
-FA538,9104,Wolfratshausen - Bad Tölz,Prof.-Max-Lange-Platz,2,83646,Bad Tölz,poststelle.fa-toel@finanzamt.bayern.de,NULL
-FA539,9105,Berchtesgaden-Laufen,Salzburger Str.,6,83471,Berchtesgaden,poststelle.fa-bgd@finanzamt.bayern.de,NULL
-FA54,2111,Bad Segeberg,Theodor-Storm-Str.,4,23795,Bad Segeberg,poststelle@fa-bad-segeberg.landsh.de,NULL
-FA540,9106,Burghausen,Tittmoninger Str.,1,84489,Burghausen,poststelle.fa-burgh@finanzamt.bayern.de,NULL
-FA541,9107,Dachau,Bürgermeister-Zauner-Ring,2,85221,Dachau,poststelle.fa-dah@finanzamt.bayern.de,NULL
-FA542,9108,Deggendorf,Pfleggasse,18,94469,Deggendorf,poststelle.fa-deg@finanzamt.bayern.de,NULL
-FA543,9109,Dillingen,Schloßstr.,3,89407,Dillingen,poststelle.fa-dlg@finanzamt.bayern.de,NULL
-FA544,9110,Dingolfing,Obere Stadt,44,84130,Dingolfing,poststelle.fa-dgf@finanzamt.bayern.de,NULL
-FA545,9111,Nördlingen mit ASt Donauwörth,Sallingerstr.,2,86609,Donauwörth,poststelle.fa-noe@finanzamt.bayern.de,NULL
-FA546,9112,Ebersberg,Schloßplatz,1,85560,Ebersberg,poststelle.fa-ebe@finanzamt.bayern.de,NULL
-FA547,9113,Eggenfelden,Pfarrkirchner Str.,71,84307,Eggenfelden,poststelle.fa-eg@finanzamt.bayern.de,NULL
-FA548,9114,Erding,Münchener Str.,31,85435,Erding,poststelle.fa-ed@finanzamt.bayern.de,NULL
-FA549,9115,Freising,Prinz-Ludwig-Str.,26,85354,Freising,poststelle.fa-fs@finanzamt.bayern.de,NULL
-FA55,2113,Elmshorn,Friedensallee,7,25335,Elmshorn,poststelle@fa-elmshorn.landsh.de,NULL
-FA550,9116,Bundeszentralamt für Steuern,An der Küppe,1,53225,Bonn,Poststelle@bzst.bund.de,NULL
-FA551,9117,Fürstenfeldbruck,Münchner Str.,36,82256,Fürstenfeldbruck,poststelle.fa-ffb@finanzamt.bayern.de,NULL
-FA552,9119,Garmisch-Partenkirchen,Dompfaffstr.,5,82467,Garmisch-Partenkirchen,poststelle.fa-gap@finanzamt.bayern.de,NULL
-FA553,9121,Günzburg,Schloßpl.,3,89312,Günzburg,poststelle.fa-gz@finanzamt.bayern.de,NULL
-FA554,9123,Kempten-Immenstadt,Rothenfelsstr.,18,87509,Immenstadt,poststelle.fa-immen@finanzamt.bayern.de,NULL
-FA555,9124,Ingolstadt,Esplanade,38,85049,Ingolstadt,poststelle.fa-in@finanzamt.bayern.de,NULL
-FA556,9125,Kaufbeuren m. ASt Füssen,Remboldstr.,21,87600,Kaufbeuren,poststelle.fa-kf@finanzamt.bayern.de,NULL
-FA557,9126,Kelheim,Klosterstr.,1,93309,Kelheim,poststelle.fa-keh@finanzamt.bayern.de,NULL
-FA558,9127,Kempten-Immenstadt,Am Stadtpark,3,87435,Kempten,poststelle.fa-ke@finanzamt.bayern.de,NULL
-FA559,9131,Landsberg am Lech,Israel-Beker-Str.,20,86896,Landsberg am Lech,poststelle.fa-ll@finanzamt.bayern.de,NULL
-FA56,2115,Flensburg,Duburger Str.,58,24939,Flensburg,poststelle@fa-flensburg.landsh.de,NULL
-FA560,9132,Landshut,Maximilianstr.,21,84028,Landshut,poststelle.fa-la@finanzamt.bayern.de,NULL
-FA561,9134,Lindau,Brettermarkt,4,88131,Lindau,poststelle.fa-li@finanzamt.bayern.de,NULL
-FA562,9138,Memmingen-Mindelheim,Bodenseestr.,6,87700,Memmingen,poststelle.fa-mm@finanzamt.bayern.de,NULL
-FA563,9139,Miesbach,Schlierseer Str.,5,83714,Miesbach,poststelle.fa-mb@finanzamt.bayern.de,NULL
-FA564,9140,Memmingen-Mindelheim,Bahnhofstr.,16,87719,Mindelheim,poststelle.fa-mn@finanzamt.bayern.de,NULL
-FA565,9141,Mühldorf,Katharinenplatz,16,84453,Mühldorf,poststelle.fa-mue@finanzamt.bayern.de,NULL
-FA566,9142,München Bewertung des Grundbesitzes,Katharina-von-Bora-Straße,4,80333,München,poststelle-hoe@famuc.bayern.de,NULL
-FA567,9143,München Körperschaften/PersonenGesellschaften,Katharina-von-Bora-Straße,4,80333,München,poststelle-abteilung3@famuc.bayern.de,NULL
-FA568,9144,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,NULL
-FA569,9145,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,NULL
-FA57,2116,Dithmarschen,Ernst-Mohr-Str.,34,25746,Heide,poststelle@fa-dithmarschen.landsh.de,NULL
-FA570,9146,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,NULL
-FA571,9147,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,NULL
-FA572,9148,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,NULL
-FA573,9149,München Erhebung,Winzererstr.,47,80797,München,poststelle-abteilung6@famuc.bayern.de,NULL
-FA574,9151,Neu-Ulm,Nelsonallee,5,89231,Neu-Ulm,poststelle.fa-nu@finanzamt.bayern.de,NULL
-FA575,9152,Nördlingen mit ASt Donauwörth,Tändelmarkt,1,86720,Nördlingen,poststelle.fa-noe@finanzamt.bayern.de,NULL
-FA576,9153,Passau mit Außenstellen,Innstr.,36,94032,Passau,poststelle.fa-pa@finanzamt.bayern.de,NULL
-FA577,9154,Pfaffenhofen,Schirmbeckstr.,5,85276,Pfaffenhofen a. d. Ilm,poststelle.fa-paf@finanzamt.bayern.de,NULL
-FA578,9156,Rosenheim m. ASt Wasserburg,Wittelsbacherstr.,25,83022,Rosenheim,poststelle.fa-ro@finanzamt.bayern.de,NULL
-FA579,9157,Grafenau,Friedhofstr.,1,94481,Grafenau,poststelle.fa-gra@finanzamt.bayern.de,NULL
-FA58,2117,Nordfriesland,Eesackerstraße,11a,25917,Leck,poststelle@fa-nordfriesland.landsh.de,NULL
-FA580,9159,Schrobenhausen m. ASt Neuburg,Rot-Kreuz-Str.,2,86529,Schrobenhausen,poststelle.fa-sob@finanzamt.bayern.de,NULL
-FA581,9161,Starnberg,Schloßbergstr.,12,82319,Starnberg,poststelle.fa-sta@finanzamt.bayern.de,NULL
-FA582,9162,Straubing,Fürstenstr.,21,94315,Straubing,poststelle.fa-sr@finanzamt.bayern.de,NULL
-FA583,9163,Traunstein,Herzog-Otto-Str.,6,83278,Traunstein,poststelle.fa-ts@finanzamt.bayern.de,NULL
-FA584,9168,Weilheim-Schongau,Hofstr.,23,82352,Weilheim,poststelle.fa-wm@finanzamt.bayern.de,NULL
-FA585,9169,Wolfratshausen - Bad Tölz,Heimgartenstr.,5,82515,Wolfratshausen,poststelle.fa-wor@finanzamt.bayern.de,NULL
-FA586,9170,Zwiesel m. ASt Viechtach,Stadtplatz,16,94227,Zwiesel,poststelle.fa-zwi@finanzamt.bayern.de,NULL
-FA587,9171,Eichstätt,Residenzplatz,8,85072,Eichstätt,poststelle.fa-ei@finanzamt.bayern.de,NULL
-FA588,9181,München Überschusseinkünfte,Deroystr.,18,80269,München,poststelle-deg@famuc.bayern.de,NULL
-FA589,9182,München Überschusseinkünfte u. Beschränkt Steuerpfl.,Deroystr.,18,80269,München,poststelle-sr@famuc.bayern.de,NULL
-FA59,2118,Itzehoe,Fehrsstr.,5,25524,Itzehoe,poststelle@fa-itzehoe.landsh.de,NULL
-FA590,9183,München Überschusseinkünfte,Deroystr.,18,80301,München,poststelle-in@famuc.bayern.de,NULL
-FA591,9184,München Überschusseinkünfte,Deroystr.,18,80269,München,poststelle-pa@famuc.bayern.de,NULL
-FA592,9185,München Überschusseinkünfte,Deroystr.,18,80301,München,poststelle-ei@famuc.bayern.de,NULL
-FA593,9187,München Körperschaften,Katharina-von-Bora-Straße,4,80333,München,poststelle-abteilung3@famuc.bayern.de,NULL
-FA594,9188,München Betriebsprüfung,Deroystr.,22,80335,München,poststelle-abteilung5@famuc.bayern.de,NULL
-FA595,9189,München Erhebung,Winzererstr.,47,80797,München,poststelle-abteilung6@famuc.bayern.de,NULL
-FA596,9201,Amberg,Kirchensteig,2,92224,Amberg,poststelle.fa-am@finanzamt.bayern.de,NULL
-FA597,9202,Obernburg am Main mit Außenstelle Amorbach,Römerstr.,91,63785,Obernburg am Main,poststelle-obernburg.fa-amorb@finanzamt.bayern.de,NULL
-FA598,9203,Ansbach mit Außenstellen,Mozartstr.,25,91522,Ansbach,poststelle.fa-an@finanzamt.bayern.de,NULL
-FA599,9204,Aschaffenburg,Auhofstr.,13,63741,Aschaffenburg,poststelle.fa-ab@finanzamt.bayern.de,NULL
-FA60,2120,Kiel,Feldstr.,23,24105,Kiel,poststelle@fa-kiel.landsh.de,NULL
-FA600,9205,Bad Kissingen,Bibrastr.,10,97688,Bad Kissingen,poststelle.fa-kg@finanzamt.bayern.de,NULL
-FA601,9206,Bad Neustadt a.d.S.,Meininger Str.,39,97616,Bad Neustadt,poststelle.fa-nes@finanzamt.bayern.de,NULL
-FA602,9207,Bamberg,Martin-Luther-Str.,1,96050,Bamberg,poststelle.fa-ba@finanzamt.bayern.de,NULL
-FA603,9208,Bayreuth,Maximilianstr.,12,95444,Bayreuth,poststelle.fa-bt@finanzamt.bayern.de,NULL
-FA604,9211,Cham mit Außenstelle Bad Kötzting,Reberstr.,2,93413,Cham,poststelle.fa-cha@finanzamt.bayern.de,NULL
-FA605,9212,Coburg,Rodacher Straße,4,96450,Coburg,poststelle.fa-co@finanzamt.bayern.de,NULL
-FA606,9216,Erlangen,Schubertstr,10,91052,Erlangen,poststelle.fa-er@finanzamt.bayern.de,NULL
-FA607,9217,Forchheim,Dechant-Reuder-Str.,6,91301,Forchheim,poststelle.fa-fo@finanzamt.bayern.de,NULL
-FA608,9218,Fürth,Stresemannplatz,15,90763,Fürth,poststelle.fa-fue@finanzamt.bayern.de,NULL
-FA609,9220,Gunzenhausen,Hindenburgplatz,1,91710,Gunzenhausen,poststelle.fa-gun@finanzamt.bayern.de,NULL
-FA610,9221,Hersbruck,Amberger Str.,76,91217,Hersbruck,poststelle.fa-heb@finanzamt.bayern.de,NULL
-FA611,9222,Hilpoltstein,Spitalwinkel,3,91161,Hilpoltstein,poststelle.fa-hip@finanzamt.bayern.de,NULL
-FA612,9223,Hof mit Außenstellen,Ernst-Reuter-Str.,60,95030,Hof,poststelle.fa-ho@finanzamt.bayern.de,NULL
-FA613,9227,Kitzingen,Moltkestr.,24,97318,Kitzingen,poststelle.fa-kt@finanzamt.bayern.de,NULL
-FA614,9228,Kronach,Amtsgerichtsstr.,13,96317,Kronach,poststelle.fa-kc@finanzamt.bayern.de,NULL
-FA615,9229,Kulmbach,Georg-Hagen-Str.,17,95326,Kulmbach,poststelle.fa-ku@finanzamt.bayern.de,NULL
-FA616,9230,Lichtenfels,Kronacher Str.,39,96215,Lichtenfels,poststelle.fa-lif@finanzamt.bayern.de,NULL
-FA617,9231,Lohr a. Main mit Außenstellen,Rexrothstr.,14,97816,Lohr,poststelle.fa-loh@finanzamt.bayern.de,NULL
-FA618,9232,Lohr a. Main mit Außenstellen - Grunderwerbsteuer,Rexrothstr.,14,97816,Lohr,poststelle.fa-loh@finanzamt.bayern.de,NULL
-FA619,9235,Neumarkt i.d.Opf.,Ingolstädter Str.,3,92318,Neumarkt,poststelle.fa-nm@finanzamt.bayern.de,NULL
-FA62,2122,Lübeck,Possehlstr.,4,23560,Lübeck,poststelle@fa-luebeck.landsh.de,NULL
-FA620,9238,Nürnberg-Nord,Kirchenweg,10,90419,Nürnberg,poststelle.fa-n-n@finanzamt.bayern.de,NULL
-FA621,9240,Nürnberg-Süd,Sandstr.,20,90443,Nürnberg,poststelle.fa-n-s@finanzamt.bayern.de,NULL
-FA622,9241,Nürnberg-Zentral,Thomas-Mann-Str.,50,90471,Nürnberg,poststelle.fa-n-zfa@finanzamt.bayern.de,NULL
-FA623,9244,Regensburg,Galgenbergstr.,31,93053,Regensburg,poststelle.fa-r@finanzamt.bayern.de,NULL
-FA624,9247,Schwabach,Theodor-Heuss-Str.,63,91126,Schwabach,poststelle.fa-sc@finanzamt.bayern.de,NULL
-FA625,9248,Schwandorf mit Außenstelle Neunburg v. W.,Friedrich-Ebert-Str.,59,92421,Schwandorf,poststelle.fa-sad@finanzamt.bayern.de,NULL
-FA626,9249,Schweinfurt,Schrammstr.,3,97421,Schweinfurt,poststelle.fa-sw@finanzamt.bayern.de,NULL
-FA627,9252,Uffenheim,Schloßplatz,7,97215,Uffenheim,poststelle.fa-uff@finanzamt.bayern.de,NULL
-FA628,9254,Waldsassen,Johannisplatz,13,95652,Waldsassen,poststelle.fa-wasa@finanzamt.bayern.de,NULL
-FA629,9255,Weiden i.d.Opf.,Schlörpl.,2,92637,Weiden,poststelle.fa-wen@finanzamt.bayern.de,NULL
-FA630,9257,Würzburg mit Außenstelle Ochsenfurt,Ludwigstr.,25,97070,Würzburg,poststelle.fa-wue@finanzamt.bayern.de,NULL
-FA631,9258,Wunsiedel mit Außenstelle Selb,Sonnenstr.,11,95632,Wunsiedel,poststelle.fa-wun@finanzamt.bayern.de,NULL
-FA632,9259,Zeil am Main mit Außenstelle Ebern,Obere Torstr.,9,97475,Zeil,poststelle.fa-zei@finanzamt.bayern.de,NULL
-FA64,2124,Neumünster,Bahnhofstr.,9,24534,Neumünster,poststelle@fa-neumuenster.landsh.de,NULL
-FA65,2125,Ostholstein,Lankenstr.,1,23758,Oldenburg,poststelle@fa-ostholstein.landsh.de,NULL
-FA66,2126,Plön,Fünf-Seen-Allee,1,24306,Plön,poststelle@fa-ploen.landsh.de,NULL
-FA67,2127,Ratzeburg,Bahnhofsallee,20,23909,Ratzeburg,poststelle@fa-ratzeburg.landsh.de,NULL
-FA68,2128,Rendsburg,Kieler Str.,19,24768,Rendsburg,poststelle@fa-rendsburg.landsh.de,NULL
-FA69,2129,Eckernförde-Schleswig,Bergstr.,50,24340,Eckernförde,poststelle@fa-eck-sl.landsh.de,NULL
-FA70,2130,Stormarn,Berliner Ring,25,23843,Bad Oldesloe,poststelle@fa-stormarn.landsh.de,NULL
-FA71,2131,Pinneberg,Friedrich-Ebert-Str.,29,25421,Pinneberg,poststelle@fa-pinneberg.landsh.de,NULL
-FA73,2137,Zentrale Prüfungsdienste,Hopfenstr.,2,24114,Kiel,poststelle@fa-zpd.landsh.de,NULL
-FA74,2201,Hamburg für Steuererhebung in Hamburg,Steinstraße,10,20095,Hamburg,FAfuerSteuererhebung@finanzamt.hamburg.de,NULL
-FA75,2210,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,NULL
-FA76,2216,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,NULL
-FA77,2217,Hamburg-Nord,Borsteler Chaussee,45,22453,Hamburg,FAHamburgNord@finanzamt.hamburg.de,NULL
-FA78,2220,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,NULL
-FA79,2227,Hamburg für Großunternehmen in Hamburg,Nordkanalstraße,22,20097,Hamburg,FAfuerGrossunternehmen@finanzamt.hamburg.de,NULL
-FA80,2228,Hamburg für Prüfungsd. und Strafsachen,Hugh-Greene-Weg,6,22529,Hamburg,PoststelleFAPrueStra@finanzamt.hamburg.de,NULL
-FA81,2230,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,NULL
-FA82,2235,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,NULL
-FA83,2241,Hamburg-Altona,Holstenplatz,18,22765,Hamburg,FAHamburgAltona@finanzamt.hamburg.de,NULL
-FA84,2242,Hamburg-Am Tierpark,Hugh-Greene-Weg,6,22529,Hamburg,FAHamburgAmTierpark@finanzamt.hamburg.de,NULL
-FA85,2243,Hamburg-Barmbek-Uhlenhorst,Hamburger Straße,23,22083,Hamburg,FAHamburgBarmbekUhlenhorst@finanzamt.hamburg.de,NULL
-FA86,2244,Hamburg-Ost,Nordkanalstraße,22,20097,Hamburg,FAHamburgOst@finanzamt.hamburg.de,NULL
-FA87,2245,Hamburg-Eimsbüttel,Hugh-Greene-Weg,6,22529,Hamburg,FAHamburgEimsbuettel@finanzamt.hamburg.de,NULL
-FA88,2246,Hamburg-Hansa,Steinstraße,10,20095,Hamburg,FAHamburgHansa@finanzamt.hamburg.de,NULL
-FA89,2247,Hamburg-Harburg,Harburger Ring,40,21073,Hamburg,FAHamburgHarburg@finanzamt.hamburg.de,NULL
-FA90,2248,Hamburg-Mitte,Steinstraße,10,20095,Hamburg,FAHamburgMitte@finanzamt.hamburg.de,NULL
-FA91,2249,Hamburg-Nord,Borsteler Chaussee,45,22453,Hamburg,FAHamburgNord@finanzamt.hamburg.de,NULL
-FA92,2250,Hamburg-Oberalster,Nordkanalstrasse,22,20097,Hamburg,FAHamburgOberalster@finanzamt.hamburg.de,NULL
-FA93,2251,Hamburg-Ost,Nordkanalstraße,22,20097,Hamburg,FAHamburgOst@finanzamt.hamburg.de,NULL
-FA96,2313,Braunschweig-Altewiekring,Altewiekring,20,38102,Braunschweig,Poststelle@fa-bs-a.niedersachsen.de,NULL
-FA97,2314,Braunschweig-Wilhelmstr.,Wilhelmstr.,4,38100,Braunschweig,Poststelle@fa-bs-w.niedersachsen.de,NULL
-FA98,2315,Buchholz in der Nordheide,Bgm.-A.-Meyer-Str.,5,21244,Buchholz,Poststelle@fa-buc.niedersachsen.de,NULL
-FA99,2316,Burgdorf,V.d.Hannov. Tor,30,31303,Burgdorf,Poststelle@fa-bu.niedersachsen.de,NULL
+,id,bufa_nr,name,street,house_number,postcode,city,email,contact_url
+0,FA100,2317,Celle,Im Werder,15,29221,Celle,Poststelle@fa-ce.niedersachsen.de,
+1,FA101,2318,Cuxhaven,Poststr.,81,27474,Cuxhaven,Poststelle@fa-cux.niedersachsen.de,
+2,FA102,2319,Gifhorn,Braunschw. Str.,6,38518,Gifhorn,Poststelle@fa-gf.niedersachsen.de,
+3,FA103,2320,Göttingen,Godehardstr.,6,37073,Göttingen,Poststelle@fa-goe.niedersachsen.de,
+4,FA104,2321,Goslar-Bad Gandersheim,Wachtelpforte,40,38644,Goslar,Poststelle@fa-gs-gan.niedersachsen.de,
+5,FA105,2322,Hameln,Süntelstraße,2,31785,Hameln,Poststelle@fa-hm.niedersachsen.de,
+6,FA106,2323,Hannover-Land I,Göttinger Chaus.,83,30459,Hannover,Poststelle@fa-h-l1.niedersachsen.de,
+7,FA107,2324,Hannover-Mitte,Lavesallee,10,30169,Hannover,Poststelle@fa-h-mi.niedersachsen.de,
+8,FA108,2325,Hannover-Nord,Vahrenwalder Str.,206,30165,Hannover,Poststelle@fa-h-no.niedersachsen.de,
+9,FA109,2326,Hannover-Süd,Göttinger Chaus.,83,30459,Hannover,Poststelle@fa-h-su.niedersachsen.de,
+10,FA110,2327,Hannover-Land II,Vahrenwalder Str.,208,30165,Hannover,Poststelle@fa-h-l2.niedersachsen.de,
+11,FA111,2328,Helmstedt,Ernst-Koch-Str.,3,38350,Helmstedt,Poststelle@fa-he.niedersachsen.de,
+12,FA112,2329,Herzberg am Harz,Sieberstr.,1,37412,Herzberg,Poststelle@fa-hz.niedersachsen.de,
+13,FA113,2330,Hildesheim-Alfeld,Kaiserstraße,47,31104,Hildesheim,Poststelle@fa-hi-alf.niedersachsen.de,
+14,FA114,2331,Holzminden,Ernst-August-Str.,30,37603,Holzminden,Poststelle@fa-hol.niedersachsen.de,
+15,FA116,2333,Lüneburg,Am Alt. Eisenwerk,4,21339,Lüneburg,Poststelle@fa-lg.niedersachsen.de,
+16,FA117,2334,Nienburg/Weser,Schloßplatz,10,31582,Nienburg,Poststelle@fa-ni.niedersachsen.de,
+17,FA118,2335,Northeim,Graf-Otto-Str.,31,37154,Northeim,Poststelle@fa-nom.niedersachsen.de,
+18,FA119,2336,Osterholz-Scharmbeck,Pappstraße,2,27711,Osterholz-Scharmbeck,Poststelle@fa-ohz.niedersachsen.de,
+19,FA120,2338,Peine,Duttenstedt.Str.,106,31224,Peine,Poststelle@fa-pe.niedersachsen.de,
+20,FA121,2340,Rotenburg (Wümme),Hoffeldstr.,5,27356,Rotenburg,Poststelle@fa-row.niedersachsen.de,
+21,FA122,2341,Soltau,Rühberg,16,29614,Soltau,Poststelle@fa-sol.niedersachsen.de,
+22,FA123,2342,Hannover-Land I Außenstelle Springe,Bahnhofstr.,28,31832,Springe,Poststelle@fa-ast-spr.niedersachsen.de,
+23,FA124,2343,Stade,Harburger Str.,113,21680,Stade,Poststelle@fa-std.niedersachsen.de,
+24,FA125,2344,Stadthagen,Schloß,,31655,Stadthagen,Poststelle@fa-shg.niedersachsen.de,
+25,FA126,2345,Sulingen,Hindenburgstr.,16,27232,Sulingen,Poststelle@fa-su.niedersachsen.de,
+26,FA127,2346,Syke,Bürgerm.-Mävers-Str.,15,28857,Syke,Poststelle@fa-sy.niedersachsen.de,
+27,FA128,2347,Uelzen-Lüchow,Am Königsberg,3,29525,Uelzen,Poststelle@fa-ue-luw.niedersachsen.de,
+28,FA129,2348,Verden (Aller),Bremer Straße,4,27283,Verden,Poststelle@fa-ver.niedersachsen.de,
+29,FA130,2349,Wesermünde,Borriesstr.,50,27570,Bremerhaven,Poststelle@fa-wem.niedersachsen.de,
+30,FA131,2350,Winsen (Luhe),Von-Somnitz-Ring,6,21423,Winsen,Poststelle@fa-wl.niedersachsen.de,
+31,FA132,2351,Wolfenbüttel,Jägerstr.,19,38304,Wolfenbüttel,Poststelle@fa-wf.niedersachsen.de,
+32,FA133,2352,Zeven,Kastanienweg,1,27404,Zeven,Poststelle@fa-zev.niedersachsen.de,
+33,FA134,2353,Papenburg,Emdener Straße,15,26871,Aschendorf,Poststelle@fa-pap.niedersachsen.de,
+34,FA135,2354,Aurich,Hasseburger Str.,3,26603,Aurich,Poststelle@fa-aur.niedersachsen.de,
+35,FA136,2355,Bad Bentheim,Heinrich-Böll-Str.,2,48455,Bad Bentheim,Poststelle@fa-ben.niedersachsen.de,
+36,FA137,2356,Cloppenburg,Zur Basilika,1,49661,Cloppenburg,Poststelle@fa-clp.niedersachsen.de,
+37,FA138,2357,Delmenhorst,Fr.-Ebert-Allee,15,27749,Delmenhorst,Poststelle@fa-del.niedersachsen.de,
+38,FA139,2358,Emden,Ringstr.,5,26721,Emden,Poststelle@fa-emd.niedersachsen.de,
+39,FA140,2360,Leer (Ostfriesland),Edzardstr.,12,26789,Leer,Poststelle@fa-ler.niedersachsen.de,
+40,FA141,2361,Lingen (Ems),Mühlentorstr. ,16,49784,Lingen,Poststelle@fa-lin.niedersachsen.de,
+41,FA142,2362,Norden,Mühlenweg,20,26506,Norden,Poststelle@fa-nor.niedersachsen.de,
+42,FA143,2363,Nordenham,Plaatweg,1,26954,Nordenham,Poststelle@fa-nhm.niedersachsen.de,
+43,FA144,2364,Oldenburg (Oldenburg),Stubbenweg,42,26125,Oldenburg,Poststelle@fa-ol.niedersachsen.de,
+44,FA145,2365,Osnabrück-Land,Winkelhausenstraße,24,49090,Osnabrück,Poststelle@fa-os-l.niedersachsen.de,
+45,FA146,2366,Osnabrück-Stadt,Süsterstr.,46,49074,Osnabrück,Poststelle@fa-os-s.niedersachsen.de,
+46,FA147,2367,Quakenbrück,Lange Straße,37,49610,Quakenbrück,Poststelle@fa-qua.niedersachsen.de,
+47,FA148,2368,Vechta,Rombergstr.,49,49377,Vechta,Poststelle@fa-vec.niedersachsen.de,
+48,FA149,2369,Westerstede,Ammerlandallee,14,26655,Westerstede,Poststelle@fa-wst.niedersachsen.de,
+49,FA150,2370,Wilhelmshaven,Rathausplatz,3,26382,Wilhelmshaven,Poststelle@fa-whv.niedersachsen.de,
+50,FA151,2371,Wittmund,Harpertshausen.Str.,2,26409,Wittmund,Poststelle@fa-wtm.niedersachsen.de,
+51,FA152,2380,Braunschweig für Großbetriebsprüfung,Theodor-Heuss-Str.,4,38122,Braunschweig,Poststelle@fa-gbp-bs.niedersachsen.de,
+52,FA153,2381,Göttingen für Großbetriebsprüfung,Godehardstr.,6,37073,Göttingen,Poststelle@fa-gbp-goe.niedersachsen.de,
+53,FA154,2382,Hannover für Großbetriebsprüfung,Bischofsholer Damm,19,30173,Hannover,Poststelle@fa-gbp-h.niedersachsen.de,
+54,FA155,2384,Stade für Großbetriebsprüfung,Albert-Schweitzer-Straße,19,21680,Stade,Poststelle@fa-gbp-std.niedersachsen.de,
+55,FA156,2385,Oldenburg für Großbetriebsprüfung,Georgstr.,36,26121,Oldenburg,Poststelle@fa-gbp-ol.niedersachsen.de,
+56,FA157,2386,Osnabrück für Großbetriebsprüfung,Johann-Domann-Str.,6,49080,Osnabrück,Poststelle@fa-gbp-os.niedersachsen.de,
+57,FA158,2390,für Fahndung und Strafsachen Braunschweig,Rudolf-Steiner-Str.,1,38120,Braunschweig,Poststelle@fa-fust-bs.niedersachsen.de,
+58,FA159,2391,Hannover für Fahndung und Strafsachen,Göttinger Chaus.,83,30459,Hannover,Poststelle@fa-fust-h.niedersachsen.de,
+59,FA160,2392,Lüneburg für Fahndung und Strafsachen,Horst-Nickel-Str.,6,21337,Lüneburg,Poststelle@fa-fust-lg.niedersachsen.de,
+60,FA161,2393,Oldenburg für Fahndung und Strafsachen,Alter Postweg,13,26133,Oldenburg,Poststelle@fa-fust-ol.niedersachsen.de,
+61,FA162,2457,Bremerhaven Bewertung Bremen,Gerhard-Rohlfs-Str.,32,28757,Bremen,office@FinanzamtBremerhaven.bremen.de,
+62,FA163,2460,Bremen,Rudolf-Hilferding-Platz,1,28195,Bremen,office@fa-hb.bremen.de,
+63,FA164,2471,Landeshauptkasse Bremen,Schillerstr.,22,28195,Bremen,office@lhk.bremen.de,
+64,FA166,2475,Bremerhaven,Rickmersstr.,90,27568,Bremerhaven,office@FinanzamtBremerhaven.bremen.de,
+65,FA167,2477,Bremerhaven Bewertung,Rickmersstr.,90,27568,Bremerhaven,office@FinanzamtBremerhaven.bremen.de,
+66,FA168,2478,Bremen für Außenprüfung,Rudolf-Hilferding-Platz,1,28195,Bremen,office@fa-ap.bremen.de,
+67,FA169,2485,Bremerhaven Arbeitnehmerbereich,Rickmersstr.,90,27568,Bremerhaven,office@FinanzamtBremerhaven.bremen.de,
+68,FA170,2601,Alsfeld-Lauterbach Verwaltungsstelle Alsfeld,In der Rambach,11,36304,Alsfeld,Poststelle@FA-AL.Hessen.de,
+69,FA171,2602,Hersfeld-Rotenburg Verwaltungsstelle Bad Hersfeld,Im Stift,7,36251,Bad Hersfeld,Poststelle@FA-HR.Hessen.de,
+70,FA172,2603,Bad Homburg vor der Höhe,Kaiser-Friedrich-Promenade ,8-Oct,61284,Bad Homburg,Poststelle@FA-BHG.Hessen.de,
+71,FA173,2604,Rheingau-Taunus Verwaltungsstelle Bad Schwalbach,Emser Str.,27,65307,Bad Schwalbach,Poststelle@FA-RT.Hessen.de,
+72,FA174,2605,Bensheim,Berliner Ring,35,64625,Bensheim,Poststelle@FA-BEN.Hessen.de,
+73,FA175,2606,Marburg-Biedenkopf Verwaltungsstelle Biedenkopf,Im Feldchen,2,35216,Biedenkopf,Poststelle@FA-MB.Hessen.de,
+74,FA176,2607,Darmstadt,Soderstraße,30,64283,Darmstadt,Poststelle@FA-DAM.Hessen.de,
+75,FA177,2608,Dieburg,Marienstraße,19,64807,Dieburg,Poststelle@FA-DIB.Hessen.de,
+76,FA178,2609,Dillenburg,Wilhelmstraße,9,35683,Dillenburg,Poststelle@FA-DIL.Hessen.de,
+77,FA179,2610,Eschwege-Witzenhausen Verwaltungsstelle Eschwege,Schlesienstraße,2,37269,Eschwege,Poststelle@FA-EW.Hessen.de,
+78,FA180,2611,Korbach-Frankenberg Verwaltungsstelle Frankenberg,Geismarer Straße,16,35066,Frankenberg,Poststelle@FA-KF.Hessen.de,
+79,FA181,2612,Frankfurt am Main II,Gutleutstraße,122,60327,Frankfurt,Poststelle@FA-FF2.Hessen.de,
+80,FA182,2613,Frankfurt am Main I,Gutleutstraße,124,60327,Frankfurt,Poststelle@FA-FF1.Hessen.de,
+81,FA183,2614,Frankfurt am Main IV,Gutleutstraße,118,60327,Frankfurt,Poststelle@FA-FF4.Hessen.de,
+82,FA184,2615,Frankfurt am Main V-Höchst Verwaltungsstelle Höchst,Hospitalstraße,16,65929,Frankfurt,Poststelle@FA-FH.Hessen.de,
+83,FA185,2616,Friedberg (Hessen),Leonhardstraße,10,61169,Friedberg,Poststelle@FA-FBG.Hessen.de,
+84,FA186,2617,Bensheim Außenstelle Fürth,Erbacher Straße,23,64658,Fürth,Poststelle@FA-BEN.Hessen.de,
+85,FA187,2618,Fulda,Königstraße,2,36037,Fulda,Poststelle@FA-FDA.Hessen.de,
+86,FA188,2619,Gelnhausen,Frankfurter Straße,14,63571,Gelnhausen,Poststelle@FA-GEL.Hessen.de,
+87,FA189,2620,Gießen,Schubertstraße,60,35392,Gießen,Poststelle@FA-GIS.Hessen.de,
+88,FA190,2621,Groß-Gerau,Europaring,11,64521,Groß-Gerau,Poststelle@FA-GGE.Hessen.de,
+89,FA191,2622,Hanau,Am Freiheitsplatz,2,63450,Hanau,Poststelle@FA-HAN.Hessen.de,
+90,FA192,2623,Kassel II-Hofgeismar Verwaltungsstelle Hofgeismar,Altstädter Kirchplatz,10,34369,Hofgeismar,Poststelle@FA-KH.Hessen.de,
+91,FA193,2624,Schwalm-Eder Verwaltungsstelle Fritzlar,Georgengasse,5,34560,Fritzlar,Poststelle@FA-SE.Hessen.de,
+92,FA194,2625,Kassel I,Altmarkt,1,34125,Kassel,Poststelle@FA-KS1.Hessen.de,
+93,FA195,2626,Kassel II-Hofgeismar Verwaltungsstelle Kassel,Altmarkt,1,34125,Kassel,Poststelle@FA-KH.Hessen.de,
+94,FA196,2627,Korbach-Frankenberg Verwaltungsstelle Korbach,Medebacher Landstraße,29,34497,Korbach,Poststelle@FA-KF.Hessen.de,
+95,FA197,2628,Langen,Zimmerstraße,27,63225,Langen,Poststelle@FA-LAN.Hessen.de,
+96,FA198,2629,Alsfeld-Lauterbach Verwaltungsstelle Lauterbach,Am Alten Südbahnhof ,1,36341,Lauterbach,Poststelle@FA-AL.Hessen.de,
+97,FA199,2630,Limburg-Weilburg Verwaltungsstelle Limburg,Walderdorffstraße,11,65549,Limburg,Poststelle@FA-LW.Hessen.de,
+98,FA200,2631,Marburg-Biedenkopf Verwaltungsstelle Marburg,Robert-Koch-Straße,7,35037,Marburg,Poststelle@FA-MB.Hessen.de,
+99,FA201,2632,Schwalm-Eder Verwaltungsstelle Melsungen,Kasseler Straße,31,34212,Melsungen,Poststelle@FA-SE.Hessen.de,
+100,FA202,2633,Michelstadt,Erbacher Straße,48,64720,Michelstadt,Poststelle@FA-MIC.Hessen.de,
+101,FA203,2634,Nidda,Schillerstraße,38,63667,Nidda,Poststelle@FA-NID.Hessen.de,
+102,FA204,2635,Offenbach am Main I,Bieberer Straße,59,63065,Offenbach,Poststelle@FA-OF1.Hessen.de,
+103,FA205,2636,Hersfeld-Rotenburg Verwaltungsstelle Rotenburg,Dickenrücker Straße,12,36224,Bad Hersfeld,Poststelle@FA-HR.Hessen.de,
+104,FA206,2637,Rheingau-Taunus Verwaltungsstelle Rüdesheim,Hugo-Asbach-Straße,3,65385,Rüdesheim,Poststelle@FA-RT.Hessen.de,
+105,FA207,2638,Limburg-Weilburg Verwaltungsstelle Weilburg,Kruppstraße,1,35781,Weilburg,Poststelle@FA-LW.Hessen.de,
+106,FA208,2639,Wetzlar,Frankfurter Straße,59,35578,Wetzlar,Poststelle@FA-WEZ.Hessen.de,
+107,FA209,2640,Wiesbaden I,Dostojewskistraße,8,65187,Wiesbaden,Poststelle@FA-WI1.Hessen.de,
+108,FA21,1010,Saarlouis,Gaswerkweg,25,66740,Saarlouis,poststelle@fasls.saarland.de,
+109,FA210,2641,Eschwege-Witzenhausen Verwaltungsstelle Witzenhausen,Südbahnhofstraße,37,37213,Witzenhausen,Poststelle@FA-EW.Hessen.de,
+110,FA211,2642,Schwalm-Eder Verwaltungsstelle Schwalmstadt,Landgraf-Philipp-Straße,15,34613,Schwalmstadt,Poststelle@FA-SE.Hessen.de,
+111,FA212,2643,Wiesbaden II,Dostojewskistraße,8,65187,Wiesbaden,Poststelle@FA-WI2.Hessen.de,
+112,FA213,2644,Offenbach am Main II,Bieberer Straße,59,63065,Offenbach,Poststelle@FA-OF2.Hessen.de,
+113,FA214,2645,Frankfurt am Main III,Gutleutstraße,120,60327,Frankfurt,Poststelle@FA-FF3.Hessen.de,
+114,FA215,2646,Hofheim am Taunus,Nordring,4,65719,Hofheim,Poststelle@FA-HOH.Hessen.de,
+115,FA216,2647,Frankfurt am Main V-Höchst Verwaltungsstelle Frankfurt,Gutleutstraße,116,60327,Frankfurt,Poststelle@FA-FH.Hessen.de,
+116,FA217,2701,Bad Neuenahr-Ahrweiler,Römerstr.,5,53474,Bad Neuenahr-Ahrweiler,Poststelle@fa-aw.fin-rlp.de,
+117,FA218,2702,Altenkirchen-Hachenburg,Frankfurter Str.,21,57610,Altenkirchen,Poststelle@fa-ak.fin-rlp.de,
+118,FA219,2706,Bad Kreuznach,Ringstr.,10,55543,Bad Kreuznach,Poststelle@fa-kh.fin-rlp.de,
+119,FA22,1020,Merzig,Am Gaswerk,,66663,Merzig,poststelle@famzg.saarland.de,
+120,FA220,2708,Bingen-Alzey,Rochusallee,10,55411,Bingen,Poststelle@fa-bi.fin-rlp.de,
+121,FA221,2709,Idar-Oberstein,Hauptstraße,199,55743,Idar-Oberstein,Poststelle@fa-io.fin-rlp.de,
+122,FA222,2710,Bitburg-Prüm,Kölner Straße,20,54634,Bitburg,Poststelle@fa-bt.fin-rlp.de,
+123,FA223,2713,Landesfinanzkasse Daun,Berliner Straße,1,54550,Daun,poststelle@lfk.fin-rlp.de,
+124,FA226,2719,Kaiserslautern,Eisenbahnstr.,56,67655,Kaiserslautern,Poststelle@fa-kl.fin-rlp.de,
+125,FA228,2722,Koblenz,Ferdinand-Sauerbruch-Str.,19,56073,Koblenz,Poststelle@fa-ko.fin-rlp.de,
+126,FA229,2723,Kusel-Landstuhl,Trierer Str.,46,66869,Kusel,Poststelle@fa-ku.fin-rlp.de,
+127,FA23,1030,Neunkirchen,Uhlandstr.,1,66512,Neunkirchen,poststelle@fank.saarland.de,
+128,FA230,2724,Landau,Weißquartierstr.,13,76829,Landau,Poststelle@fa-ld.fin-rlp.de,
+129,FA232,2726,Mainz,Schillerstr.,13,55116,Mainz,poststelle@fa-mz.fin-rlp.de,
+130,FA233,2727,Ludwigshafen,Bayernstr.,39,67061,Ludwigshafen,Poststelle@fa-lu.fin-rlp.de,
+131,FA235,2729,Mayen,Westbahnhofstr.,11,56727,Mayen,Poststelle@fa-my.fin-rlp.de,
+132,FA236,2730,Montabaur-Diez,Koblenzer Str.,15,56410,Montabaur,Poststelle@fa-mt.fin-rlp.de,
+133,FA237,2731,Neustadt,Konrad-Adenauer-Str.,26,67433,Neustadt,Poststelle@fa-nw.fin-rlp.de,
+134,FA238,2732,Neuwied,Augustastr.,70,56564,Neuwied,Poststelle@fa-nr.fin-rlp.de,
+135,FA239,2734,Kusel-Landstuhl für Erb/Schenk.St. Saarland,Trierer Str.,46,66869,Kusel,Poststelle@fa-ku.fin-rlp.de,
+136,FA24,1040,Saarbrücken Am Stadtgraben,Am Stadtgraben,2,66111,Saarbrücken,poststelle@fasb.saarland.de,
+137,FA240,2735,Pirmasens,Kaiserstr.,2,66955,Pirmasens,Poststelle@fa-ps.fin-rlp.de,
+138,FA242,2740,Simmern-Zell,Schlossstr.,42,56856,Zell,Poststelle@fa-si.fin-rlp.de,
+139,FA243,2741,Speyer-Germersheim,Johannesstr.,9,67346,Speyer,Poststelle@fa-sp.fin-rlp.de,
+140,FA244,2742,Trier,Hubert-Neuerburg-Str.,1,54290,Trier,Poststelle@fa-tr.fin-rlp.de,
+141,FA245,2743,Wittlich,Unterer Sehlemet,15,54516,Wittlich,Poststelle@fa-wi.fin-rlp.de,
+142,FA246,2744,Worms-Kirchheimbolanden,Karlsplatz,6,67549,Worms,Poststelle@fa-wo.fin-rlp.de,
+143,FA248,2801,Offenburg Außenstelle Achern,Martinstr.,50,77604,Offenburg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+144,FA249,2804,Villingen-Schwenningen Außenstelle Donaueschingen,Käferstr.,25,78166,Donaueschingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+145,FA25,1055,Saarbrücken MainzerStr,Mainzer Str.,109,66121,Saarbrücken,poststelle@fasbm.saarland.de,
+146,FA250,2805,Emmendingen,Bahnhofstr.,3,79312,Emmendingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+147,FA251,2806,Freiburg-Stadt,Sautierstr.,24,79104,Freiburg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+148,FA252,2807,Freiburg-Land,Stefan-Meier-Str.,133,79104,Freiburg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+149,FA253,2808,Offenburg Außenstelle Kehl,Ludwig-Trick-Str.,1,77604,Offenburg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+150,FA254,2809,Konstanz,Byk-Gulden-Str.,2,78467,Konstanz,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+151,FA255,2810,Lahr,Gerichtstr.,5,77933,Lahr,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+152,FA256,2811,Lörrach,Luisenstr.,10,79539,Lörrach,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+153,FA257,2812,Müllheim,Goethestr.,11,79379,Müllheim,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+154,FA258,2813,Freiburg-Land Außenstelle Titisee-Neustadt,Goethestr.,5,79822,Titisee-Neustadt,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+155,FA259,2814,Offenburg,Zeller Str.,1,77654,Offenburg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+156,FA26,1060,St. Wendel,Marienstr.,27,66606,St. Wendel,poststelle@fawnd.saarland.de,
+157,FA260,2815,Rottweil Außenstelle Oberndorf,Körnerstr.,28,78628,Rottweil,poststelle-19@finanzamt.bwl.de,
+158,FA261,2816,Waldshut-Tiengen Außenstelle Bad Säckingen,Werderstr.,5,79713,Bad Säckingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+159,FA262,2818,Singen,Alpenstr.,9,78224,Singen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+160,FA263,2819,Rottweil,Körnerstr.,28,78628,Rottweil,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+161,FA264,2820,Waldshut-Tiengen,Bahnhofstr.,11,79761,Waldshut-Tiengen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+162,FA265,2821,Tuttlingen,Zeughausstr.,91,78532,Tuttlingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+163,FA266,2822,Villingen-Schwenningen,Weiherstr.,7,78050,Villingen-Schwenningen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+164,FA267,2823,Offenburg Außenstelle Wolfach,Hauptstr.,55,77604,Offenburg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+165,FA268,2830,Bruchsal,Schönbornstr.,1,76646,Bruchsal,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+166,FA269,2831,Ettlingen,Pforzheimer Str.,16,76275,Ettlingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+167,FA27,1070,Saarbrücken Am Stadtgraben - Außenst. Sulzbach,Vopeliusstr.,8,66280,Sulzbach,poststelle@fasb.saarland.de,
+168,FA270,2832,Heidelberg,Maaßstr.,32,69123,Heidelberg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+169,FA271,2833,Baden-Baden,Stephanienstr.,13,76530,Baden-Baden,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+170,FA272,2834,Karlsruhe-Durlach,Prinzessenstr.,2,76227,Karlsruhe,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+171,FA273,2835,Karlsruhe-Stadt,Durlacher Allee ,29,76131,Karlsruhe,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+172,FA274,2836,Baden-Baden Außenstelle Bühl,Alban-Stolz-Str.,8,77815,Bühl,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+173,FA275,2837,Mannheim-Neckarstadt,L3,10,68161,Mannheim,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+174,FA276,2838,Mannheim-Stadt,L3,10,68161,Mannheim,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+175,FA277,2839,Rastatt,An der Ludwigsfeste,3,76437,Rastatt,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+176,FA278,2840,Mosbach,Pfalzgraf-Otto-Str.,5,74821,Mosbach,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+177,FA279,2841,Pforzheim,Moltkestr.,8,75179,Pforzheim,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+178,FA28,1075,Homburg,Schillerstr.,15,66424,Homburg,poststelle@fahom.saarland.de,
+179,FA280,2842,Freudenstadt,Musbacher Str.,33,72250,Freudenstadt,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+180,FA281,2843,Schwetzingen,Schloss,,68723,Schwetzingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+181,FA282,2844,Sinsheim,Bahnhofstr.,27,74889,Sinsheim,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+182,FA283,2845,Calw,Klosterhof,1,75365,Calw,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+183,FA284,2846,Mosbach Außenstelle Walldürn,Albert-Schneider-Str.,1,74731,Walldürn,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+184,FA285,2847,Weinheim,Weschnitzstr.,2,69469,Weinheim,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+185,FA286,2848,Mühlacker,Konrad-Adenauer-Platz,6,75417,Mühlacker,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+186,FA287,2849,Pforzheim Außenstelle Neuenbürg,Wildbader Str.,107,75305,Neuenbürg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+187,FA288,2850,Aalen,Bleichgartenstr.,17,73431,Aalen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+188,FA289,2851,Backnang,Spinnerei,48,71522,Backnang,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+189,FA29,1085,Homburg - Außenst. St. Ingbert,Rentamtstr.,39,66386,St. Ingbert,poststelle@fahom.saarland.de,
+190,FA290,2852,Tauberbischofsheim Außenstelle Bad Mergentheim,Schloss,7,97980,Bad Mergentheim,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+191,FA291,2853,Balingen,Jakob-Beutter-Str.,4,72336,Balingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+192,FA292,2854,Biberach,Bahnhofstr.,11,88400,Biberach,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+193,FA293,2855,Bietigheim-Bissingen,Kronenbergstr.,13,74321,Bietigheim-Bissingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+194,FA294,2856,Böblingen,Talstr.,46,71034,Böblingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+195,FA295,2857,Schwäbisch Hall Außenstelle Crailsheim,Bahnhofstr.,25,74523,Schwäbisch Hall,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+196,FA296,2858,Ehingen,Hehlestr.,19,89584,Ehingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+197,FA297,2859,Esslingen,Entengrabenstr.,11,73728,Esslingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+198,FA298,2861,Friedrichshafen,Ehlersstr.,13,88046,Friedrichshafen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+199,FA299,2862,Göppingen Außenstelle Geislingen,Gartenstr.,42,73033,Göppingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+200,FA30,1090,Saarbrücken Am Stadtgraben - Außenst. Völklingen,Marktstr.,,66333,Völklingen,poststelle@fasb.saarland.de,
+201,FA300,2863,Göppingen,Gartenstr.,42,73033,Göppingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+202,FA301,2864,Heidenheim,Marienstr.,15,89518,Heidenheim,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+203,FA302,2865,Heilbronn,Moltkestr.,91,74076,Heilbronn,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+204,FA303,2869,Nürtingen Außenstelle Kirchheim,Sigmaringer Str.,15,72622,Nürtingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+205,FA304,2870,Leonberg,Schlosshof,3,71229,Leonberg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+206,FA305,2871,Ludwigsburg,Alt-Württemberg-Allee,40,71631,Ludwigsburg,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+207,FA306,2874,Nürtingen,Sigmaringer Str.,15,72622,Nürtingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+208,FA307,2876,Öhringen,Haagweg,39,74613,Öhringen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+209,FA308,2877,Ravensburg,Broner Platz,12,88250,Weingarten,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+210,FA309,2878,Reutlingen,Leonhardsplatz,1,72764,Reutlingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+211,FA31,1113,Charlottenburg,Bismarckstraße,48,10627,Berlin,poststelle@fa-charlottenburg.verwalt-berlin.de,
+212,FA310,2879,Biberach Außenstelle Riedlingen,Bahnhofstr. ,11,88400,Biberach,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+213,FA311,2880,Tauberbischofsheim,Dr.-Burger-Str.,1,97941,Tauberbischofsheim,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+214,FA312,2881,Sigmaringen Außenstelle Bad Saulgau,Karlstr.,31,72488,Sigmaringen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+215,FA313,2882,Schorndorf,Johann-Philipp-Palm-Str.,28,73614,Schorndorf,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+216,FA314,2883,Schwäbisch Gmünd,Augustinerstr.,6,73525,Schwäbisch Gmünd,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+217,FA315,2884,Schwäbisch Hall,Bahnhofstr.,25,74523,Schwäbisch Hall,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+218,FA316,2885,Sigmaringen,Karlstr.,31,72488,Sigmaringen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+219,FA317,2886,Tübingen,Steinlachallee,6,72072,Tübingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+220,FA318,2887,Überlingen (Bodensee),Mühlenstr.,28,88662,Überlingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+221,FA319,2888,Ulm,Wagnerstr.,2,89077,Ulm,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+222,FA32,1114,Friedrichshain-Kreuzberg,Mehringdamm,22,10961,Berlin,poststelle@fa-friedrichshain-kreuzberg.verwalt-berlin.de,
+223,FA320,2889,Bad Urach,Graf-Eberhard-Platz,7,72574,Bad Urach,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+224,FA321,2890,Waiblingen,Fronackerstr.,77,71332,Waiblingen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+225,FA322,2891,Wangen,Lindauer Str.,37,88239,Wangen,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+226,FA323,2892,Stuttgart IV,Seidenstr.,23,70174,Stuttgart,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+227,FA324,2893,Stuttgart I,Rotebühlplatz,30,70173,Stuttgart,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+228,FA325,2895,Stuttgart II,Rotebühlstr.,40,70178,Stuttgart,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+229,FA326,2896,Stuttgart Zentrales Konzernprüfungsamt,Rotebühlplatz,30,70173,Stuttgart,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+230,FA327,2897,Stuttgart III,Rotebühlplatz,30,70173,Stuttgart,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+231,FA328,2899,Stuttgart-Körpersch.,Paulinenstr.,44,70178,Stuttgart,,"https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Kontaktformular"
+232,FA329,3046,Potsdam,Steinstr.,104,14480,Potsdam,poststelle.fa-potsdam@fa.brandenburg.de,
+233,FA33,1116,Neukölln,Thiemannstraße,1,12059,Berlin,poststelle@fa-neukoelln.verwalt-berlin.de,
+234,FA330,3048,Brandenburg,Magdeburger Straße,46,14770,Brandenburg an der Havel,poststelle.fa-brandenburg@fa.brandenburg.de,
+235,FA331,3049,Königs Wusterhausen,Max-Werner-Straße,9,15711,Königs Wusterhausen,poststelle.fa-koenigs-wusterhausen@fa.brandenburg.de,
+236,FA332,3050,Luckenwalde,Dr.-Georg-Schaeffler-Straße,2,14943,Luckenwalde,poststelle.fa-luckenwalde@fa.brandenburg.de,
+237,FA333,3051,Nauen,Ketziner Straße,3,14641,Nauen,poststelle.fa-nauen@fa.brandenburg.de,
+238,FA334,3052,Kyritz,Perleberger Straße,1,16866,Kyritz,poststelle.fa-kyritz@fa.brandenburg.de,
+239,FA335,3053,Oranienburg,Heinrich-Grüber-Platz,3,16515,Oranienburg,poststelle.fa-oranienburg@fa.brandenburg.de,
+240,FA336,3056,Cottbus,Vom-Stein-Straße,29,3050,Cottbus,poststelle.fa-cottbus@fa.brandenburg.de,
+241,FA337,3057,Calau,Springteichallee,25,3205,Calau,poststelle.fa-calau@fa.brandenburg.de,
+242,FA338,3061,Frankfurt (Oder),Müllroser Chaussee,53,15236,Frankfurt (Oder),poststelle.fa-frankfurt-oder@fa.brandenburg.de,
+243,FA339,3062,Angermünde,Jahnstraße,49,16278,Angermünde,poststelle.fa-angermuende@fa.brandenburg.de,
+244,FA34,1117,Reinickendorf,Eichborndamm,208,13403,Berlin,poststelle@fa-reinickendorf.verwalt-berlin.de,
+245,FA340,3064,Strausberg,Prötzeler Chaussee,12,15344,Strausberg,poststelle.fa-strausberg@fa.brandenburg.de,
+246,FA341,3065,Eberswalde,Tramper Chaussee,5,16225,Eberswalde,poststelle.fa-eberswalde@fa.brandenburg.de,
+247,FA342,3102,Magdeburg,Tessenowstraße,10,39114,Magdeburg,poststelle@fa-md.ofd.mf.sachsen-anhalt.de,
+248,FA343,3103,Genthin,Berliner Chaussee,29,39307,Genthin,poststelle@fa-gtn.ofd.mf.sachsen-anhalt.de,
+249,FA344,3105,Haldensleben,Jungfernstieg,37,39340,Haldensleben,poststelle@fa-hdl.ofd.mf.sachsen-anhalt.de,
+250,FA345,3106,Salzwedel,Buchenallee,2,29410,Salzwedel,poststelle@fa-saw.ofd.mf.sachsen-anhalt.de,
+251,FA346,3107,Staßfurt,Atzendorfer Straße,20,39418,Staßfurt,poststelle@fa-sft.ofd.mf.sachsen-anhalt.de,
+252,FA347,3108,Stendal,Scharnhorststraße,87,39576,Stendal,poststelle@fa-sdl.ofd.mf.sachsen-anhalt.de,
+253,FA348,3110,Halle (Saale),Hallorenring,10,6108,Halle (Saale),poststelle@fa-hal.ofd.mf.sachsen-anhalt.de,
+254,FA349,3112,Merseburg,Bahnhofstraße,10,6217,Merseburg,poststelle@fa-msb.ofd.mf.sachsen-anhalt.de,
+255,FA35,1118,Schöneberg,Potsdamer Straße,140,10783,Berlin,poststelle@fa-schoeneberg.verwalt-berlin.de,
+256,FA350,3114,Dessau-Roßlau,Kühnauer Straße,166,6846,Dessau-Roßlau,poststelle@fa-des.ofd.mf.sachsen-anhalt.de,
+257,FA351,3115,Wittenberg,Dresdener Straße,40,6886,Wittenberg,poststelle@fa-wbg.ofd.mf.sachsen-anhalt.de,
+258,FA352,3116,Bitterfeld-Wolfen,OT Bitterfeld Mittelstraße,20,6749,Bitterfeld-Wolfen,poststelle@fa-btf.ofd.mf.sachsen-anhalt.de,
+259,FA353,3117,Quedlinburg,Klopstockweg,21,6484,Quedlinburg,poststelle@fa-qlb.ofd.mf.sachsen-anhalt.de,
+260,FA354,3118,Eisleben,Bahnhofsring,10,6295,Eisleben,poststelle@fa-eil.ofd.mf.sachsen-anhalt.de,
+261,FA355,3119,Naumburg,Oststraße,26,6618,Naumburg,poststelle@fa-nbg.ofd.mf.sachsen-anhalt.de,
+262,FA356,3202,Dresden-Nord,Rabenerstraße,1,1069,Dresden,poststelle@fa-dresden-nord.smf.sachsen.de,
+263,FA357,3203,Dresden-Süd,Rabenerstraße,1,1069,Dresden,poststelle@fa-dresden-sued.smf.sachsen.de,
+264,FA358,3204,Bautzen,Wendischer Graben,3,2625,Bautzen,poststelle@fa-bautzen.smf.sachsen.de,
+265,FA359,3207,Görlitz,Sonnenstraße,7,2826,Görlitz,poststelle@fa-goerlitz.smf.sachsen.de,
+266,FA36,1119,Spandau,Nonnendammallee,21,13599,Berlin,poststelle@fa-spandau.verwalt-berlin.de,
+267,FA360,3208,Löbau,Georgewitzer Str.,40,2708,Löbau,poststelle@fa-loebau.smf.sachsen.de,
+268,FA361,3209,Meißen,Heinrich-Heine-Straße,23,1662,Meißen,poststelle@fa-meissen.smf.sachsen.de,
+269,FA362,3210,Pirna,Clara-Zetkin-Straße,1,1796,Pirna,poststelle@fa-pirna.smf.sachsen.de,
+270,FA363,3213,Hoyerswerda,Pforzheimer Platz,1,2977,Hoyerswerda,poststelle@fa-hoyerswerda.smf.sachsen.de,
+271,FA364,3214,Chemnitz-Süd,Paul-Bertz-Str.,1,9120,Chemnitz,poststelle@fa-chemnitz-sued.smf.sachsen.de,
+272,FA365,3215,Chemnitz-Mitte,Straße der Nationen,2,9111,Chemnitz,poststelle@fa-chemnitz-mitte.smf.sachsen.de,
+273,FA366,3217,Annaberg,Magazingasse,16,9456,Annaberg-B.,poststelle@fa-annaberg.smf.sachsen.de,
+274,FA367,3218,Schwarzenberg,Karlsbader Str.,23,8340,Schwarzenberg,poststelle@fa-schwarzenberg.smf.sachsen.de,
+275,FA368,3220,Freiberg,Brückenstr.,1,9599,Freiberg,poststelle@fa-freiberg.smf.sachsen.de,
+276,FA37,1120,Steglitz,Schloßstraße,58,12165,Berlin,poststelle@fa-steglitz.verwalt-berlin.de,
+277,FA370,3222,Mittweida,Robert-Koch-Str.,17,9648,Mittweida,poststelle@fa-mittweida.smf.sachsen.de,
+278,FA371,3223,Plauen,Europaratstraße,17,8523,Plauen,poststelle@fa-plauen.smf.sachsen.de,
+279,FA372,3224,Stollberg,Hohensteiner Straße,54,9366,Stollberg,poststelle@fa-stollberg.smf.sachsen.de,
+280,FA373,3227,Zwickau,Lessingstraße,15,8058,Zwickau,poststelle@fa-zwickau.smf.sachsen.de,
+281,FA374,3228,Zschopau,August-Bebel-Str.,17,9405,Zschopau,poststelle@fa-zschopau.smf.sachsen.de,
+282,FA375,3231,Leipzig II,Nordplatz,11,4105,Leipzig,poststelle@fa-leipzig2.smf.sachsen.de,
+283,FA376,3232,Leipzig I,Wilhelm-Liebknecht-Platz,3,4105,Leipzig,poststelle@fa-leipzig1.smf.sachsen.de,
+284,FA377,3236,Döbeln,Burgstr.,31,4720,Döbeln,poststelle@fa-doebeln.smf.sachsen.de,
+285,FA378,3237,Eilenburg,Walther-Rathenau-Straße,8,4838,Eilenburg,poststelle@fa-eilenburg.smf.sachsen.de,
+286,FA379,3238,Grimma,Lausicker Straße,2,4668,Grimma,poststelle@fa-grimma.smf.sachsen.de,
+287,FA38,1121,Tempelhof,Tempelhofer Damm,234,12099,Berlin,poststelle@fa-tempelhof.verwalt-berlin.de,
+288,FA380,3239,Oschatz,Dresdener Str.,77,4758,Oschatz,poststelle@fa-oschatz.smf.sachsen.de,
+289,FA381,4069,Neubrandenburg - RAB,Neustrelitzer Str.,120,17033,Neubrandenburg,poststelle@finanzamt-neubrandenburg.de,
+290,FA382,4070,Neubrandenburg - RIA (Rentenempfänger im Ausland),Neustrelitzer Str.,120,17033,Neubrandenburg,ria@finanzamt-neubrandenburg.de,
+291,FA383,4072,Neubrandenburg,Neustrelitzer Str.,120,17033,Neubrandenburg,poststelle@finanzamt-neubrandenburg.de,
+292,FA384,4075,Waren,Einsteinstr.,15,17192,Waren (Müritz),poststelle@finanzamt-waren.de,
+293,FA385,4079,Rostock,Möllner Str.,13,18109,Rostock,poststelle@finanzamt-rostock.de,
+294,FA386,4080,Wismar,Philosophenweg,1,23970,Wismar,poststelle@finanzamt-wismar.de,
+295,FA387,4081,Ribnitz-Damgarten,Sandhufe,3,18311,Ribnitz-Damgarten,poststelle@finanzamt-ribnitz-damgarten.de,
+296,FA388,4082,Stralsund,Zur Schwedenschanze,1,18435,Stralsund,poststelle@finanzamt-stralsund.de,
+297,FA389,4084,Greifswald,Am Gorzberg Haus,11,17489,Greifswald,poststelle@finanzamt-greifswald.de,
+298,FA39,1123,Wedding,Osloer Straße,37,13359,Berlin,poststelle@fa-wedding.verwalt-berlin.de,
+299,FA390,4086,Güstrow,Klosterhof,1,18273,Güstrow,poststelle@finanzamt-guestrow.de,
+300,FA391,4087,Hagenow,Steegener Chaussee,8,19230,Hagenow,poststelle@finanzamt-hagenow.de,
+301,FA392,4090,Schwerin,Johannes-Stelling-Str.,9,19053,Schwerin,poststelle@finanzamt-schwerin.de,
+302,FA393,4151,Erfurt,August-Röbling-Straße,10,99091,Erfurt,poststelle@finanzamt-erfurt.thueringen.de,
+303,FA394,4154,Ilmenau,Wallgraben,1,98686,Ilmenau,poststelle@finanzamt-ilmenau.thueringen.de,
+304,FA395,4155,Eisenach,Ernst-Thälmann-Straße,70,99817,Eisenach,poststelle@finanzamt-eisenach.thueringen.de,
+305,FA396,4156,Gotha,Reuterstr.,2,99853,Gotha,poststelle@finanzamt-gotha.thueringen.de,
+306,FA397,4157,Mühlhausen,Martinistr.,22,99974,Mühlhausen,poststelle@finanzamt-muehlhausen.thueringen.de,
+307,FA398,4159,Sondershausen,Schillerstraße,6,99706,Sondershausen,poststelle@finanzamt-sondershausen.thueringen.de,
+308,FA399,4161,Gera,Hermann-Drechsler-Str.,1,7548,Gera,poststelle@finanzamt-gera.thueringen.de,
+309,FA40,1124,Wilmersdorf,Albrecht-Achilles-Straße,61,10709,Berlin,poststelle@fa-wilmersdorf.verwalt-berlin.de,
+310,FA400,4162,Jena,Leutragraben,8,7740,Jena,poststelle@finanzamt-jena.thueringen.de,
+311,FA401,4165,Pößneck,Gerberstr.,65,7381,Pößneck,poststelle@finanzamt-poessneck.thueringen.de,
+312,FA402,4166,Altenburg,Wenzelstr.,45,4600,Altenburg,poststelle@finanzamt-altenburg.thueringen.de,
+313,FA403,4170,Sonneberg,Köppelsdorfer Straße,86,96502,Sonneberg,poststelle@finanzamt-sonneberg.thueringen.de,
+314,FA404,4171,Suhl,Karl-Liebknecht-Str.,4,98527,Suhl,poststelle@finanzamt-suhl.thueringen.de,
+315,FA405,5101,Dinslaken,Schillerstr.,71,46535,Dinslaken,Service@FA-5101.fin-nrw.de,
+316,FA406,5102,Viersen,Eindhovener Str.,71,41751,Viersen,Service@FA-5102.fin-nrw.de,
+317,FA407,5103,Düsseldorf-Altstadt,Oberrather Str.,2,40472,Düsseldorf,Service@FA-5103.fin-nrw.de,
+318,FA408,5105,Düsseldorf-Nord,Hans-Böckler-Str.,36,40476,Düsseldorf,Service@FA-5105.fin-nrw.de,
+319,FA409,5106,Düsseldorf-Süd,Kruppstr.,110,40227,Düsseldorf,Service@FA-5106.fin-nrw.de,
+320,FA41,1125,Zehlendorf,Martin-Buber-Straße,20,14163,Berlin,poststelle@fa-zehlendorf.verwalt-berlin.de,
+321,FA410,5107,Duisburg-Hamborn,Hufstr.,25,47166,Duisburg,Service@FA-5107.fin-nrw.de,
+322,FA411,5109,Duisburg-Süd,Landfermannstr.,25,47051,Duisburg,Service@FA-5109.fin-nrw.de,
+323,FA412,5111,Essen-NordOst,Altendorfer Str.,129,45143,Essen,Service@FA-5111.fin-nrw.de,
+324,FA413,5112,Essen-Süd,Altendorfer Str.,129,45143,Essen,Service@FA-5112.fin-nrw.de,
+325,FA414,5113,Geldern,Am Nierspark,25,47608,Geldern,Service@FA-5113.fin-nrw.de,
+326,FA415,5114,Grevenbroich,Merkatorstr.,12,41515,Grevenbroich,Service@FA-5114.fin-nrw.de,
+327,FA416,5115,Kempen,Arnoldstr.,13,47906,Kempen,Service@FA-5115.fin-nrw.de,
+328,FA417,5116,Kleve,Emmericher Str.,182,47533,Kleve,Service@FA-5116.fin-nrw.de,
+329,FA418,5117,Krefeld,Grenzstr.,100,47799,Krefeld,Service@FA-5117.fin-nrw.de,
+330,FA419,5119,Kamp-Lintfort,Südstr.,11,47475,Kamp-Lintfort,Service@FA-5119.fin-nrw.de,
+331,FA42,1127,für Körperschaften I,Bredtschneiderstraße,5,14057,Berlin,poststelle@fa-koerperschaften-i.verwalt-berlin.de,
+332,FA420,5120,Mülheim an der Ruhr,Wilhelmstr.,7,45468,Mülheim,Service@FA-5120.fin-nrw.de,
+333,FA421,5121,Mönchengladbach,Am Hockeypark,2,41179,Mönchengladbach,Service@FA-5121.fin-nrw.de,
+334,FA422,5122,Neuss,Hammfelddamm,9,41460,Neuss,Service@FA-5122.fin-nrw.de,
+335,FA423,5123,Oberhausen-Nord,Gymnasialstr.,16,46145,Oberhausen,Service@FA-5123.fin-nrw.de,
+336,FA424,5124,Oberhausen-Süd,Schwartzstr.,7,46045,Oberhausen,Service@FA-5124.fin-nrw.de,
+337,FA425,5126,Remscheid,Wupperstr.,10,42897,Remscheid,Service@FA-5126.fin-nrw.de,
+338,FA426,5128,Solingen,Goerdelerstr.,50,42651,Solingen,Service@FA-5128.fin-nrw.de,
+339,FA427,5130,Wesel,Heuberg,8,46483,Wesel,Service@FA-5130.fin-nrw.de,
+340,FA428,5131,Wuppertal-Barmen,Unterdörnen,96,42283,Wuppertal,Service@FA-5131.fin-nrw.de,
+341,FA429,5132,Wuppertal-Elberfeld,Kasinostr.,12,42103,Wuppertal,Service@FA-5132.fin-nrw.de,
+342,FA43,1129,für Körperschaften III,Volkmarstraße,13,12099,Berlin,poststelle@fa-koerperschaften-iii.verwalt-berlin.de,
+343,FA430,5133,Düsseldorf-Mitte,Kruppstr.,110,40227,Düsseldorf,Service@FA-5133.fin-nrw.de,
+344,FA431,5134,Duisburg-West,Friedrich-Ebert-Str.,133,47226,Duisburg,Service@FA-5134.fin-nrw.de,
+345,FA432,5135,Hilden,Neustr.,60,40721,Hilden,Service@FA-5135.fin-nrw.de,
+346,FA433,5139,Velbert,Nedderstr.,38,42549,Velbert,Service@FA-5139.fin-nrw.de,
+347,FA434,5147,Düsseldorf-Mettmann,Harkortstr.,2,40210,Düsseldorf,Service@FA-5147.fin-nrw.de,
+348,FA435,5149,Rechenzentrum d. FinVerw NRW,Roßstr.,131,40476,Düsseldorf,Service@FA-5149.fin-nrw.de,
+349,FA436,5170,Düsseldorf I für Groß- und Konzernbetriebsprüfung,Kanzlerstr.,6,40472,Düsseldorf,Service@FA-5170.fin-nrw.de,
+350,FA437,5171,Düsseldorf II für Groß- und Konzernbetriebsprüfung,Kanzlerstr.,6,40472,Düsseldorf,Service@FA-5171.fin-nrw.de,
+351,FA438,5172,Essen für Groß- und Konzernbetriebsprüfung,In der Hagenbeck,64,45143,Essen,Service@FA-5172.fin-nrw.de,
+352,FA439,5173,Krefeld für Groß- und Konzernbetriebsprüfung,De-Greiff-Straße,199,47803,Krefeld,Service@FA-5173.fin-nrw.de,
+353,FA44,1130,für Körperschaften IV,Magdalenenstraße,25,10365,Berlin,poststelle@fa-koerperschaften-iv.verwalt-berlin.de,
+354,FA440,5174,Bergisches Land für Groß- und Konzernbetriebsprüfung,Gleisdreieck,5,42651,Solingen,Service@FA-5174.fin-nrw.de,
+355,FA441,5176,Mönchengladbach für Groß- und Konzernbetriebsprüfung,Am Hockeypark,2,41179,Mönchengladbach,Service@FA-5176.fin-nrw.de,
+356,FA442,5181,Düsseldorf f. Steuerfahndung und Steuerstrafsachen,Kruppstr.,110,40227,Düsseldorf,Service@FA-5181.fin-nrw.de,
+357,FA443,5182,Essen f. Steuerfahndung und Steuerstrafsachen,In der Hagenbeck,64,45143,Essen,Service@FA-5182.fin-nrw.de,
+358,FA444,5183,Wuppertal f. Steuerfahndung und Steuerstrafsachen,Unterdörnen,96,42283,Wuppertal,Service@FA-5183.fin-nrw.de,
+359,FA445,5201,Aachen-Stadt,Krefelder Str.,210,52070,Aachen,Service@FA-5201.fin-nrw.de,
+360,FA446,5202,Aachen-Kreis,Krefelder Straße,210,52070,Aachen,Service@FA-5202.fin-nrw.de,
+361,FA447,5203,Bergheim,Rathausstr.,3,50126,Bergheim,Service@FA-5203.fin-nrw.de,
+362,FA448,5204,Bergisch Gladbach,Refrather Weg,35,51469,Bergisch Gladbach,Service@FA-5204.fin-nrw.de,
+363,FA449,5205,Bonn-Innenstadt,Welschnonnenstr.,15,53111,Bonn,Service@FA-5205.fin-nrw.de,
+364,FA45,1131,Prenzlauer Berg,Storkower Straße,134,10407,Berlin,poststelle@fa-prenzlauer-berg.verwalt-berlin.de,
+365,FA450,5206,Bonn-Außenstadt,Bachstr.,36,53115,Bonn,Service@FA-5206.fin-nrw.de,
+366,FA451,5207,Düren,Goethestr.,7,52349,Düren,Service@FA-5207.fin-nrw.de,
+367,FA452,5208,Erkelenz,Südpromenade,37,41812,Erkelenz,Service@FA-5208.fin-nrw.de,
+368,FA453,5209,Euskirchen,Thomas-Mann-Str.,2,53879,Euskirchen,Service@FA-5209.fin-nrw.de,
+369,FA454,5210,Geilenkirchen,Herz.-Wilh.-Str.,41,52511,Geilenkirchen,Service@FA-5210.fin-nrw.de,
+370,FA455,5211,Schleiden,Kurhausstr.,7,53937,Schleiden,Service@FA-5211.fin-nrw.de,
+371,FA456,5212,Gummersbach,Mühlenbergweg,5,51645,Gummersbach,Service@FA-5212.fin-nrw.de,
+372,FA457,5213,Jülich,Wilhelmstraße,5,52428,Jülich,Service@FA-5213.fin-nrw.de,
+373,FA458,5214,Köln-Altstadt,Am Weidenbach,2,50676,Köln,Service@FA-5214.fin-nrw.de,
+374,FA459,5215,Köln-Mitte,Blaubach,7,50676,Köln,Service@FA-5215.fin-nrw.de,
+375,FA46,1132,Lichtenberg,Josef-Orlopp-Straße,62,10365,Berlin,poststelle@fa-lichtenberg.verwalt-berlin.de,
+376,FA460,5216,Köln-Porz,Klingerstr.,2,51143,Köln,Service@FA-5216.fin-nrw.de,
+377,FA461,5217,Köln-Nord,Innere Kanalstr.,214,50670,Köln,Service@FA-5217.fin-nrw.de,
+378,FA462,5218,Köln-Ost,Siegesstr.,1,50679,Köln,Service@FA-5218.fin-nrw.de,
+379,FA463,5219,Köln-Süd,Am Weidenbach,6,50676,Köln,Service@FA-5219.fin-nrw.de,
+380,FA464,5220,Siegburg,Mühlenstr.,19,53721,Siegburg,Service@FA-5220.fin-nrw.de,
+381,FA465,5221,Wipperfürth,Am Stauweiher,3,51688,Wipperfürth,Service@FA-5221.fin-nrw.de,
+382,FA466,5222,Sankt Augustin,Hubert-Minz-Str,10,53757,Sankt Augustin,Service@FA-5222.fin-nrw.de,
+383,FA467,5223,Köln-West,Haselbergstr.,20,50931,Köln,Service@FA-5223.fin-nrw.de,
+384,FA468,5224,Brühl,Kölnstr.,104,50321,Brühl,Service@FA-5224.fin-nrw.de,
+385,FA469,5230,Leverkusen,Marie-Curie-Str.,2,51377,Leverkusen,Service@FA-5230.fin-nrw.de,
+386,FA47,1133,Marzahn-Hellersdorf,Allee der Kosmonauten,29,12681,Berlin,poststelle@fa-marzahn-hellersdorf.verwalt-berlin.de,
+387,FA470,5270,Köln für Groß- und Konzernbetriebsprüfung,Am Gleisdreieck,7,50823,Köln,Service@FA-5270.fin-nrw.de,
+388,FA471,5271,Aachen für Groß- und Konzernbetriebsprüfung,Krefelder Str.,210,52070,Aachen,Service@FA-5271.fin-nrw.de,
+389,FA472,5272,Bonn für Groß- und Konzernbetriebsprüfung,Kölnstr.,32,53111,Bonn,Service@FA-5272.fin-nrw.de,
+390,FA473,5281,Aachen f. Steuerfahndung und Steuerstrafsachen,Krefelder Str.,210,52070,Aachen,Service@FA-5281.fin-nrw.de,
+391,FA474,5282,Bonn f. Steuerfahndung und Steuerstrafsachen,Am Propsthof,17,53121,Bonn,Service@FA-5282.fin-nrw.de,
+392,FA475,5283,Köln f. Steuerfahndung und Steuerstrafsachen,Am Gleisdreieck,7,50823,Köln,Service@FA-5283.fin-nrw.de,
+393,FA476,5301,Ahaus,Vredener Dyk,2,48683,Ahaus,Service@FA-5301.fin-nrw.de,
+394,FA477,5302,Altena,Winkelsen,11,58762,Altena,Service@FA-5302.fin-nrw.de,
+395,FA478,5303,Arnsberg,Rumbecker Str.,36,59821,Arnsberg,Service@FA-5303.fin-nrw.de,
+396,FA479,5304,Beckum,Paterweg,25,59269,Beckum,Service@FA-5304.fin-nrw.de,
+397,FA48,1134,Mitte/Tiergarten,Neue Jakobstraße,6,10179,Berlin,poststelle@fa-mitte-tiergarten.verwalt-berlin.de,
+398,FA480,5305,Bielefeld-Innenstadt,Ravensberger Straße,90,33607,Bielefeld,Service@FA-5305.fin-nrw.de,
+399,FA481,5306,Bochum-Mitte,Castroper Str.,40,44791,Bochum,Service@FA-5306.fin-nrw.de,
+400,FA482,5307,Borken,Nordring,184,46325,Borken,Service@FA-5307.fin-nrw.de,
+401,FA483,5308,Bottrop,Scharnhölzstr.,32,46236,Bottrop,Service@FA-5308.fin-nrw.de,
+402,FA484,5309,Brilon,Almerfeldweg,30,59929,Brilon,Service@FA-5309.fin-nrw.de,
+403,FA485,5310,Bünde,Lettow-Vorbeck-Str.,2,32257,Bünde,Service@FA-5310.fin-nrw.de,
+404,FA486,5311,Steinfurt,Ochtruper Str.,2,48565,Steinfurt,Service@FA-5311.fin-nrw.de,
+405,FA487,5312,Coesfeld,Friedrich-Ebert-Str.,8,48653,Coesfeld,Service@FA-5312.fin-nrw.de,
+406,FA488,5313,Detmold,Wotanstr.,8,32756,Detmold,Service@FA-5313.fin-nrw.de,
+407,FA489,5314,Dortmund-West,Märkische Straße,124,44141,Dortmund,Service@FA-5314.fin-nrw.de,
+408,FA49,1135,Pankow/Weißensee,Storkower Straße,134,10407,Berlin,poststelle@fa-pankow-weissensee.verwalt-berlin.de,
+409,FA490,5315,Dortmund-Hörde,Niederhofener Str.,3,44263,Dortmund,Service@FA-5315.fin-nrw.de,
+410,FA491,5316,Dortmund-Unna,Trakehnerweg,4,44143,Dortmund,Service@FA-5316.fin-nrw.de,
+411,FA492,5317,Dortmund-Ost,Auf dem Hohwart,2,44143,Dortmund,Service@FA-5317.fin-nrw.de,
+412,FA493,5319,Gelsenkirchen,Ludwig-Erhard-Str.,7,45891,Gelsenkirchen,Service@FA-5319.fin-nrw.de,
+413,FA494,5321,Hagen,Schürmannstr.,7,58097,Hagen,Service@FA-5321.fin-nrw.de,
+414,FA495,5322,Hamm,Grünstr.,2,59065,Hamm,Service@FA-5322.fin-nrw.de,
+415,FA496,5323,Hattingen,Rathausplatz,19,45525,Hattingen,Service@FA-5323.fin-nrw.de,
+416,FA497,5324,Herford,Wittekindstr.,5,32051,Herford,Service@FA-5324.fin-nrw.de,
+417,FA498,5325,Herne,Markgrafenstr.,12,44623,Herne,Service@FA-5325.fin-nrw.de,
+418,FA499,5326,Höxter,Bismarckstr.,11,37671,Höxter,Service@FA-5326.fin-nrw.de,
+419,FA50,1136,Treptow-Köpenick,Seelenbinderstraße,99,12555,Berlin,poststelle@fa-treptow-koepenick.verwalt-berlin.de,
+420,FA500,5327,Ibbenbüren,Uphof,10,49477,Ibbenbüren,Service@FA-5327.fin-nrw.de,
+421,FA501,5328,Iserlohn,Zollernstr.,16,58636,Iserlohn,Service@FA-5328.fin-nrw.de,
+422,FA502,5329,Lemgo,Engelb.-Kämpfer-Str.,18,32657,Lemgo,Service@FA-5329.fin-nrw.de,
+423,FA503,5330,Lippstadt,Im Grünen Winkel,5,59555,Lippstadt,Service@FA-5330.fin-nrw.de,
+424,FA504,5331,Lübbecke,Bohlenstr.,102,32312,Lübbecke,Service@FA-5331.fin-nrw.de,
+425,FA505,5332,Lüdenscheid,Bahnhofsallee,16,58507,Lüdenscheid,Service@FA-5332.fin-nrw.de,
+426,FA506,5333,Lüdinghausen,Bahnhofstr.,32,59348,Lüdinghausen,Service@FA-5333.fin-nrw.de,
+427,FA507,5334,Meschede,Fritz-Honsel-Str.,4,59872,Meschede,Service@FA-5334.fin-nrw.de,
+428,FA508,5335,Minden,Heidestr.,10,32427,Minden,Service@FA-5335.fin-nrw.de,
+429,FA509,5336,Münster-Außenstadt,Friedrich-Ebert-Str.,46,48153,Münster,Service@FA-5336.fin-nrw.de,
+430,FA51,1137,für Körperschaften II,Magdalenenstraße,25,10365,Berlin,poststelle@fa-koerperschaften-ii.verwalt-berlin.de,
+431,FA510,5337,Münster-Innenstadt,Anton-Bruchausen-Str,1,48147,Münster,Service@FA-5337.fin-nrw.de,
+432,FA511,5338,Olpe,Am Gallenberg,20,57462,Olpe,Service@FA-5338.fin-nrw.de,
+433,FA512,5339,Paderborn,Bahnhofstr.,28,33102,Paderborn,Service@FA-5339.fin-nrw.de,
+434,FA513,5340,Recklinghausen,Westerholter Weg,2,45657,Recklinghausen,Service@FA-5340.fin-nrw.de,
+435,FA514,5341,Schwelm,Bahnhofplatz,6,58332,Schwelm,Service@FA-5341.fin-nrw.de,
+436,FA515,5342,Siegen,Weidenauer Str.,207,57076,Siegen,Service@FA-5342.fin-nrw.de,
+437,FA516,5343,Soest,Heinsbergplatz,13,59494,Soest,Service@FA-5343.fin-nrw.de,
+438,FA517,5345,Warburg,Sternstr.,33,34414,Warburg,Service@FA-5345.fin-nrw.de,
+439,FA518,5346,Warendorf,Düsternstr.,43,48231,Warendorf,Service@FA-5346.fin-nrw.de,
+440,FA519,5347,Wiedenbrück,Am Sandberg,56,33378,Rheda-Wiedenbrück,Service@FA-5347.fin-nrw.de,
+441,FA52,1138,für Fahndung und Strafsachen Berlin,Ullsteinstraße,66,12109,Berlin,poststelle@fa-fahndung-und-strafsachen.verwalt-berlin.de,
+442,FA520,5348,Witten,Ruhrstr.,43,58452,Witten,Service@FA-5348.fin-nrw.de,
+443,FA521,5349,Bielefeld-Außenstadt,Ravensberger Str.,125,33607,Bielefeld,Service@FA-5349.fin-nrw.de,
+444,FA522,5350,Bochum-Süd,Königsallee,21,44789,Bochum,Service@FA-5350.fin-nrw.de,
+445,FA523,5351,Gütersloh,Neuenkirchener Str.,86,33332,Gütersloh,Service@FA-5351.fin-nrw.de,
+446,FA524,5359,Marl,Brassertstr.,1,45768,Marl,Service@FA-5359.fin-nrw.de,
+447,FA525,5371,Bielefeld für Groß- und Konzernbetriebsprüfung,Ravensberger Str.,90,33607,Bielefeld,Service@FA-5371.fin-nrw.de,
+448,FA526,5372,Herne für Groß- und Konzernbetriebsprüfung,Hauptstr.,123,44651,Herne,Service@FA-5372.fin-nrw.de,
+449,FA527,5373,Detmold für Groß- und Konzernbetriebsprüfung,Richthofenstr.,94,32756,Detmold,Service@FA-5373.fin-nrw.de,
+450,FA528,5374,Dortmund für Groß- und Konzernbetriebsprüfung,Auf dem Hohwart,2,44143,Dortmund,Service@FA-5374.fin-nrw.de,
+451,FA529,5375,Hagen für Groß- und Konzernbetriebsprüfung,Hochstr.,43,58095,Hagen,Service@FA-5375.fin-nrw.de,
+452,FA53,1191,Technisches Finanzamt Berlin,Klosterstraße,59,10179,Berlin,poststelle@tfa.verwalt-berlin.de,
+453,FA530,5376,Münster für Groß- und Konzernbetriebsprüfung,Albersloher Weg,250,48155,Münster,Service@FA-5376.fin-nrw.de,
+454,FA531,5381,Bielefeld f. Steuerfahndung und Steuerstrafsachen,Ravensberger Str.,90,33607,Bielefeld,Service@FA-5381.fin-nrw.de,
+455,FA532,5382,Bochum f. Steuerfahndung und Steuerstrafsachen,Uhlandstr.,37,44791,Bochum,Service@FA-5382.fin-nrw.de,
+456,FA533,5383,Hagen f. Steuerfahndung und Steuerstrafsachen,Becheltestr.,32,58089,Hagen,Service@FA-5383.fin-nrw.de,
+457,FA534,5384,Münster f. Steuerfahndung und Steuerstrafsachen,Albersloher Weg,250,48155,Münster,Service@FA-5384.fin-nrw.de,
+458,FA535,9101,Augsburg-Stadt Arbeitnehmerbereich,Prinzregentenpl.,2,86150,Augsburg,poststelle@fa-a-s.bayern.de,
+459,FA536,9102,Augsburg-Land,Sieglindenstr.,19,86152,Augsburg,poststelle.fa-a-l@finanzamt.bayern.de,
+460,FA537,9103,Augsburg-Stadt,Prinzregentenpl.,2,86150,Augsburg,poststelle.fa-a-s@finanzamt.bayern.de,
+461,FA538,9104,Wolfratshausen - Bad Tölz,Prof.-Max-Lange-Platz,2,83646,Bad Tölz,poststelle.fa-toel@finanzamt.bayern.de,
+462,FA539,9105,Berchtesgaden-Laufen,Salzburger Str.,6,83471,Berchtesgaden,poststelle.fa-bgd@finanzamt.bayern.de,
+463,FA54,2111,Bad Segeberg,Theodor-Storm-Str.,4,23795,Bad Segeberg,poststelle@fa-bad-segeberg.landsh.de,
+464,FA540,9106,Burghausen,Tittmoninger Str.,1,84489,Burghausen,poststelle.fa-burgh@finanzamt.bayern.de,
+465,FA541,9107,Dachau,Bürgermeister-Zauner-Ring,2,85221,Dachau,poststelle.fa-dah@finanzamt.bayern.de,
+466,FA542,9108,Deggendorf,Pfleggasse,18,94469,Deggendorf,poststelle.fa-deg@finanzamt.bayern.de,
+467,FA543,9109,Dillingen,Schloßstr.,3,89407,Dillingen,poststelle.fa-dlg@finanzamt.bayern.de,
+468,FA544,9110,Dingolfing,Obere Stadt,44,84130,Dingolfing,poststelle.fa-dgf@finanzamt.bayern.de,
+469,FA545,9111,Nördlingen mit ASt Donauwörth,Sallingerstr.,2,86609,Donauwörth,poststelle.fa-noe@finanzamt.bayern.de,
+470,FA546,9112,Ebersberg,Schloßplatz,1,85560,Ebersberg,poststelle.fa-ebe@finanzamt.bayern.de,
+471,FA547,9113,Eggenfelden,Pfarrkirchner Str.,71,84307,Eggenfelden,poststelle.fa-eg@finanzamt.bayern.de,
+472,FA548,9114,Erding,Münchener Str.,31,85435,Erding,poststelle.fa-ed@finanzamt.bayern.de,
+473,FA549,9115,Freising,Prinz-Ludwig-Str.,26,85354,Freising,poststelle.fa-fs@finanzamt.bayern.de,
+474,FA55,2113,Elmshorn,Friedensallee,7,25335,Elmshorn,poststelle@fa-elmshorn.landsh.de,
+475,FA550,9116,Bundeszentralamt für Steuern,An der Küppe,1,53225,Bonn,Poststelle@bzst.bund.de,
+476,FA551,9117,Fürstenfeldbruck,Münchner Str.,36,82256,Fürstenfeldbruck,poststelle.fa-ffb@finanzamt.bayern.de,
+477,FA552,9119,Garmisch-Partenkirchen,Dompfaffstr.,5,82467,Garmisch-Partenkirchen,poststelle.fa-gap@finanzamt.bayern.de,
+478,FA553,9121,Günzburg,Schloßpl.,3,89312,Günzburg,poststelle.fa-gz@finanzamt.bayern.de,
+479,FA554,9123,Kempten-Immenstadt,Rothenfelsstr.,18,87509,Immenstadt,poststelle.fa-immen@finanzamt.bayern.de,
+480,FA555,9124,Ingolstadt,Esplanade,38,85049,Ingolstadt,poststelle.fa-in@finanzamt.bayern.de,
+481,FA556,9125,Kaufbeuren m. ASt Füssen,Remboldstr.,21,87600,Kaufbeuren,poststelle.fa-kf@finanzamt.bayern.de,
+482,FA557,9126,Kelheim,Klosterstr.,1,93309,Kelheim,poststelle.fa-keh@finanzamt.bayern.de,
+483,FA558,9127,Kempten-Immenstadt,Am Stadtpark,3,87435,Kempten,poststelle.fa-ke@finanzamt.bayern.de,
+484,FA559,9131,Landsberg am Lech,Israel-Beker-Str.,20,86896,Landsberg am Lech,poststelle.fa-ll@finanzamt.bayern.de,
+485,FA56,2115,Flensburg,Duburger Str.,58,24939,Flensburg,poststelle@fa-flensburg.landsh.de,
+486,FA560,9132,Landshut,Maximilianstr.,21,84028,Landshut,poststelle.fa-la@finanzamt.bayern.de,
+487,FA561,9134,Lindau,Brettermarkt,4,88131,Lindau,poststelle.fa-li@finanzamt.bayern.de,
+488,FA562,9138,Memmingen-Mindelheim,Bodenseestr.,6,87700,Memmingen,poststelle.fa-mm@finanzamt.bayern.de,
+489,FA563,9139,Miesbach,Schlierseer Str.,5,83714,Miesbach,poststelle.fa-mb@finanzamt.bayern.de,
+490,FA564,9140,Memmingen-Mindelheim,Bahnhofstr.,16,87719,Mindelheim,poststelle.fa-mn@finanzamt.bayern.de,
+491,FA565,9141,Mühldorf,Katharinenplatz,16,84453,Mühldorf,poststelle.fa-mue@finanzamt.bayern.de,
+492,FA566,9142,München Bewertung des Grundbesitzes,Katharina-von-Bora-Straße,4,80333,München,poststelle-hoe@famuc.bayern.de,
+493,FA567,9143,München Körperschaften/PersonenGesellschaften,Katharina-von-Bora-Straße,4,80333,München,poststelle-abteilung3@famuc.bayern.de,
+494,FA568,9144,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,
+495,FA569,9145,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,
+496,FA57,2116,Dithmarschen,Ernst-Mohr-Str.,34,25746,Heide,poststelle@fa-dithmarschen.landsh.de,
+497,FA570,9146,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,
+498,FA571,9147,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,
+499,FA572,9148,München Gewinneinkünfte,Deroystr.,10,80303,München,poststelle-abteilung1@famuc.bayern.de,
+500,FA573,9149,München Erhebung,Winzererstr.,47,80797,München,poststelle-abteilung6@famuc.bayern.de,
+501,FA574,9151,Neu-Ulm,Nelsonallee,5,89231,Neu-Ulm,poststelle.fa-nu@finanzamt.bayern.de,
+502,FA575,9152,Nördlingen mit ASt Donauwörth,Tändelmarkt,1,86720,Nördlingen,poststelle.fa-noe@finanzamt.bayern.de,
+503,FA576,9153,Passau mit Außenstellen,Innstr.,36,94032,Passau,poststelle.fa-pa@finanzamt.bayern.de,
+504,FA577,9154,Pfaffenhofen,Schirmbeckstr.,5,85276,Pfaffenhofen a. d. Ilm,poststelle.fa-paf@finanzamt.bayern.de,
+505,FA578,9156,Rosenheim m. ASt Wasserburg,Wittelsbacherstr.,25,83022,Rosenheim,poststelle.fa-ro@finanzamt.bayern.de,
+506,FA579,9157,Grafenau,Friedhofstr.,1,94481,Grafenau,poststelle.fa-gra@finanzamt.bayern.de,
+507,FA58,2117,Nordfriesland,Eesackerstraße,11a,25917,Leck,poststelle@fa-nordfriesland.landsh.de,
+508,FA580,9159,Schrobenhausen m. ASt Neuburg,Rot-Kreuz-Str.,2,86529,Schrobenhausen,poststelle.fa-sob@finanzamt.bayern.de,
+509,FA581,9161,Starnberg,Schloßbergstr.,12,82319,Starnberg,poststelle.fa-sta@finanzamt.bayern.de,
+510,FA582,9162,Straubing,Fürstenstr.,21,94315,Straubing,poststelle.fa-sr@finanzamt.bayern.de,
+511,FA583,9163,Traunstein,Herzog-Otto-Str.,6,83278,Traunstein,poststelle.fa-ts@finanzamt.bayern.de,
+512,FA584,9168,Weilheim-Schongau,Hofstr.,23,82352,Weilheim,poststelle.fa-wm@finanzamt.bayern.de,
+513,FA585,9169,Wolfratshausen - Bad Tölz,Heimgartenstr.,5,82515,Wolfratshausen,poststelle.fa-wor@finanzamt.bayern.de,
+514,FA586,9170,Zwiesel m. ASt Viechtach,Stadtplatz,16,94227,Zwiesel,poststelle.fa-zwi@finanzamt.bayern.de,
+515,FA587,9171,Eichstätt,Residenzplatz,8,85072,Eichstätt,poststelle.fa-ei@finanzamt.bayern.de,
+516,FA588,9181,München Überschusseinkünfte,Deroystr.,18,80269,München,poststelle-deg@famuc.bayern.de,
+517,FA589,9182,München Überschusseinkünfte u. Beschränkt Steuerpfl.,Deroystr.,18,80269,München,poststelle-sr@famuc.bayern.de,
+518,FA59,2118,Itzehoe,Fehrsstr.,5,25524,Itzehoe,poststelle@fa-itzehoe.landsh.de,
+519,FA590,9183,München Überschusseinkünfte,Deroystr.,18,80301,München,poststelle-in@famuc.bayern.de,
+520,FA591,9184,München Überschusseinkünfte,Deroystr.,18,80269,München,poststelle-pa@famuc.bayern.de,
+521,FA592,9185,München Überschusseinkünfte,Deroystr.,18,80301,München,poststelle-ei@famuc.bayern.de,
+522,FA593,9187,München Körperschaften,Katharina-von-Bora-Straße,4,80333,München,poststelle-abteilung3@famuc.bayern.de,
+523,FA594,9188,München Betriebsprüfung,Deroystr.,22,80335,München,poststelle-abteilung5@famuc.bayern.de,
+524,FA595,9189,München Erhebung,Winzererstr.,47,80797,München,poststelle-abteilung6@famuc.bayern.de,
+525,FA596,9201,Amberg,Kirchensteig,2,92224,Amberg,poststelle.fa-am@finanzamt.bayern.de,
+526,FA597,9202,Obernburg am Main mit Außenstelle Amorbach,Römerstr.,91,63785,Obernburg am Main,poststelle-obernburg.fa-amorb@finanzamt.bayern.de,
+527,FA598,9203,Ansbach mit Außenstellen,Mozartstr.,25,91522,Ansbach,poststelle.fa-an@finanzamt.bayern.de,
+528,FA599,9204,Aschaffenburg,Auhofstr.,13,63741,Aschaffenburg,poststelle.fa-ab@finanzamt.bayern.de,
+529,FA60,2120,Kiel,Feldstr.,23,24105,Kiel,poststelle@fa-kiel.landsh.de,
+530,FA600,9205,Bad Kissingen,Bibrastr.,10,97688,Bad Kissingen,poststelle.fa-kg@finanzamt.bayern.de,
+531,FA601,9206,Bad Neustadt a.d.S.,Meininger Str.,39,97616,Bad Neustadt,poststelle.fa-nes@finanzamt.bayern.de,
+532,FA602,9207,Bamberg,Martin-Luther-Str.,1,96050,Bamberg,poststelle.fa-ba@finanzamt.bayern.de,
+533,FA603,9208,Bayreuth,Maximilianstr.,12,95444,Bayreuth,poststelle.fa-bt@finanzamt.bayern.de,
+534,FA604,9211,Cham mit Außenstelle Bad Kötzting,Reberstr.,2,93413,Cham,poststelle.fa-cha@finanzamt.bayern.de,
+535,FA605,9212,Coburg,Rodacher Straße,4,96450,Coburg,poststelle.fa-co@finanzamt.bayern.de,
+536,FA606,9216,Erlangen,Schubertstr,10,91052,Erlangen,poststelle.fa-er@finanzamt.bayern.de,
+537,FA607,9217,Forchheim,Dechant-Reuder-Str.,6,91301,Forchheim,poststelle.fa-fo@finanzamt.bayern.de,
+538,FA608,9218,Fürth,Stresemannplatz,15,90763,Fürth,poststelle.fa-fue@finanzamt.bayern.de,
+539,FA609,9220,Gunzenhausen,Hindenburgplatz,1,91710,Gunzenhausen,poststelle.fa-gun@finanzamt.bayern.de,
+540,FA610,9221,Hersbruck,Amberger Str.,76,91217,Hersbruck,poststelle.fa-heb@finanzamt.bayern.de,
+541,FA611,9222,Hilpoltstein,Spitalwinkel,3,91161,Hilpoltstein,poststelle.fa-hip@finanzamt.bayern.de,
+542,FA612,9223,Hof mit Außenstellen,Ernst-Reuter-Str.,60,95030,Hof,poststelle.fa-ho@finanzamt.bayern.de,
+543,FA613,9227,Kitzingen,Moltkestr.,24,97318,Kitzingen,poststelle.fa-kt@finanzamt.bayern.de,
+544,FA614,9228,Kronach,Amtsgerichtsstr.,13,96317,Kronach,poststelle.fa-kc@finanzamt.bayern.de,
+545,FA615,9229,Kulmbach,Georg-Hagen-Str.,17,95326,Kulmbach,poststelle.fa-ku@finanzamt.bayern.de,
+546,FA616,9230,Lichtenfels,Kronacher Str.,39,96215,Lichtenfels,poststelle.fa-lif@finanzamt.bayern.de,
+547,FA617,9231,Lohr a. Main mit Außenstellen,Rexrothstr.,14,97816,Lohr,poststelle.fa-loh@finanzamt.bayern.de,
+548,FA618,9232,Lohr a. Main mit Außenstellen - Grunderwerbsteuer,Rexrothstr.,14,97816,Lohr,poststelle.fa-loh@finanzamt.bayern.de,
+549,FA619,9235,Neumarkt i.d.Opf.,Ingolstädter Str.,3,92318,Neumarkt,poststelle.fa-nm@finanzamt.bayern.de,
+550,FA62,2122,Lübeck,Possehlstr.,4,23560,Lübeck,poststelle@fa-luebeck.landsh.de,
+551,FA620,9238,Nürnberg-Nord,Kirchenweg,10,90419,Nürnberg,poststelle.fa-n-n@finanzamt.bayern.de,
+552,FA621,9240,Nürnberg-Süd,Sandstr.,20,90443,Nürnberg,poststelle.fa-n-s@finanzamt.bayern.de,
+553,FA622,9241,Nürnberg-Zentral,Thomas-Mann-Str.,50,90471,Nürnberg,poststelle.fa-n-zfa@finanzamt.bayern.de,
+554,FA623,9244,Regensburg,Galgenbergstr.,31,93053,Regensburg,poststelle.fa-r@finanzamt.bayern.de,
+555,FA624,9247,Schwabach,Theodor-Heuss-Str.,63,91126,Schwabach,poststelle.fa-sc@finanzamt.bayern.de,
+556,FA625,9248,Schwandorf mit Außenstelle Neunburg v. W.,Friedrich-Ebert-Str.,59,92421,Schwandorf,poststelle.fa-sad@finanzamt.bayern.de,
+557,FA626,9249,Schweinfurt,Schrammstr.,3,97421,Schweinfurt,poststelle.fa-sw@finanzamt.bayern.de,
+558,FA627,9252,Uffenheim,Schloßplatz,7,97215,Uffenheim,poststelle.fa-uff@finanzamt.bayern.de,
+559,FA628,9254,Waldsassen,Johannisplatz,13,95652,Waldsassen,poststelle.fa-wasa@finanzamt.bayern.de,
+560,FA629,9255,Weiden i.d.Opf.,Schlörpl.,2,92637,Weiden,poststelle.fa-wen@finanzamt.bayern.de,
+561,FA630,9257,Würzburg mit Außenstelle Ochsenfurt,Ludwigstr.,25,97070,Würzburg,poststelle.fa-wue@finanzamt.bayern.de,
+562,FA631,9258,Wunsiedel mit Außenstelle Selb,Sonnenstr.,11,95632,Wunsiedel,poststelle.fa-wun@finanzamt.bayern.de,
+563,FA632,9259,Zeil am Main mit Außenstelle Ebern,Obere Torstr.,9,97475,Zeil,poststelle.fa-zei@finanzamt.bayern.de,
+564,FA64,2124,Neumünster,Bahnhofstr.,9,24534,Neumünster,poststelle@fa-neumuenster.landsh.de,
+565,FA65,2125,Ostholstein,Lankenstr.,1,23758,Oldenburg,poststelle@fa-ostholstein.landsh.de,
+566,FA66,2126,Plön,Fünf-Seen-Allee,1,24306,Plön,poststelle@fa-ploen.landsh.de,
+567,FA67,2127,Ratzeburg,Bahnhofsallee,20,23909,Ratzeburg,poststelle@fa-ratzeburg.landsh.de,
+568,FA68,2128,Rendsburg,Kieler Str.,19,24768,Rendsburg,poststelle@fa-rendsburg.landsh.de,
+569,FA69,2129,Eckernförde-Schleswig,Bergstr.,50,24340,Eckernförde,poststelle@fa-eck-sl.landsh.de,
+570,FA70,2130,Stormarn,Berliner Ring,25,23843,Bad Oldesloe,poststelle@fa-stormarn.landsh.de,
+571,FA71,2131,Pinneberg,Friedrich-Ebert-Str.,29,25421,Pinneberg,poststelle@fa-pinneberg.landsh.de,
+572,FA73,2137,Zentrale Prüfungsdienste,Hopfenstr.,2,24114,Kiel,poststelle@fa-zpd.landsh.de,
+573,FA74,2201,Hamburg für Steuererhebung in Hamburg,Steinstraße,10,20095,Hamburg,FAfuerSteuererhebung@finanzamt.hamburg.de,
+574,FA75,2210,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,
+575,FA76,2216,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,
+576,FA77,2217,Hamburg-Nord,Borsteler Chaussee,45,22453,Hamburg,FAHamburgNord@finanzamt.hamburg.de,
+577,FA78,2220,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,
+578,FA79,2227,Hamburg für Großunternehmen in Hamburg,Nordkanalstraße,22,20097,Hamburg,FAfuerGrossunternehmen@finanzamt.hamburg.de,
+579,FA80,2228,Hamburg für Prüfungsd. und Strafsachen,Hugh-Greene-Weg,6,22529,Hamburg,PoststelleFAPrueStra@finanzamt.hamburg.de,
+580,FA81,2230,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,
+581,FA82,2235,Hamburg für Verkehrst. und Grundbesitz,Gorch-Fock-Wall,11,20355,Hamburg,FAfuerVerkehrsteuern@finanzamt.hamburg.de,
+582,FA83,2241,Hamburg-Altona,Holstenplatz,18,22765,Hamburg,FAHamburgAltona@finanzamt.hamburg.de,
+583,FA84,2242,Hamburg-Am Tierpark,Hugh-Greene-Weg,6,22529,Hamburg,FAHamburgAmTierpark@finanzamt.hamburg.de,
+584,FA85,2243,Hamburg-Barmbek-Uhlenhorst,Hamburger Straße,23,22083,Hamburg,FAHamburgBarmbekUhlenhorst@finanzamt.hamburg.de,
+585,FA86,2244,Hamburg-Ost,Nordkanalstraße,22,20097,Hamburg,FAHamburgOst@finanzamt.hamburg.de,
+586,FA87,2245,Hamburg-Eimsbüttel,Hugh-Greene-Weg,6,22529,Hamburg,FAHamburgEimsbuettel@finanzamt.hamburg.de,
+587,FA88,2246,Hamburg-Hansa,Steinstraße,10,20095,Hamburg,FAHamburgHansa@finanzamt.hamburg.de,
+588,FA89,2247,Hamburg-Harburg,Harburger Ring,40,21073,Hamburg,FAHamburgHarburg@finanzamt.hamburg.de,
+589,FA90,2248,Hamburg-Mitte,Steinstraße,10,20095,Hamburg,FAHamburgMitte@finanzamt.hamburg.de,
+590,FA91,2249,Hamburg-Nord,Borsteler Chaussee,45,22453,Hamburg,FAHamburgNord@finanzamt.hamburg.de,
+591,FA92,2250,Hamburg-Oberalster,Nordkanalstrasse,22,20097,Hamburg,FAHamburgOberalster@finanzamt.hamburg.de,
+592,FA93,2251,Hamburg-Ost,Nordkanalstraße,22,20097,Hamburg,FAHamburgOst@finanzamt.hamburg.de,
+593,FA96,2313,Braunschweig-Altewiekring,Altewiekring,20,38102,Braunschweig,Poststelle@fa-bs-a.niedersachsen.de,
+594,FA97,2314,Braunschweig-Wilhelmstr.,Wilhelmstr.,4,38100,Braunschweig,Poststelle@fa-bs-w.niedersachsen.de,
+595,FA98,2315,Buchholz in der Nordheide,Bgm.-A.-Meyer-Str.,5,21244,Buchholz,Poststelle@fa-buc.niedersachsen.de,
+596,FA99,2316,Burgdorf,V.d.Hannov. Tor,30,31303,Burgdorf,Poststelle@fa-bu.niedersachsen.de,

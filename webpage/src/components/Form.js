@@ -72,6 +72,7 @@ class Antrag148AO extends React.Component {
         this.getDownloadButtons = this.getDownloadButtons.bind(this);
         this.getMail = this.getMail.bind(this);
         this.sendMailToCustomer = this.sendMailToCustomer.bind(this);
+        this.getFinanzamtDropdown = this.getFinanzamtDropdown.bind(this);
     }
 
     handleChange(event) {
@@ -84,6 +85,8 @@ class Antrag148AO extends React.Component {
         const selectedFinanzamt = this.finanzamt.getFinanzamtFromPostalCode(event.currentTarget.value);
         if (selectedFinanzamt != null) {
             this.setState({finanzamt: selectedFinanzamt});
+        } else {
+            this.setState({finanzamt: ""});
         }
     }
     
@@ -121,12 +124,8 @@ class Antrag148AO extends React.Component {
             //     <fieldset key={key}>
             //         <label>{this.stateToValuesMap[key].labelValue}</label>
                 
-            //         <select value="Berlin" onChange={this.handleChange} key={key}>
-            //             {Object.values(this.finanzamt.getPossibleFinanzamtValues()) // sort in alphabetical order
-            //                 .map(value => {  
-            //                     return <option value={value} key={value}>{value}</option>;
-            //             })
-            //             }
+            //         <select value={this.state[key]} onChange={this.handleChange} key={key}>
+            //             {this.getFinanzamtDropdown()}
             //         </select>
             //         <p></p>
             //     </fieldset>
@@ -158,6 +157,15 @@ class Antrag148AO extends React.Component {
             </fieldset>
         )
         return <form onSubmit={this.handleSubmit} id="form148">{fields}</form>;
+    }
+
+    getFinanzamtDropdown() {
+        const values = this.finanzamt.getPossibleFinanzamtValues();
+        let i = 0;
+        return values.map(value => {  
+                i++;
+                return <option value={value} key={i}>{value}</option>;
+        });
     }
 
     handleSubmit(event) {
@@ -199,12 +207,7 @@ class Antrag148AO extends React.Component {
     }
 
     getMail() {
-        // const finalValues = {};
-        // Object.keys(this.refs).forEach(key => {
-        //     finalValues[key] = this.refs[key].current.value;
-        // });
         return new Mail(Object.assign({}, this.state));
-        // return new Mail(finalValues);
     }
 
     sendMailToCustomer() {  // TODO

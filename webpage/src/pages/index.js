@@ -4,7 +4,6 @@ import Layout from '../components/Layout';
 
 import Antrag148AO from '../components/Form';
 
-import config from '../../config';
 
 const IndexPage = () => (
   <Layout>

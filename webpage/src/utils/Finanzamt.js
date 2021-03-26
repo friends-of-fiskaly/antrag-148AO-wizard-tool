@@ -1,63 +1,41 @@
-// import csv from 'csv-parser';
-// import { readFile} from 'fs-web'; 
-// import { readdir } from 'fs-web/dist/cjs/core';
-
+import finanzamtData from '../assets/finanzamt_data_duplicates_removed.js';
 
 export default class Finanzamt {
     constructor() {
         this.plzFinanzamtMap = {
-            id: [],
-            bufa_nr: [],
-            finanzamt: ['München', 'Berlin', 'Hamburg'],
-            street: [],
-            house_number: [],
-            postcode: {80331: 0, 10115: 1, 20095: 2},  // map value to index. map all others from index to value
-            city: [],
-            email: ['münchen@sample.de', 'berlin@sample.de', 'hamburg@sample.de'],
-            contact_url: []
+            "id": [],
+            "bufa_nr": [],
+            "finanzamt": [],
+            "street": [],
+            "house_number": [],
+            "postcode": {},
+            "city": [],
+            "email": [],
+            "contact_url": []
         };
-        this.loaded = false;  
-        this.loadCsv()
+        this.preparePlzFinanzamtMap();
     }
 
-    loadCsv() {
-        // const filePath = '../assets/finanzamt_mapping.csv';  // TODO
-        // const filePath = 'file:///home/stefan/data/fiskaly/antrag-148AO-wizard-tool/webpage/src/assets/finanzamt_mapping.csv'
-        // const readData = [];
-        // readFile(filePath)
-        // .then(data => {
-        //     console.log(data);
-        // })
-        // .catch(err => {
-        //     console.log(err);
-        // });
-            // .pipe(csv())
-        //     .on('data', data => readData.push(data))
-        //     .on('end', () => {
-        //         console.log('Finished reading csv');
-        //     });
-        // return Promise.all(readData)
-        // .then(data => {
-        //     for (let i = 0; i < data.length; i++) {
-        //         const row = data[i];
-        //         Object.keys(row).forEach(key => {
-        //             if (key === "postcode") {
-        //                 this.plzFinanzamtMap.postcode[row[key]] = i;
-        //             } else {
-        //                 this.plzFinanzamtMap[key].push(row[key]);
-        //             }
-        //         });
-        //     }
-        // })
-        // .catch(err => console.log(err));
-        this.loaded = true;
+    preparePlzFinanzamtMap() {
+        Object.keys(finanzamtData).forEach(key => {
+            const unorderedData = finanzamtData[key];  // object{index: value}
+            if (key === "postcode") {
+                Object.keys(unorderedData).forEach(i => {
+                    const code = unorderedData[i];
+                    this.plzFinanzamtMap.postcode[code] = i;
+                });
+                return;
+            }
+
+            for (let i = 0; i < Object.keys(unorderedData).length; i++) {
+                const value = unorderedData[i];
+                this.plzFinanzamtMap[key].push(value);
+            }
+        });
     }
 
     getPossibleFinanzamtValues() {
-        if (!this.loaded) {
-            // TODO
-        }
-        return this.plzFinanzamtMap.finanzamt;
+        return this.plzFinanzamtMap.finanzamt.slice().sort();
     }
 
     getFinanzamtFromPostalCode(postalCode) {
@@ -73,12 +51,8 @@ export default class Finanzamt {
     }
 
     getIdFromPostalCode(postalCode) {
-        if (!this.loaded) {
-            // TODO
-        }
-
-        try { // still needed? 
-            postalCode = Number(postalCode);
+        try {
+            postalCode = String(postalCode);
         } catch {
             return null;
         }

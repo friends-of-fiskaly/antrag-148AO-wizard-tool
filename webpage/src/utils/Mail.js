@@ -1,4 +1,4 @@
-import { jsPDF } from "jspdf";
+// import { jsPDF } from "jspdf";
 import utils from '../utils/Utils.js';
 
 export default class Mail {
@@ -15,20 +15,21 @@ export default class Mail {
     }
 
     downloadAsPDF() {
-        let doc = new jsPDF();
-        doc.setFontSize(12);
+        // let doc = new jsPDF();  // use other library
+        // doc.setFontSize(12);
 
-        this.getFilledText((paragraphArray) => {
-            for (let i = 0; i < paragraphArray.length; i++) {
-                const p = paragraphArray[i];
-                if (i !== 0) {
-                    doc.addPage();
-                }
-                doc.text(p, 15, 15);
-            }
-        });
+        // this.getFilledText((paragraphArray) => {
+        //     for (let i = 0; i < paragraphArray.length; i++) {
+        //         const p = paragraphArray[i];
+        //         if (i !== 0) {
+        //             doc.addPage();
+        //         }
+        //         doc.text(p, 15, 15);
+        //     }
+        // });
 
-        doc.save("Antrag-148AO.pdf");
+        // doc.save("Antrag-148AO.pdf");
+        return;
     }
 
     getMailBody() {
