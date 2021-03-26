@@ -1,5 +1,5 @@
 import utils from '../utils/Utils.js';
-import { Page, Text, View, Document, StyleSheet, PDFDownloadLink } from '@react-pdf/renderer';
+import { Page, Text, View, Document, StyleSheet} from '@react-pdf/renderer';
 import React from 'react';
 
 
@@ -23,29 +23,37 @@ export default class Mail {
               backgroundColor: '#E4E4E4'
             },
             section: {
-              margin: 10,
-              padding: 10,
-              flexGrow: 1
+              margin: 30,
+              padding: 20,
+              flexGrow: 1, 
+              fontSize: 12, 
+              textAlign: 'justify',
             }
-          });
+        });
+
+        const mailText = this.getFilledText((paragraphArray) => {
+            let text = "";
+            paragraphArray.forEach(block => {
+                const p = block[1];
+                text = `${text}${p}`;
+            });
+            return text;
+        }); 
 
         return <Document>
                 <Page size="A4" style={styles.page}>
-                <View style={styles.section}>
-                    <Text>Section #1</Text>
-                </View>
-                <View style={styles.section}>
-                    <Text>Section #2</Text>
-                </View>
+                    <View style={styles.section}>
+                        <Text>{mailText}</Text>
+                    </View>
                 </Page>
             </Document>;
     }
 
-
     getMailBody() {
         const mailText = this.getFilledText((paragraphArray) => {
             let text = "";
-            paragraphArray.forEach(p => {
+            paragraphArray.forEach(block => {
+                const p = block[1];
                 text = `${text}${p}`;
             });
             return text;
@@ -98,17 +106,20 @@ export default class Mail {
     }
 
     getAnlageBlock() {
-        return `Anlagen:  Allgemeine Stellungnahme Verzögerung Zertifizierung Statement Kassenhersteller und Integrator 6er Schreiben`;
+        return `Anlagen:  Allgemeine Stellungnahme Verzögerung Zertifizierung \rStatement Kassenhersteller und Integrator \r6er Schreiben`;
     }
 
     getFilledText(aggregateFn) { 
-        // each p should be approx 1 page
-        const p0 = `${this.getReceiverBlock()} \n${this.getDateBlock()}${this.getSenderBlock()} \n${this.getBetreffBlock()} \n${this.getAnredeBlock()} \n`; 
-        const p1 = `${p0}${this.getFirstParagraph()} \n${this.getSecondParagraph()} \n`;
-        const p2 = `${this.getThirdParagraph()} \n${this.getFourthParagraph()} \n`; 
-        const p3 = `${this.getFifthParagraph()} \n${this.getAnlageBlock()}`;   
+        const p0 = `${this.getReceiverBlock()} \n`;
+        const p1 = `${this.getDateBlock()}\r`;
+        const p2 = `${this.getSenderBlock()} \n${this.getBetreffBlock()} \n${this.getAnredeBlock()} \n`
+        const p3 = `${this.getFirstParagraph()} \n${this.getSecondParagraph()} \n`;
+        const p4 = `${this.getThirdParagraph()} \n${this.getFourthParagraph()} \n`; 
+        const p5 = `${this.getFifthParagraph()} \n${this.getAnlageBlock()}`;   
 
-        const paragraphs = [p1, p2, p3];
+        const paragraphs = [
+            ['text', p0], ['date', p1], ['text', p2], ['text', p3], ['text', p4], ['text', p5]
+        ];
 
         return aggregateFn(paragraphs);
     }

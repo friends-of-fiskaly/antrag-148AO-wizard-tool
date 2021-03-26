@@ -19,6 +19,7 @@ class Antrag148AO extends React.Component {
             userMail: (props.userMail) ? props.userMail: "",
             renderDownloadButtons: false,
             renderPDFDownload: false,
+            errors: {},
         };
         this.stateToValuesMap = {
             companyName: {
@@ -70,16 +71,17 @@ class Antrag148AO extends React.Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handlePlzChange = this.handlePlzChange.bind(this);
-        this.generateForm = this.generateForm.bind(this);
-        this.getDownloadButtons = this.getDownloadButtons.bind(this);
+        this.dataInputForm = this.dataInputForm.bind(this);
         this.getMail = this.getMail.bind(this);
-        this.sendMailToCustomer = this.sendMailToCustomer.bind(this);
         this.getFinanzamtDropdown = this.getFinanzamtDropdown.bind(this);
         this.getPDFDownloadButton = this.getPDFDownloadButton.bind(this);
     }
 
     handleChange(event) {
-        this.setState({[event.target.name]: event.target.value});
+        const field = event.target.name;
+        const value = event.target.value;
+        
+        this.setState({[field]: value});
     }
 
     handlePlzChange(event) {
@@ -93,16 +95,14 @@ class Antrag148AO extends React.Component {
         }
     }
     
-    generateForm() {  // TODO: entire form is rerendered on single onChange --> investigate
+    dataInputForm() {  // TODO: entire form is rerendered on single onChange --> investigate
         const fields = [];
-        Object.keys(this.state).forEach(key => {  // TODO: sort in ascending order
+        Object.keys(this.state).forEach(key => {  
             
             
             if (!(key in this.stateToValuesMap)) {
                 return;
             }
-
-            // console.log(key);
 
             if (key === "postalCode") {
                 fields.push(
@@ -186,17 +186,7 @@ class Antrag148AO extends React.Component {
 
         if (typeof window !== `undefined`) {  // hide window from gatsby so we can compile
             const os = window.navigator;
-        
-            if (os.platform.includes('win') || os.platform.includes('Win')) {
-            // if (true) {
-                // provide two buttons. one for sending the mail, one for download. both can be clicked
-                this.setState({renderDownloadButtons: !this.state.renderDownloadButtons});
-                // scroll to the top to display buttons
-                document.body.scrollTop = 0; // For Safari
-                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-
-            } else {
-                const link = `mailto:${receiver ? receiver: ""}?subject=${mailSubject}&body=${body}`;
+            const link = `mailto:${receiver ? receiver: ""}?subject=${mailSubject}&body=${body}`;
                 try {
                     window.open(link);  
                     
@@ -204,11 +194,9 @@ class Antrag148AO extends React.Component {
                     const errMessage = 'Could not open mail program';
                     alert(errMessage);
                 }
-            }
 
             // provide documents for download
-            // mail.downloadAsPDF();
-            this.setState({renderPDFDownload: !this.state.renderPDFDownload});
+            this.setState({renderPDFDownload: true});
         }
     }
 
@@ -216,39 +204,39 @@ class Antrag148AO extends React.Component {
         return new Mail(Object.assign({}, this.state));
     }
 
-    sendMailToCustomer() {  // TODO
-        return <p>Sending mail to customer</p>;
-    }
+    // sendMailToCustomerInterface() {
+    //     return  <div id="form148">
+    //             <p id="downloadText">{`Leider konnte Ihr Mail-Programm nicht geöffnet werden. Sie können alternativ die Dokumente downloaden und selbst per Mail an Ihr zuständiges Finanzamt senden und/oder ein vorgefertiges Mail erhalten welches Sie direkt an Ihr Finanzamt weiterleiten können.`}</p>
+    //             <form onSubmit={this.sendMailToCustomer} id="sendMailToUserForm">
+    //                 <input id="mailInput" value="" type="text" onBlur={this.handleChange} placeholder="max.mustermann@company.com" required/>
+    //                 <p></p>
+    //                 <input type="submit" value="Mail senden" id="sendMailButton"/>
+    //             </form>
+    //         </div>
+    // }
 
-    getDownloadButtons() {
-        return  <div id="form148">
-                <p id="downloadText">{`Leider konnte Ihr Mail-Programm nicht geöffnet werden. Sie können alternativ die Dokumente downloaden und selbst per Mail an Ihr zuständiges Finanzamt senden und/oder ein vorgefertiges Mail erhalten welches Sie direkt an Ihr Finanzamt weiterleiten können.`}</p>
-                <form onSubmit={this.sendMailToCustomer} id="sendMailToUserForm">
-                    <input id="mailInput" value="" type="text" onBlur={this.handleChange} placeholder="max.mustermann@company.com" required/>
-                    <p></p>
-                    <input type="submit" value="Absenden" id="alternativeDownloadButtons"/>
-                </form>
-                
-                <button id="alternativeDownloadButtons" onClick={() => {this.getMail().downloadAsPDF()}}>Dokumente downloaden</button>
-            </div>
+    downloadFiles() {
+
     }
 
     getPDFDownloadButton() {
-        return <PDFDownloadLink
-                    document={this.getMail().downloadAsPDF()}
-                    fileName='test.pdf'>
-                        <button id="alternativeDownloadButtons">
-                            Export to PDF
-                        </button>;
-                </PDFDownloadLink>
-                
+        return <div className="downloadLinkDiv">
+                    <PDFDownloadLink
+                        className="pdfLink"
+                        document={this.getMail().downloadAsPDF()}
+                        fileName='Antrag-148AO.pdf'>
+                            <button className="pdfDownloadButton">
+                                Download PDF
+                            </button>
+                    </PDFDownloadLink>
+                </div>
     }
 
     render() {
         return(
             <div>
-                <h1 id="formHeader">Standardformular für Antrag nach $148 AO</h1>
-                {!this.state.renderDownloadButtons ? this.generateForm(): this.getDownloadButtons()}
+                {/* {!this.state.renderDownloadButtons ? this.dataInputForm(): this.sendMailToCustomerInterface()} */}
+                {this.dataInputForm()}
                 {this.state.renderPDFDownload && this.getPDFDownloadButton()}
             </div>
         );

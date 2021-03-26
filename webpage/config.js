@@ -8,15 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/fiskaly-logo.png',
   pathPrefix: `/antrag-148AO-wizard-tool/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Standardantrag für Formular nach $148 AO',
-  subHeading: '',
   // social
   socialLinks: [
-    {
-      icon: 'fa-envelope-o',
-      name: 'Email',
-      url: 'mailto:support@fiskaly.com',
-    },
   ],
-  address: 'Stutterheimstraße 16–18/2/20e\nA‑1150 Wien',
 };

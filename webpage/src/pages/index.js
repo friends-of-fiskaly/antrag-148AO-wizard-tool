@@ -10,11 +10,8 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <img url="../assets/images/fiskaly-logo.png" alt="fiskaly-logo "/> 
-          { /* TODO: path of file*/}
+          {/* <img url="../assets/images/fiskaly-logo.png" alt="fiskaly-logo "/>  */}
         </div>
-        {/* <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p> */}
       </div>
     </section>
 
@@ -22,6 +19,7 @@ const IndexPage = () => (
 
       <section id="two">
         <p align="center">Some explanation about the page and the form</p>
+        <h1 id="formHeader">Standardformular für Antrag nach $148 AO</h1>
         <Antrag148AO />
       </section>
 

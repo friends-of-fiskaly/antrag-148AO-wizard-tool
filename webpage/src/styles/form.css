@@ -11,8 +11,8 @@
 }
 
 #submitButton {
-    width: 10%; 
-    margin-left: 45%;
+    width: 20%; 
+    margin-left: 40%;
 }
 
 #inputField {
@@ -29,11 +29,28 @@
 
 }
 
-#alternativeDownloadButtons {
-    margin-left: 25%;
-    width: 50%;
+#sendMailButton {
+    margin-left: 37.5%;
+    width: 25%;
+    text-align: center;
 }
 
 #mailInput {
 
+}
+
+.pdfDownloadButton {
+    width: 40%;
+}
+
+.pdfLink {
+    text-decoration: none;
+}
+
+.downloadLinkDiv {
+    margin-left: 37.5%;
+}
+
+#footerFiskalyStatement {
+    text-align: center;
 }
