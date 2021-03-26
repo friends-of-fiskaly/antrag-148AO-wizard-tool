@@ -6,6 +6,7 @@ Simple wizard which gathers input information from user and sends a generated ma
 - change layout of form
 - improve colors and add fiskaly logo
 - maybe host on cloud with backend --> static webpage does not work as expected
+- add React-Form Integration Tutorial
 
 ### Local setup
 - install node 
