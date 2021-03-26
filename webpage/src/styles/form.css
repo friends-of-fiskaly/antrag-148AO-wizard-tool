@@ -68,7 +68,7 @@
 #reusableFormComponent {
     border-style: solid;
     border-width: 2mm;
-    border-color: red;
+    border-color: lightgray;
     width: 50%;
     margin-left: 25%;
 }
