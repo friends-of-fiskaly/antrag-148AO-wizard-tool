@@ -3,8 +3,8 @@
 }
 
 #submitButton {
-    width: 40%; 
-    margin-left: 30%;
+    width: 50%; 
+    margin-left: 25%;
     font-size: 20px;
     text-align: center;
     border-style: solid;
@@ -30,8 +30,8 @@
 }
 
 #buttonStyledText {
-    width: 40%; 
-    margin-left: 30%;
+    width: 50%; 
+    margin-left: 25%;
     padding: 10px 25px;
     margin-bottom: 10px;
     font-size: 24px;

@@ -156,7 +156,7 @@ class Antrag148AO extends React.Component {
 
         fields.push(
             <fieldset key="submitButton">
-                <input id="submitButton" type="submit" value="Lokal versenden"/>
+                <input id="submitButton" type="submit" value="Antrag lokal versenden"/>
             </fieldset>
         )
 
