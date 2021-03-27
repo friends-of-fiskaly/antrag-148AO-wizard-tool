@@ -21,11 +21,11 @@ const IndexPage = () => (
         <p align="center" fontSize='large'>This page guides you trough the process of submitting the application according to $148 AO.</p>
         <h1 style={{color: "lightgray", textAlign: 'center', fontSize: 24}}>!!!WORK IN PROGRESS!!!</h1>
         <h1 style={{width: "50%", marginLeft: "25%", textAlign: "center", fontSize: "30px"}}>Standardformular für Antrag nach $148 AO</h1>
-        <Antrag148AO style={{}}/>
-        <p></p>
-        <div id="downloadLinkDiv">
-            <a href="https://drive.google.com/drive/folders/1wVbua9t7MQ0qkwr5Ialq1cC6N4X6DIm9?usp=sharing"><button id="anlageDownloadButton">Download Anlagedokumente</button></a>
+        <div id="formWrapper">
+          <Antrag148AO style={{}}/>
         </div>
+        <p></p>
+        <a href="https://drive.google.com/drive/folders/1wVbua9t7MQ0qkwr5Ialq1cC6N4X6DIm9?usp=sharing"><p id="buttonStyledTextIndex">Download Anlagedokumente</p></a>
         <p></p>
         <div>
             <p id="attachmentLink"><a href="https://drive.google.com/file/d/1hd_W0Co_uYtnPLv5MIWrvbiMP4ta0fNN/view?usp=sharing">2021-005 6er Schreiben an die Bundesländer zu Problemen bei der cloudbasierten TSE Anlage 2 BT</a></p>

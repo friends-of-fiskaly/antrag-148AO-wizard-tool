@@ -155,8 +155,8 @@ class Antrag148AO extends React.Component {
         });
 
         fields.push(
-            <fieldset key="submitButton" id="submitButton">
-                <input type="submit" value="Send via local Mail Program"/>
+            <fieldset key="submitButton">
+                <input id="submitButton" type="submit" value="Lokal versenden"/>
             </fieldset>
         )
 
@@ -206,24 +206,19 @@ class Antrag148AO extends React.Component {
     downloadFiles() {
 
     }
-
+    
     getPDFDownloadButton() {
-        return <div id="pdfDownloadButton">
-                    <PDFDownloadLink
-                        id="link"
-                        document={this.getMail().downloadAsPDF()}
-                        fileName='Antrag-148AO.pdf'>
-                            <button>
-                                Download Antrag-148AO
-                            </button>
-                    </PDFDownloadLink>
-                </div>
+        return <PDFDownloadLink
+                    document={this.getMail().downloadAsPDF()}
+                    fileName='Antrag-148AO.pdf'>
+                        <p id="buttonStyledText">Download Antrag-148AO</p>
+                </PDFDownloadLink>
     }
 
     render() {
         return(
             // <div style={this.props.style}>
-            <div id="formWrapper">
+            <div>
                 {this.dataInputForm()}
                 {this.state.renderPDFDownload && this.getPDFDownloadButton()}
             </div>
