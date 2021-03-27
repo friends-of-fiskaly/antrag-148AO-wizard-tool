@@ -2,7 +2,7 @@
 Simple wizard which gathers input information from user and sends a generated mail with the gathered data
 
 ### Integration of Antrag-148Ao react component
-- Version 1: 
+- Option 1: 
     - download 'Antrag-148Ao' component
     - `cd Antrag-148Ao`
     - `npm install`
@@ -12,7 +12,7 @@ Simple wizard which gathers input information from user and sends a generated ma
         - add `<Antrag148AO />` component whereever you want it. 
         - change style of the component in `../components/Antrag-148Ao/styles/form.css`
 
-- Version 2: 
+- Option 2: 
     - copy the content of `Antrag-148Ao/components/` to your components folder
     - copy the content of `Antrag-148Ao/data/`, `Antrag-148Ao/utils/`, and possibly `Antrag-148Ao/styles/` to your `src` folder relative to `Antrag-148Ao/components/`.
     - install missing dependencies to your environment:
