@@ -1,0 +1,21 @@
+#attachmentLink {
+    text-align: center;
+    width: 100%;
+}
+
+#downloadLinkDiv {
+    margin-left: 37.5%;
+}
+
+#reusableFormComponent {
+    border-style: solid;
+    border-width: 2mm;
+    border-color: lightgray;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#anlageDownloadButton {
+    width: 40%;
+    text-decoration: none;
+}

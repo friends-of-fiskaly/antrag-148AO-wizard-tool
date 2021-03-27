@@ -5,5 +5,6 @@
  */
 
 // You can delete this file if you're not using it
-import "./src/styles/global.css";
-import "./src/styles/form.css";
+import "./src/styles/footer.css";
+import "./src/styles/index.css";
+import "./src/components/Antrag-148Ao/styles/form.css";

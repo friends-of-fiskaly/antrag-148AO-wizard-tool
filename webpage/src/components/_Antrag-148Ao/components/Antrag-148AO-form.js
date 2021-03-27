@@ -1,7 +1,7 @@
 import { PDFDownloadLink } from '@react-pdf/renderer';
 import React from 'react';
-import Finanzamt from '../utils/Finanzamt.js';
-import Mail from '../utils/Mail.js';
+import Finanzamt from './Finanzamt.js';
+import Mail from './Mail.js';
 
 class Antrag148AO extends React.Component {
     constructor(props) {  // use for prefilling

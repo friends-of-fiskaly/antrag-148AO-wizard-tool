@@ -1,0 +1,31 @@
+{
+  "name": "standardantrag-148-ao",
+  "version": "0.0.1",
+  "description": "Basic tool to gather information from user. The data fills the 'Antrag nach §148 AO', which is available for download or can be sent via mail from the user.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/friends-of-fiskaly/antrag-148AO-wizard-tool"
+  },
+  "author": {
+    "name": "Stefan Kohlbacher",
+    "email": "stefan.kohlbacher@fiskaly.com"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^1.6.14",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-images": "^1.1.0",
+    "react-native": "^0.64.0",
+    "react-pdf": "^5.2.0"
+  },
+  "keywords": [
+    "148ao",
+    "standardantrag-148",
+    "standardantrag-148ao"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/friends-of-fiskaly/antrag-148AO-wizard-tool/issues"
+  },
+  "homepage": "https://github.com/friends-of-fiskaly/antrag-148AO-wizard-tool#readme"
+}
