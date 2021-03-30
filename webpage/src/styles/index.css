@@ -43,3 +43,12 @@
     border-color: grey;
     border-width: 1px;
 }
+
+#introTextParagraph {
+    margin-bottom: 10px;
+}
+
+#introTextDiv {
+    text-align: center; 
+    font-size: 30px;
+}

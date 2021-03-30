@@ -18,9 +18,15 @@ const IndexPage = () => (
     <section id="wrapper">
 
       <section id="two">
-        <p align="center" fontSize='large'>This page guides you trough the process of submitting the application according to $148 AO.</p>
-        <h1 style={{color: "lightgray", textAlign: 'center', fontSize: 24}}>!!!WORK IN PROGRESS!!!</h1>
-        <h1 style={{width: "50%", marginLeft: "25%", textAlign: "center", fontSize: "30px"}}>Standardformular für Antrag nach $148 AO</h1>
+        <div id="introTextDiv">
+          <p id="introTextParagraph">Sehr geehrte Damen und Herren,</p>
+          <p id="introTextParagraph">folgend finden Sie eine Referenzimplementierung zur Erstellung eines Antrags nach § 148 AO.</p>
+          <p id="introTextParagraph">Für weitere Informationen wenden Sie sich bitte gerne an <a href="https://fiskaly.com/">fiskaly</a>.</p>
+          <p> </p>
+          <p> </p>
+        </div>
+        {/* <h1 style={{color: "lightgray", textAlign: 'center', fontSize: 24}}>!!!WORK IN PROGRESS!!!</h1> */}
+        <h1 style={{width: "50%", marginLeft: "25%", textAlign: "center", fontSize: "24px"}}>Standardformular für Antrag nach $148 AO</h1>
         <div id="formWrapper">
           <Antrag148AO style={{}}/>
         </div>
