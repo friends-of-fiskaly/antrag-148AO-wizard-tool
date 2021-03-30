@@ -17,6 +17,7 @@ class Antrag148AO extends React.Component {
             availabilityDate: (props.availabilityDate) ? (props.availabilityDate): "", 
             integrationsDatum: (props.integrationsDatum) ? props.integrationsDatum: "",  
             userMail: (props.userMail) ? props.userMail: "",
+            tseId: (props.tseId) ? props.tseId: "", 
             renderDownloadButtons: false,
             renderPDFDownload: false,
             errors: {},
@@ -32,40 +33,45 @@ class Antrag148AO extends React.Component {
                 inputType: "text", 
                 order: 1
             },
+            tseId: {
+                labelValue: "TSE-ID: (comma-separated; zb. 'tse_id_1,tse_id_2,tse_id_3,...')", 
+                inputType: "text", 
+                order: 2,
+            },
             postalCode: {
                 labelValue: "Postleitzahl: ",  // postal code -> 5 digits in germany
                 inputType: "text", 
-                order: 2
+                order: 3
             },
             finanzamt: {
                 labelValue: "Zuständiges Finanzamt: ", // finanzamt responsible for customer 
                 inputType: "text",
-                order: 3
+                order: 4
             },
             steuerNummer: {
                 labelValue: "Steuernummer: ", 
                 inputType: "text", 
-                order: 4
+                order: 5
             },
             kassenDienstleister: {
                 labelValue: "Kassenanbieter: ", // provider of clients, potentially the customer itself
                 inputType: "text", 
-                order: 5
+                order: 6
             },
             fristAblauf: {
                 labelValue: "Verlängerung der Frist bis: ",  // date until v1 of fiskaly cloud TSE should still be usable
                 inputType: "date", 
-                order: 6
+                order: 7
             },
             availabilityDate: {
                 labelValue: "fiskaly Cloud TSE verfügbar beim Anbieter seit: ",  // date of availability of fiskaly cloud tse v1
                 inputType: "date", 
-                order: 7
+                order: 8
             },
             integrationsDatum: {
                 labelValue: "Kassenanbieter integriert seit:", // date since integration and usage of fiskaly cloud tse v1
                 inputType: "date", 
-                order: 8
+                order: 9
             }
         };
         this.finanzamt = new Finanzamt();
@@ -97,16 +103,17 @@ class Antrag148AO extends React.Component {
     }
     
     dataInputForm() {  // TODO: entire form is rerendered on single onChange --> only rerender each field
-        const fields = [];
+        const fields = {};
         Object.keys(this.state).forEach(key => {  
             
             if (!(key in this.stateToValuesMap)) {
                 return;
             }
 
+            let field;
             if (key === "postalCode") {
-                fields.push(
-                <fieldset key={key}>
+                // fields.push(
+                field = <fieldset key={key}>
                     <label>{this.stateToValuesMap[key].labelValue}</label>
 
                     <input 
@@ -119,8 +126,8 @@ class Antrag148AO extends React.Component {
                     />
 
                     <p></p>
-                </fieldset>
-                );
+                </fieldset>;
+                // );
                     
             // } else if (key === "finanzamt") {  // selecting an element breaks the page
             //     fields.push(
@@ -135,8 +142,8 @@ class Antrag148AO extends React.Component {
             //     );
 
             } else {
-                fields.push(
-                <fieldset key={key}>
+                // fields.push(
+                field = <fieldset key={key}>
                     <label>{this.stateToValuesMap[key].labelValue}</label>
 
                     <input
@@ -148,19 +155,25 @@ class Antrag148AO extends React.Component {
                         required
                     />
                     <p></p>
-                </fieldset>
-                );
+                </fieldset>;
+                // );
 
             }
+            fields[this.stateToValuesMap[key].order] = field;
         });
 
-        fields.push(
+        const orderedFields = [];
+        for (let i = 0; i < Object.keys(fields).length; i++) {
+            orderedFields.push(fields[i]);
+        }
+
+        orderedFields.push(
             <fieldset key="submitButton">
                 <input id="submitButton" type="submit" value="Antrag lokal versenden"/>
             </fieldset>
-        )
+        );
 
-        return <form onSubmit={this.handleSubmit} id="form148">{fields}</form>;
+        return <form onSubmit={this.handleSubmit} id="form148">{orderedFields}</form>;
     }
 
     getFinanzamtDropdown() {
