@@ -92,7 +92,7 @@ export default class Mail {
     }
 
     getAnlageBlock() {
-        return `Anlagen:  Allgemeine Stellungnahme Verzögerung Zertifizierung \rStatement Kassenhersteller und Integrator \r6er Schreiben`;
+        return `Anlagen:  \rStatement Kassenhersteller und Integrator \rBereits verfügbare Zertifikate: \r\t- BSI-DSZ-CC-1153-2021 - Zertifikat CSPL \r\t - ISO27001 Zertifikat fiskaly GmbH \rSMAERS - BSI Zertifizierungs-ID BSI-DSZ-CC-1130 \rAllgemeine Stellungnahme Verzögerung Zertifizierung (fiskaly) \r2021-005 6er Schreiben an die Bundesländer zu Problemen bei der cloudbasierten TSE Anlage 2 BT (DIHK, BDI, ZDH, BDA, HDE, BGA) \r2021-98379 (Pragmatische und bundeseinheitliche Lösung zum Thema Cloud TSE) - Hessisches Ministerium der Finanzen; Als das zuständige Finanzamt fiskaly Germany GmbH`;
     }
 
     getText() { 
