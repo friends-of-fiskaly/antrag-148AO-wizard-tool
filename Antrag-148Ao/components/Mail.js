@@ -92,11 +92,11 @@ export default class Mail {
     }
 
     getAnlageBlock() {
-        return `Anlagen:  \rStatement Kassenhersteller und Integrator \rBereits verfügbare Zertifikate: \r\t- BSI-DSZ-CC-1153-2021 - Zertifikat CSPL \r\t - ISO27001 Zertifikat fiskaly GmbH \rSMAERS - BSI Zertifizierungs-ID BSI-DSZ-CC-1130 \rAllgemeine Stellungnahme Verzögerung Zertifizierung (fiskaly) \r2021-005 6er Schreiben an die Bundesländer zu Problemen bei der cloudbasierten TSE Anlage 2 BT (DIHK, BDI, ZDH, BDA, HDE, BGA) \r2021-98379 (Pragmatische und bundeseinheitliche Lösung zum Thema Cloud TSE) - Hessisches Ministerium der Finanzen; Als das zuständige Finanzamt fiskaly Germany GmbH`;
+        return `Anlagen:  \n- Statement Kassenhersteller und Integrator \n- BSI-DSZ-CC-1153-2021 - Zertifikat CSPL \n- ISO27001 Zertifikat fiskaly GmbH \n- SMAERS - BSI Zertifizierungs-ID BSI-DSZ-CC-1130 \n- Allgemeine Stellungnahme Verzögerung Zertifizierung (fiskaly) \n- 2021-005 6er Schreiben an die Bundesländer zu Problemen bei der cloudbasierten TSE Anlage 2 BT (DIHK, BDI, ZDH, BDA, HDE, BGA) \n- 2021-98379 (Pragmatische und bundeseinheitliche Lösung zum Thema Cloud TSE) - Hessisches Ministerium der Finanzen; Als das zuständige Finanzamt fiskaly Germany GmbH \n \n Anlage Dokumente stehen hier zum Download zur Verfügung: https://drive.google.com/drive/folders/1wVbua9t7MQ0qkwr5Ialq1cC6N4X6DIm9`;
     }
 
     getText() { 
-        let text; 
+        let text = ""; 
 
         text = `${text}${this.getReceiverBlock()} \n${this.getDateBlock()}\r`
         text = `${text}${this.getSenderBlock()} \n${this.getBetreffBlock()} \n${this.getAnredeBlock()} \n`
