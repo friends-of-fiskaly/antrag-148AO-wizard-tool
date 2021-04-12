@@ -14,6 +14,7 @@ export default class Mail {
         this.fristAblauf = props.fristAblauf; 
         this.availabilityDate = props.availabilityDate; 
         this.integrationsDatum = props.integrationsDatum;
+        this.tseId = props.tseId;
     }
 
     downloadAsPDF() {
@@ -76,7 +77,7 @@ export default class Mail {
     }
 
     getSecondParagraph() { 
-        return `Wir beabsichtigen zur Einhaltung der Anforderungen des § 146a AO die Nutzung der cloudbasierten TSE der fiskaly Germany GmbH welche durch unseren Kassen-Dienstleister ${this.kassenDienstleister} integriert wurde. ${this.kassenDienstleister} bietet seit dem ${this.availabilityDate} die fiskaly Cloud-TSE an und wir haben diese Vorabversion einer voll zertifizierten TSE bereits seit ${this.integrationsDatum ? this.integrationsDatum: this.availabilityDate} im Einsatz.  Aufgrund verschiedener von uns nicht zu verantwortender Umstände hat sich die finale Zertifizierung der fiskaly Cloud-TSE verzögert. Eine detaillierte Stellungnahme dazu finden Sie im Anhang. Dementsprechend ist bereits jetzt erkennbar, dass die Inbetriebnahme der final zertifizierten Cloud-TSE nicht innerhalb der Frist bis zum 31. März 2021 abgeschlossen werden kann. Wir planen mit der aktuellen zur Zertifizierung beim BSI eingereichten Version der fiskaly Cloud-TSE zu starten. Dieses Vorgehen ist auch mit der Fachabteilung des Bundesministerium für Finanzen, Referat IVA 4 Steuern, abgestimmt. Konkret heißt das, dass wir bereits die TSE im Einsatz haben und damit Geschäftsfälle manipulationssicher dokumentieren und Signaturen auf Belege drucken. \n`;
+        return `Wir beabsichtigen zur Einhaltung der Anforderungen des § 146a AO die Nutzung der cloudbasierten TSE der fiskaly Germany GmbH welche durch unseren Kassen-Dienstleister ${this.kassenDienstleister} integriert wurde. ${this.kassenDienstleister} bietet seit dem ${this.availabilityDate} die fiskaly Cloud-TSE an und wir haben diese Vorabversion einer voll zertifizierten TSE bereits seit ${this.integrationsDatum ? this.integrationsDatum: this.availabilityDate} im Einsatz. Aktuell haben wir V1 TSEs mit folgenden TSE-IDs im Einsatz: [${this.tseId}]. Aufgrund verschiedener von uns nicht zu verantwortender Umstände hat sich die finale Zertifizierung der fiskaly Cloud-TSE verzögert. Eine detaillierte Stellungnahme dazu finden Sie im Anhang. Dementsprechend ist bereits jetzt erkennbar, dass die Inbetriebnahme der final zertifizierten Cloud-TSE nicht innerhalb der Frist bis zum 31. März 2021 abgeschlossen werden kann. Wir planen mit der aktuellen zur Zertifizierung beim BSI eingereichten Version der fiskaly Cloud-TSE zu starten. Dieses Vorgehen ist auch mit der Fachabteilung des Bundesministerium für Finanzen, Referat IVA 4 Steuern, abgestimmt. Konkret heißt das, dass wir bereits die TSE im Einsatz haben und damit Geschäftsfälle manipulationssicher dokumentieren und Signaturen auf Belege drucken. \n`;
     }
 
     getThirdParagraph() { 
