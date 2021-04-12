@@ -59,7 +59,7 @@ class Antrag148AO extends React.Component {
                 order: 6
             },
             fristAblauf: {
-                labelValue: "Verlängerung der Frist bis: ",  // date until v1 of fiskaly cloud TSE should still be usable
+                labelValue: "Verlängerung der Frist bis: (zb. 30.09.2021)",  // date until v1 of fiskaly cloud TSE should still be usable
                 inputType: "date", 
                 order: 7
             },
